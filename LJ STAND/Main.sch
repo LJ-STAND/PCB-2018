@@ -11759,13 +11759,9 @@ Source:
 <part name="IR_0" library="TSSP58038" deviceset="TSSP58038" device=""/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R43" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
-<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22nF"/>
 <part name="IR_1" library="TSSP58038" deviceset="TSSP58038" device=""/>
 <part name="SUPPLY18" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R44" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
-<part name="C15" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22nF"/>
 <part name="IR_2" library="TSSP58038" deviceset="TSSP58038" device=""/>
 <part name="SUPPLY19" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12103,14 +12099,10 @@ Source:
 <instance part="SUPPLY16" gate="G$1" x="-185.42" y="-137.16"/>
 <instance part="IR_0" gate="G$1" x="177.8" y="-114.3" rot="R270"/>
 <instance part="SUPPLY17" gate="G$1" x="165.1" y="-104.14"/>
-<instance part="GND20" gate="1" x="157.48" y="-149.86"/>
-<instance part="R43" gate="G$1" x="165.1" y="-127" rot="R90"/>
-<instance part="C14" gate="G$1" x="165.1" y="-142.24"/>
+<instance part="GND20" gate="1" x="157.48" y="-119.38"/>
 <instance part="IR_1" gate="G$1" x="223.52" y="-114.3" rot="R270"/>
 <instance part="SUPPLY18" gate="G$1" x="210.82" y="-104.14"/>
-<instance part="GND21" gate="1" x="203.2" y="-149.86"/>
-<instance part="R44" gate="G$1" x="210.82" y="-127" rot="R90"/>
-<instance part="C15" gate="G$1" x="210.82" y="-142.24"/>
+<instance part="GND21" gate="1" x="203.2" y="-119.38"/>
 <instance part="IR_2" gate="G$1" x="266.7" y="-114.3" rot="R270"/>
 <instance part="SUPPLY19" gate="G$1" x="254" y="-104.14"/>
 <instance part="GND22" gate="1" x="246.38" y="-149.86"/>
@@ -12816,24 +12808,16 @@ Source:
 <segment>
 <pinref part="IR_0" gate="G$1" pin="GND"/>
 <wire x1="167.64" y1="-114.3" x2="157.48" y2="-114.3" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="-114.3" x2="157.48" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-114.3" x2="157.48" y2="-116.84" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="-144.78" x2="157.48" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="-144.78" x2="157.48" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="157.48" y="-144.78"/>
 <pinref part="C38" gate="G$1" pin="2"/>
 <junction x="157.48" y="-114.3"/>
 </segment>
 <segment>
 <pinref part="IR_1" gate="G$1" pin="GND"/>
 <wire x1="213.36" y1="-114.3" x2="203.2" y2="-114.3" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="-114.3" x2="203.2" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-114.3" x2="203.2" y2="-116.84" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="-144.78" x2="203.2" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="-144.78" x2="203.2" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="203.2" y="-144.78"/>
 <pinref part="C39" gate="G$1" pin="2"/>
 <junction x="203.2" y="-114.3"/>
 </segment>
@@ -14834,38 +14818,6 @@ Source:
 <label x="-190.5" y="-190.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="IR_0" class="0">
-<segment>
-<pinref part="C14" gate="G$1" pin="1"/>
-<pinref part="R43" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="-137.16" x2="165.1" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="-134.62" x2="165.1" y2="-132.08" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="-134.62" x2="170.18" y2="-134.62" width="0.1524" layer="91"/>
-<junction x="165.1" y="-134.62"/>
-<label x="170.18" y="-134.62" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SLAVE_SENSOR" gate="G$1" pin="0/RX1/MOSI1"/>
-<wire x1="205.74" y1="134.62" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
-<label x="203.2" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="R43" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="-121.92" x2="165.1" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="IR_0" gate="G$1" pin="OUT"/>
-<wire x1="165.1" y1="-119.38" x2="167.64" y2="-119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="-121.92" x2="210.82" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="IR_1" gate="G$1" pin="OUT"/>
-<wire x1="210.82" y1="-119.38" x2="213.36" y2="-119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$47" class="0">
 <segment>
 <pinref part="R45" gate="G$1" pin="2"/>
@@ -15044,18 +14996,15 @@ Source:
 </net>
 <net name="IR_1" class="0">
 <segment>
-<pinref part="C15" gate="G$1" pin="1"/>
-<pinref part="R44" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="-137.16" x2="210.82" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="-134.62" x2="210.82" y2="-132.08" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="-134.62" x2="215.9" y2="-134.62" width="0.1524" layer="91"/>
-<junction x="210.82" y="-134.62"/>
-<label x="215.9" y="-134.62" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SLAVE_SENSOR" gate="G$1" pin="1/TX1/MISO1"/>
 <wire x1="205.74" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
 <label x="203.2" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="210.82" y1="-121.92" x2="210.82" y2="-119.38" width="0.1524" layer="91"/>
+<pinref part="IR_1" gate="G$1" pin="OUT"/>
+<wire x1="210.82" y1="-119.38" x2="213.36" y2="-119.38" width="0.1524" layer="91"/>
+<label x="210.82" y="-121.92" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="IR_2" class="0">
@@ -15709,6 +15658,19 @@ Source:
 <pinref part="SLAVE_SENSOR" gate="G$1" pin="18/A4/SDA0"/>
 <wire x1="266.7" y1="99.06" x2="269.24" y2="99.06" width="0.1524" layer="91"/>
 <label x="269.24" y="99.06" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="IR_0" class="0">
+<segment>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="0/RX1/MOSI1"/>
+<wire x1="205.74" y1="134.62" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
+<label x="203.2" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IR_0" gate="G$1" pin="OUT"/>
+<wire x1="165.1" y1="-119.38" x2="167.64" y2="-119.38" width="0.1524" layer="91"/>
+<label x="165.1" y="-121.92" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="165.1" y1="-119.38" x2="165.1" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

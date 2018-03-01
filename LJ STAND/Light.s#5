@@ -561,12 +561,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 </packages>
 <symbols>
-<symbol name="5V">
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="DGND">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
@@ -580,19 +574,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="5V" prefix="SUPPLY">
-<description>5V supply symbol</description>
-<gates>
-<gate name="G$1" symbol="5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="GND" prefix="GND">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -1458,7 +1439,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <parts>
 <part name="LS4" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1467,7 +1448,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS5" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1476,7 +1457,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS6" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1485,7 +1466,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS7" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1494,7 +1475,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS8" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1503,7 +1484,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS9" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D6" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1512,7 +1493,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS10" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D7" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1521,7 +1502,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS11" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D8" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1530,7 +1511,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS12" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D9" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1539,7 +1520,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS13" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D10" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY19" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY19" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1548,7 +1529,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS14" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D11" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY21" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY21" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1557,7 +1538,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS15" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D12" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY23" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY23" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1566,7 +1547,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS0" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D13" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY25" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY25" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1575,7 +1556,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS1" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D14" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY27" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY27" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1584,7 +1565,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS2" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D15" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY29" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY29" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1593,7 +1574,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS3" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D16" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY31" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY31" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND31" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R31" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1602,7 +1583,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS16" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D17" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY33" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY33" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1611,7 +1592,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS17" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D18" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY35" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY35" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R35" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1620,7 +1601,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS18" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D19" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY37" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY37" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1629,7 +1610,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS19" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D20" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY39" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY39" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R39" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1638,7 +1619,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS20" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D21" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY41" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY41" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND41" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R41" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1647,7 +1628,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND42" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS21" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D22" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY43" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY43" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R43" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1656,7 +1637,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS22" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D23" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY45" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY45" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R45" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C23" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1665,7 +1646,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND46" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS23" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D24" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY47" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY47" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R47" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1674,7 +1655,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS24" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D25" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY49" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY49" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R49" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1683,7 +1664,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND50" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS25" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D26" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY51" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY51" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND51" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R51" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C26" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1692,7 +1673,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND52" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS26" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D27" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY53" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY53" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND53" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R53" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C27" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1701,7 +1682,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND54" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS27" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D28" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY55" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY55" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND55" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R55" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C28" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1710,7 +1691,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND56" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS28" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D29" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY57" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY57" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND57" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R57" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C29" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1719,7 +1700,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND58" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS29" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D30" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY59" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY59" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND59" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R59" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C30" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1728,7 +1709,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND60" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS30" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D31" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY61" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY61" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND61" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R61" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C31" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1737,7 +1718,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND62" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS31" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D32" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY63" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY63" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND63" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R63" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C32" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1746,7 +1727,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND64" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS32" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D33" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY65" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY65" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND65" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R65" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C33" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1755,7 +1736,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND66" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS33" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D34" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY67" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY67" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND67" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R67" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C34" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1764,7 +1745,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND68" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS34" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D35" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY69" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY69" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND69" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R69" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -1773,7 +1754,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND70" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS35" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D36" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="SUPPLY71" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY71" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND71" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R71" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -2671,188 +2652,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="215.9" y1="-340.36" x2="215.9" y2="-337.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5V" class="0">
-<segment>
-<pinref part="SUPPLY1" gate="G$1" pin="5V"/>
-<pinref part="LS4" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="68.58" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY3" gate="G$1" pin="5V"/>
-<pinref part="LS5" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="68.58" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY5" gate="G$1" pin="5V"/>
-<pinref part="LS6" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="68.58" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY7" gate="G$1" pin="5V"/>
-<pinref part="LS7" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="68.58" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY9" gate="G$1" pin="5V"/>
-<pinref part="LS8" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="15.24" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY11" gate="G$1" pin="5V"/>
-<pinref part="LS9" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="15.24" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY13" gate="G$1" pin="5V"/>
-<pinref part="LS10" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="15.24" x2="142.24" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY15" gate="G$1" pin="5V"/>
-<pinref part="LS11" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="15.24" x2="187.96" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY17" gate="G$1" pin="5V"/>
-<pinref part="LS12" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="-38.1" x2="53.34" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY19" gate="G$1" pin="5V"/>
-<pinref part="LS13" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="-38.1" x2="99.06" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY21" gate="G$1" pin="5V"/>
-<pinref part="LS14" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="-38.1" x2="142.24" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY23" gate="G$1" pin="5V"/>
-<pinref part="LS15" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="-38.1" x2="187.96" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY25" gate="G$1" pin="5V"/>
-<pinref part="LS0" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="121.92" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY27" gate="G$1" pin="5V"/>
-<pinref part="LS1" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="121.92" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY29" gate="G$1" pin="5V"/>
-<pinref part="LS2" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="121.92" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY31" gate="G$1" pin="5V"/>
-<pinref part="LS3" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="121.92" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY33" gate="G$1" pin="5V"/>
-<pinref part="LS16" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="-93.98" x2="53.34" y2="-96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY35" gate="G$1" pin="5V"/>
-<pinref part="LS17" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="-93.98" x2="99.06" y2="-96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY37" gate="G$1" pin="5V"/>
-<pinref part="LS18" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="-93.98" x2="142.24" y2="-96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY39" gate="G$1" pin="5V"/>
-<pinref part="LS19" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="-93.98" x2="187.96" y2="-96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY41" gate="G$1" pin="5V"/>
-<pinref part="LS20" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="-147.32" x2="53.34" y2="-149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY43" gate="G$1" pin="5V"/>
-<pinref part="LS21" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="-147.32" x2="99.06" y2="-149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY45" gate="G$1" pin="5V"/>
-<pinref part="LS22" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="-147.32" x2="142.24" y2="-149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY47" gate="G$1" pin="5V"/>
-<pinref part="LS23" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="-147.32" x2="187.96" y2="-149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY49" gate="G$1" pin="5V"/>
-<pinref part="LS24" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="-205.74" x2="53.34" y2="-208.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY51" gate="G$1" pin="5V"/>
-<pinref part="LS25" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="-205.74" x2="99.06" y2="-208.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY53" gate="G$1" pin="5V"/>
-<pinref part="LS26" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="-205.74" x2="142.24" y2="-208.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY55" gate="G$1" pin="5V"/>
-<pinref part="LS27" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="-205.74" x2="187.96" y2="-208.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY57" gate="G$1" pin="5V"/>
-<pinref part="LS28" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="-261.62" x2="53.34" y2="-264.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY59" gate="G$1" pin="5V"/>
-<pinref part="LS29" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="-261.62" x2="99.06" y2="-264.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY61" gate="G$1" pin="5V"/>
-<pinref part="LS30" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="-261.62" x2="142.24" y2="-264.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY63" gate="G$1" pin="5V"/>
-<pinref part="LS31" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="-261.62" x2="187.96" y2="-264.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY65" gate="G$1" pin="5V"/>
-<pinref part="LS32" gate="G$1" pin="C"/>
-<wire x1="53.34" y1="-314.96" x2="53.34" y2="-317.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY67" gate="G$1" pin="5V"/>
-<pinref part="LS33" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="-314.96" x2="99.06" y2="-317.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY69" gate="G$1" pin="5V"/>
-<pinref part="LS34" gate="G$1" pin="C"/>
-<wire x1="142.24" y1="-314.96" x2="142.24" y2="-317.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY71" gate="G$1" pin="5V"/>
-<pinref part="LS35" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="-314.96" x2="187.96" y2="-317.5" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -3040,6 +2839,186 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="R72" gate="G$1" pin="2"/>
 <pinref part="SUPPLY72" gate="G$1" pin="3.3V"/>
 <wire x1="215.9" y1="-314.96" x2="215.9" y2="-317.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
+<pinref part="LS4" gate="G$1" pin="C"/>
+<wire x1="53.34" y1="68.58" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
+<pinref part="LS5" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="68.58" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
+<pinref part="LS6" gate="G$1" pin="C"/>
+<wire x1="142.24" y1="68.58" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
+<pinref part="LS7" gate="G$1" pin="C"/>
+<wire x1="187.96" y1="68.58" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
+<pinref part="LS8" gate="G$1" pin="C"/>
+<wire x1="53.34" y1="15.24" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
+<pinref part="LS9" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="15.24" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
+<pinref part="LS10" gate="G$1" pin="C"/>
+<wire x1="142.24" y1="15.24" x2="142.24" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
+<pinref part="LS11" gate="G$1" pin="C"/>
+<wire x1="187.96" y1="15.24" x2="187.96" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
+<pinref part="LS12" gate="G$1" pin="C"/>
+<wire x1="53.34" y1="-38.1" x2="53.34" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY19" gate="G$1" pin="3.3V"/>
+<pinref part="LS13" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="-38.1" x2="99.06" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
+<pinref part="LS14" gate="G$1" pin="C"/>
+<wire x1="142.24" y1="-38.1" x2="142.24" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY23" gate="G$1" pin="3.3V"/>
+<pinref part="LS15" gate="G$1" pin="C"/>
+<wire x1="187.96" y1="-38.1" x2="187.96" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY25" gate="G$1" pin="3.3V"/>
+<pinref part="LS0" gate="G$1" pin="C"/>
+<wire x1="53.34" y1="121.92" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY27" gate="G$1" pin="3.3V"/>
+<pinref part="LS1" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="121.92" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY29" gate="G$1" pin="3.3V"/>
+<pinref part="LS2" gate="G$1" pin="C"/>
+<wire x1="142.24" y1="121.92" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY31" gate="G$1" pin="3.3V"/>
+<pinref part="LS3" gate="G$1" pin="C"/>
+<wire x1="187.96" y1="121.92" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY33" gate="G$1" pin="3.3V"/>
+<pinref part="LS16" gate="G$1" pin="C"/>
+<wire x1="53.34" y1="-93.98" x2="53.34" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY35" gate="G$1" pin="3.3V"/>
+<pinref part="LS17" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="-93.98" x2="99.06" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY37" gate="G$1" pin="3.3V"/>
+<pinref part="LS18" gate="G$1" pin="C"/>
+<wire x1="142.24" y1="-93.98" x2="142.24" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY39" gate="G$1" pin="3.3V"/>
+<pinref part="LS19" gate="G$1" pin="C"/>
+<wire x1="187.96" y1="-93.98" x2="187.96" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY41" gate="G$1" pin="3.3V"/>
+<pinref part="LS20" gate="G$1" pin="C"/>
+<wire x1="53.34" y1="-147.32" x2="53.34" y2="-149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY43" gate="G$1" pin="3.3V"/>
+<pinref part="LS21" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="-147.32" x2="99.06" y2="-149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY45" gate="G$1" pin="3.3V"/>
+<pinref part="LS22" gate="G$1" pin="C"/>
+<wire x1="142.24" y1="-147.32" x2="142.24" y2="-149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY47" gate="G$1" pin="3.3V"/>
+<pinref part="LS23" gate="G$1" pin="C"/>
+<wire x1="187.96" y1="-147.32" x2="187.96" y2="-149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY49" gate="G$1" pin="3.3V"/>
+<pinref part="LS24" gate="G$1" pin="C"/>
+<wire x1="53.34" y1="-205.74" x2="53.34" y2="-208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY51" gate="G$1" pin="3.3V"/>
+<pinref part="LS25" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="-205.74" x2="99.06" y2="-208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY53" gate="G$1" pin="3.3V"/>
+<pinref part="LS26" gate="G$1" pin="C"/>
+<wire x1="142.24" y1="-205.74" x2="142.24" y2="-208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY55" gate="G$1" pin="3.3V"/>
+<pinref part="LS27" gate="G$1" pin="C"/>
+<wire x1="187.96" y1="-205.74" x2="187.96" y2="-208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY57" gate="G$1" pin="3.3V"/>
+<pinref part="LS28" gate="G$1" pin="C"/>
+<wire x1="53.34" y1="-261.62" x2="53.34" y2="-264.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY59" gate="G$1" pin="3.3V"/>
+<pinref part="LS29" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="-261.62" x2="99.06" y2="-264.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY61" gate="G$1" pin="3.3V"/>
+<pinref part="LS30" gate="G$1" pin="C"/>
+<wire x1="142.24" y1="-261.62" x2="142.24" y2="-264.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY63" gate="G$1" pin="3.3V"/>
+<pinref part="LS31" gate="G$1" pin="C"/>
+<wire x1="187.96" y1="-261.62" x2="187.96" y2="-264.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY65" gate="G$1" pin="3.3V"/>
+<pinref part="LS32" gate="G$1" pin="C"/>
+<wire x1="53.34" y1="-314.96" x2="53.34" y2="-317.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY67" gate="G$1" pin="3.3V"/>
+<pinref part="LS33" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="-314.96" x2="99.06" y2="-317.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY69" gate="G$1" pin="3.3V"/>
+<pinref part="LS34" gate="G$1" pin="C"/>
+<wire x1="142.24" y1="-314.96" x2="142.24" y2="-317.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY71" gate="G$1" pin="3.3V"/>
+<pinref part="LS35" gate="G$1" pin="C"/>
+<wire x1="187.96" y1="-314.96" x2="187.96" y2="-317.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">

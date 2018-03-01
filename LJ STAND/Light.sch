@@ -4138,6 +4138,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="152.4" y="0"/>
 <label x="154.94" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S7"/>
+<wire x1="266.7" y1="43.18" x2="264.16" y2="43.18" width="0.1524" layer="91"/>
+<label x="264.16" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="LS11" class="0">
 <segment>
@@ -4152,6 +4157,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="198.12" y1="0" x2="200.66" y2="0" width="0.1524" layer="91"/>
 <junction x="198.12" y="0"/>
 <label x="200.66" y="0" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S8"/>
+<wire x1="264.16" y1="45.72" x2="266.7" y2="45.72" width="0.1524" layer="91"/>
+<label x="264.16" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS12" class="0">
@@ -4168,6 +4178,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="63.5" y="-53.34"/>
 <label x="66.04" y="-53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S9"/>
+<wire x1="266.7" y1="48.26" x2="264.16" y2="48.26" width="0.1524" layer="91"/>
+<label x="264.16" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="LS13" class="0">
 <segment>
@@ -4182,6 +4197,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="109.22" y1="-53.34" x2="111.76" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="109.22" y="-53.34"/>
 <label x="111.76" y="-53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S10"/>
+<wire x1="266.7" y1="50.8" x2="264.16" y2="50.8" width="0.1524" layer="91"/>
+<label x="264.16" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS14" class="0">
@@ -4198,6 +4218,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="152.4" y="-53.34"/>
 <label x="154.94" y="-53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S11"/>
+<wire x1="266.7" y1="53.34" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
+<label x="264.16" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="LS15" class="0">
 <segment>
@@ -4212,6 +4237,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="198.12" y1="-53.34" x2="200.66" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="198.12" y="-53.34"/>
 <label x="200.66" y="-53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S12"/>
+<wire x1="266.7" y1="55.88" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
+<label x="264.16" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS16" class="0">
@@ -4228,6 +4258,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="63.5" y="-109.22"/>
 <label x="66.04" y="-109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S13"/>
+<wire x1="281.94" y1="71.12" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
+<label x="281.94" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="LS17" class="0">
 <segment>
@@ -4242,6 +4277,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="109.22" y1="-109.22" x2="111.76" y2="-109.22" width="0.1524" layer="91"/>
 <junction x="109.22" y="-109.22"/>
 <label x="111.76" y="-109.22" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S14"/>
+<wire x1="284.48" y1="71.12" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
+<label x="284.48" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LS18" class="0">
@@ -4258,6 +4298,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="152.4" y="-109.22"/>
 <label x="154.94" y="-109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S15"/>
+<wire x1="287.02" y1="71.12" x2="287.02" y2="73.66" width="0.1524" layer="91"/>
+<label x="287.02" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="LS19" class="0">
 <segment>
@@ -4272,6 +4317,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="198.12" y1="-109.22" x2="200.66" y2="-109.22" width="0.1524" layer="91"/>
 <junction x="198.12" y="-109.22"/>
 <label x="200.66" y="-109.22" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S16"/>
+<wire x1="289.56" y1="71.12" x2="289.56" y2="73.66" width="0.1524" layer="91"/>
+<label x="289.56" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LS20" class="0">
@@ -4288,6 +4338,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="63.5" y="-162.56"/>
 <label x="66.04" y="-162.56" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S17"/>
+<wire x1="325.12" y1="27.94" x2="327.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="327.66" y="27.94" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LS21" class="0">
 <segment>
@@ -4302,6 +4357,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="109.22" y1="-162.56" x2="111.76" y2="-162.56" width="0.1524" layer="91"/>
 <junction x="109.22" y="-162.56"/>
 <label x="111.76" y="-162.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S18"/>
+<wire x1="325.12" y1="30.48" x2="327.66" y2="30.48" width="0.1524" layer="91"/>
+<label x="327.66" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS22" class="0">
@@ -4318,6 +4378,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="152.4" y="-162.56"/>
 <label x="154.94" y="-162.56" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S19"/>
+<wire x1="325.12" y1="33.02" x2="327.66" y2="33.02" width="0.1524" layer="91"/>
+<label x="327.66" y="33.02" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LS23" class="0">
 <segment>
@@ -4332,6 +4397,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="198.12" y1="-162.56" x2="200.66" y2="-162.56" width="0.1524" layer="91"/>
 <junction x="198.12" y="-162.56"/>
 <label x="200.66" y="-162.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S20"/>
+<wire x1="325.12" y1="35.56" x2="327.66" y2="35.56" width="0.1524" layer="91"/>
+<label x="327.66" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -4432,6 +4502,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="63.5" y="-220.98"/>
 <label x="66.04" y="-220.98" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S21"/>
+<wire x1="325.12" y1="38.1" x2="327.66" y2="38.1" width="0.1524" layer="91"/>
+<label x="327.66" y="38.1" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LS25" class="0">
 <segment>
@@ -4446,6 +4521,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="109.22" y1="-220.98" x2="111.76" y2="-220.98" width="0.1524" layer="91"/>
 <junction x="109.22" y="-220.98"/>
 <label x="111.76" y="-220.98" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S22"/>
+<wire x1="325.12" y1="40.64" x2="327.66" y2="40.64" width="0.1524" layer="91"/>
+<label x="327.66" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS26" class="0">
@@ -4462,6 +4542,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="152.4" y="-220.98"/>
 <label x="154.94" y="-220.98" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S23"/>
+<wire x1="325.12" y1="43.18" x2="327.66" y2="43.18" width="0.1524" layer="91"/>
+<label x="327.66" y="43.18" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LS27" class="0">
 <segment>
@@ -4476,6 +4561,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="198.12" y1="-220.98" x2="200.66" y2="-220.98" width="0.1524" layer="91"/>
 <junction x="198.12" y="-220.98"/>
 <label x="200.66" y="-220.98" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S24"/>
+<wire x1="325.12" y1="45.72" x2="327.66" y2="45.72" width="0.1524" layer="91"/>
+<label x="327.66" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS28" class="0">
@@ -4492,6 +4582,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="63.5" y="-276.86"/>
 <label x="66.04" y="-276.86" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S25"/>
+<wire x1="325.12" y1="48.26" x2="327.66" y2="48.26" width="0.1524" layer="91"/>
+<label x="327.66" y="48.26" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LS29" class="0">
 <segment>
@@ -4506,6 +4601,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="109.22" y1="-276.86" x2="111.76" y2="-276.86" width="0.1524" layer="91"/>
 <junction x="109.22" y="-276.86"/>
 <label x="111.76" y="-276.86" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S26"/>
+<wire x1="325.12" y1="50.8" x2="327.66" y2="50.8" width="0.1524" layer="91"/>
+<label x="327.66" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS30" class="0">
@@ -4522,6 +4622,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="152.4" y="-276.86"/>
 <label x="154.94" y="-276.86" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S27"/>
+<wire x1="325.12" y1="53.34" x2="327.66" y2="53.34" width="0.1524" layer="91"/>
+<label x="327.66" y="53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LS31" class="0">
 <segment>
@@ -4536,6 +4641,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="198.12" y1="-276.86" x2="200.66" y2="-276.86" width="0.1524" layer="91"/>
 <junction x="198.12" y="-276.86"/>
 <label x="200.66" y="-276.86" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S28"/>
+<wire x1="325.12" y1="55.88" x2="327.66" y2="55.88" width="0.1524" layer="91"/>
+<label x="327.66" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS32" class="0">
@@ -4552,6 +4662,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="63.5" y="-330.2"/>
 <label x="66.04" y="-330.2" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S29"/>
+<wire x1="309.88" y1="71.12" x2="309.88" y2="73.66" width="0.1524" layer="91"/>
+<label x="309.88" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="LS33" class="0">
 <segment>
@@ -4566,6 +4681,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="109.22" y1="-330.2" x2="111.76" y2="-330.2" width="0.1524" layer="91"/>
 <junction x="109.22" y="-330.2"/>
 <label x="111.76" y="-330.2" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S30"/>
+<wire x1="307.34" y1="71.12" x2="307.34" y2="73.66" width="0.1524" layer="91"/>
+<label x="307.34" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LS34" class="0">
@@ -4582,6 +4702,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <junction x="152.4" y="-330.2"/>
 <label x="154.94" y="-330.2" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S31"/>
+<wire x1="304.8" y1="71.12" x2="304.8" y2="73.66" width="0.1524" layer="91"/>
+<label x="304.8" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="LS35" class="0">
 <segment>
@@ -4596,6 +4721,11 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="198.12" y1="-330.2" x2="200.66" y2="-330.2" width="0.1524" layer="91"/>
 <junction x="198.12" y="-330.2"/>
 <label x="200.66" y="-330.2" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S32"/>
+<wire x1="302.26" y1="71.12" x2="302.26" y2="73.66" width="0.1524" layer="91"/>
+<label x="302.26" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -4704,188 +4834,6 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <pinref part="U$1" gate="G$1" pin="WR"/>
 <wire x1="302.26" y1="12.7" x2="302.26" y2="10.16" width="0.1524" layer="91"/>
 <label x="302.26" y="10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S7"/>
-<wire x1="266.7" y1="43.18" x2="264.16" y2="43.18" width="0.1524" layer="91"/>
-<label x="264.16" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S8"/>
-<wire x1="264.16" y1="45.72" x2="266.7" y2="45.72" width="0.1524" layer="91"/>
-<label x="264.16" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S9"/>
-<wire x1="266.7" y1="48.26" x2="264.16" y2="48.26" width="0.1524" layer="91"/>
-<label x="264.16" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S10"/>
-<wire x1="266.7" y1="50.8" x2="264.16" y2="50.8" width="0.1524" layer="91"/>
-<label x="264.16" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$47" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S11"/>
-<wire x1="266.7" y1="53.34" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
-<label x="264.16" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$48" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S12"/>
-<wire x1="266.7" y1="55.88" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
-<label x="264.16" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$49" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S13"/>
-<wire x1="281.94" y1="71.12" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
-<label x="281.94" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$50" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S14"/>
-<wire x1="284.48" y1="71.12" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
-<label x="284.48" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$51" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S15"/>
-<wire x1="287.02" y1="71.12" x2="287.02" y2="73.66" width="0.1524" layer="91"/>
-<label x="287.02" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$52" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S16"/>
-<wire x1="289.56" y1="71.12" x2="289.56" y2="73.66" width="0.1524" layer="91"/>
-<label x="289.56" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$57" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S32"/>
-<wire x1="302.26" y1="71.12" x2="302.26" y2="73.66" width="0.1524" layer="91"/>
-<label x="302.26" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$58" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S31"/>
-<wire x1="304.8" y1="71.12" x2="304.8" y2="73.66" width="0.1524" layer="91"/>
-<label x="304.8" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$59" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S30"/>
-<wire x1="307.34" y1="71.12" x2="307.34" y2="73.66" width="0.1524" layer="91"/>
-<label x="307.34" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$60" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S29"/>
-<wire x1="309.88" y1="71.12" x2="309.88" y2="73.66" width="0.1524" layer="91"/>
-<label x="309.88" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$61" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S28"/>
-<wire x1="325.12" y1="55.88" x2="327.66" y2="55.88" width="0.1524" layer="91"/>
-<label x="327.66" y="55.88" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$62" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S27"/>
-<wire x1="325.12" y1="53.34" x2="327.66" y2="53.34" width="0.1524" layer="91"/>
-<label x="327.66" y="53.34" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$63" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S26"/>
-<wire x1="325.12" y1="50.8" x2="327.66" y2="50.8" width="0.1524" layer="91"/>
-<label x="327.66" y="50.8" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$64" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S25"/>
-<wire x1="325.12" y1="48.26" x2="327.66" y2="48.26" width="0.1524" layer="91"/>
-<label x="327.66" y="48.26" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$65" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S24"/>
-<wire x1="325.12" y1="45.72" x2="327.66" y2="45.72" width="0.1524" layer="91"/>
-<label x="327.66" y="45.72" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$66" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S23"/>
-<wire x1="325.12" y1="43.18" x2="327.66" y2="43.18" width="0.1524" layer="91"/>
-<label x="327.66" y="43.18" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$67" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S22"/>
-<wire x1="325.12" y1="40.64" x2="327.66" y2="40.64" width="0.1524" layer="91"/>
-<label x="327.66" y="40.64" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$68" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S21"/>
-<wire x1="325.12" y1="38.1" x2="327.66" y2="38.1" width="0.1524" layer="91"/>
-<label x="327.66" y="38.1" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$69" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S20"/>
-<wire x1="325.12" y1="35.56" x2="327.66" y2="35.56" width="0.1524" layer="91"/>
-<label x="327.66" y="35.56" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$70" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S19"/>
-<wire x1="325.12" y1="33.02" x2="327.66" y2="33.02" width="0.1524" layer="91"/>
-<label x="327.66" y="33.02" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$71" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S18"/>
-<wire x1="325.12" y1="30.48" x2="327.66" y2="30.48" width="0.1524" layer="91"/>
-<label x="327.66" y="30.48" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$72" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="S17"/>
-<wire x1="325.12" y1="27.94" x2="327.66" y2="27.94" width="0.1524" layer="91"/>
-<label x="327.66" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

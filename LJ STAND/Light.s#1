@@ -218,7 +218,7 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-LED">
+<library name="SparkFun-LED" urn="urn:adsk.eagle:library:1981965">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find discrete LEDs for illumination or indication, but no displays.&lt;br&gt;&lt;br&gt;
 We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
@@ -227,7 +227,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="LED5MM">
+<package name="LED-0603" urn="urn:adsk.eagle:footprint:1981972/1" library_version="2">
+<wire x1="0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
+<wire x1="-0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
+<wire x1="0" y1="0.17" x2="0.2338" y2="-0.14" width="0.2032" layer="21"/>
+<wire x1="-0.0254" y1="0.1546" x2="-0.2184" y2="-0.14" width="0.2032" layer="21"/>
+<smd name="C" x="0" y="0.877" dx="1" dy="1" layer="1" roundness="30"/>
+<smd name="A" x="0" y="-0.877" dx="1" dy="1" layer="1" roundness="30"/>
+<text x="-0.6985" y="-0.889" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
+<text x="1.0795" y="-1.016" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="LED5MM" urn="urn:adsk.eagle:footprint:1981970/1" library_version="2">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 5 mm, round</description>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
@@ -244,7 +254,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="LED3MM">
+<package name="LED3MM" urn="urn:adsk.eagle:footprint:1981971/1" library_version="2">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
 3 mm, round</description>
 <wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
@@ -261,7 +271,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="LED-1206">
+<package name="LED-1206" urn="urn:adsk.eagle:footprint:1981969/1" library_version="2">
 <wire x1="-1" y1="1" x2="-2.4" y2="1" width="0.2032" layer="21"/>
 <wire x1="-2.4" y1="1" x2="-2.4" y2="-1" width="0.2032" layer="21"/>
 <wire x1="-2.4" y1="-1" x2="-1" y2="-1" width="0.2032" layer="21"/>
@@ -278,17 +288,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-0.889" y="1.397" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-1.778" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="LED-0603">
-<wire x1="0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
-<wire x1="-0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
-<wire x1="0" y1="0.17" x2="0.2338" y2="-0.14" width="0.2032" layer="21"/>
-<wire x1="-0.0254" y1="0.1546" x2="-0.2184" y2="-0.14" width="0.2032" layer="21"/>
-<smd name="C" x="0" y="0.877" dx="1" dy="1" layer="1" roundness="30"/>
-<smd name="A" x="0" y="-0.877" dx="1" dy="1" layer="1" roundness="30"/>
-<text x="-0.6985" y="-0.889" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.0795" y="-1.016" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="LED10MM">
+<package name="LED10MM" urn="urn:adsk.eagle:footprint:1981973/1" library_version="2">
 <wire x1="-5" y1="-2" x2="-5" y2="2" width="0.2032" layer="21" curve="316.862624"/>
 <wire x1="-5" y1="2" x2="-5" y2="-2" width="0.2032" layer="21"/>
 <pad name="A" x="2.54" y="0" drill="2.4" diameter="3.7"/>
@@ -296,7 +296,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="2.159" y="2.54" size="1.016" layer="51" ratio="15">L</text>
 <text x="-2.921" y="2.54" size="1.016" layer="51" ratio="15">S</text>
 </package>
-<package name="FKIT-LED-1206">
+<package name="FKIT-LED-1206" urn="urn:adsk.eagle:footprint:1981974/1" library_version="2">
 <wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
 <wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="51"/>
 <wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
@@ -317,7 +317,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
 <rectangle x1="0.45" y1="-0.7" x2="0.6" y2="-0.45" layer="21"/>
 </package>
-<package name="LED3MM-NS">
+<package name="LED3MM-NS" urn="urn:adsk.eagle:footprint:1981975/1" library_version="2">
 <description>&lt;h3&gt;LED 3MM - No Silk&lt;/h3&gt;
 3 mm, round</description>
 <wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
@@ -334,7 +334,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="LED5MM-KIT">
+<package name="LED5MM-KIT" urn="urn:adsk.eagle:footprint:1981976/1" library_version="2">
 <description>&lt;h3&gt;LED5MM-KIT&lt;/h3&gt;
 5MM Through-hole LED&lt;br&gt;
 &lt;br&gt;
@@ -377,7 +377,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.7119" y="-0.0101" curve="-90.012967"/>
 </polygon>
 </package>
-<package name="LED-1206-BOTTOM">
+<package name="LED-1206-BOTTOM" urn="urn:adsk.eagle:footprint:1981977/1" library_version="2">
 <wire x1="-2" y1="0.4" x2="-2" y2="-0.4" width="0.127" layer="49"/>
 <wire x1="-2.4" y1="0" x2="-1.6" y2="0" width="0.127" layer="49"/>
 <wire x1="1.6" y1="0" x2="2.4" y2="0" width="0.127" layer="49"/>
@@ -389,6 +389,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.254" y1="0" x2="0.254" y2="0.635" width="0.127" layer="49"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="-0.635" width="0.127" layer="49"/>
 <wire x1="0.254" y1="0" x2="1.27" y2="0" width="0.127" layer="49"/>
+<wire x1="1.016" y1="1.016" x2="2.7686" y2="1.016" width="0.127" layer="21"/>
+<wire x1="2.7686" y1="1.016" x2="2.7686" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.7686" y1="-1.016" x2="1.016" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.3528" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="-1.016" x2="-2.7686" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.7686" y1="-1.016" x2="-2.7686" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-2.7686" y1="1.016" x2="-1.016" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.48741875" y1="-0.368296875" x2="-3.48741875" y2="0.3556" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.489959375" y1="0.37591875" x2="-3.48741875" y2="0.373378125" width="0.254" layer="21"/>
+<wire x1="-3.48741875" y1="0.373378125" x2="-3.48741875" y2="-0.370840625" width="0.254" layer="21"/>
 <rectangle x1="-0.75" y1="-0.75" x2="0.75" y2="0.75" layer="51"/>
 <smd name="A" x="-1.8" y="0" dx="1.5" dy="1.6" layer="1"/>
 <smd name="C" x="1.8" y="0" dx="1.5" dy="1.6" layer="1"/>
@@ -413,24 +425,42 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-1.6" y="0.25"/>
 <vertex x="-1.6" y="0.5"/>
 </polygon>
-<wire x1="1.016" y1="1.016" x2="2.7686" y2="1.016" width="0.127" layer="21"/>
-<wire x1="2.7686" y1="1.016" x2="2.7686" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="2.7686" y1="-1.016" x2="1.016" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="3.175" y1="0" x2="3.3528" y2="0" width="0.127" layer="21"/>
-<wire x1="-1.016" y1="-1.016" x2="-2.7686" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="-2.7686" y1="-1.016" x2="-2.7686" y2="1.016" width="0.127" layer="21"/>
-<wire x1="-2.7686" y1="1.016" x2="-1.016" y2="1.016" width="0.127" layer="21"/>
 <text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.254" layer="21"/>
-<wire x1="-3.48741875" y1="-0.368296875" x2="-3.48741875" y2="0.3556" width="0.254" layer="21"/>
-<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.254" layer="21"/>
-<wire x1="-3.489959375" y1="0.37591875" x2="-3.48741875" y2="0.373378125" width="0.254" layer="21"/>
-<wire x1="-3.48741875" y1="0.373378125" x2="-3.48741875" y2="-0.370840625" width="0.254" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="LED-0603" urn="urn:adsk.eagle:package:1982017/2" type="model" library_version="2">
+</package3d>
+<package3d name="LED5MM" urn="urn:adsk.eagle:package:1982014/1" type="box" library_version="2">
+<description>LED
+5 mm, round</description>
+</package3d>
+<package3d name="LED3MM" urn="urn:adsk.eagle:package:1982016/1" type="box" library_version="2">
+<description>LED
+3 mm, round</description>
+</package3d>
+<package3d name="LED-1206" urn="urn:adsk.eagle:package:1982015/1" type="box" library_version="2">
+</package3d>
+<package3d name="LED10MM" urn="urn:adsk.eagle:package:1982019/1" type="box" library_version="2">
+</package3d>
+<package3d name="FKIT-LED-1206" urn="urn:adsk.eagle:package:1982021/1" type="box" library_version="2">
+</package3d>
+<package3d name="LED3MM-NS" urn="urn:adsk.eagle:package:1982018/1" type="box" library_version="2">
+<description>LED 3MM - No Silk
+3 mm, round</description>
+</package3d>
+<package3d name="LED5MM-KIT" urn="urn:adsk.eagle:package:1982025/1" type="box" library_version="2">
+<description>LED5MM-KIT
+5MM Through-hole LED
+
+Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+</package3d>
+<package3d name="LED-1206-BOTTOM" urn="urn:adsk.eagle:package:1982020/1" type="box" library_version="2">
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="LED">
+<symbol name="LED" urn="urn:adsk.eagle:symbol:1981968/1" library_version="2">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -456,7 +486,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" prefix="D" uservalue="yes">
+<deviceset name="LED" urn="urn:adsk.eagle:component:1982053/2" prefix="D" uservalue="yes" library_version="2">
 <description>&lt;b&gt;LEDs&lt;/b&gt;
 Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LEDs. 5mm - Spark Fun Electronics SKU : COM-00529 (and others)</description>
 <gates>
@@ -468,6 +498,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1982014/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -477,6 +510,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1982016/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-08794" constant="no"/>
@@ -488,6 +524,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1982015/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -497,6 +536,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1982017/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -506,6 +548,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1982019/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -515,6 +560,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1982021/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -524,6 +572,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1982018/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -533,6 +584,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1982025/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -542,6 +596,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1982020/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2087,7 +2144,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 </classes>
 <parts>
 <part name="LS4" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D1" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2096,7 +2153,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS5" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D2" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2105,7 +2162,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS6" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D3" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2114,7 +2171,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS7" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D4" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2123,7 +2180,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS8" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D5" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2132,7 +2189,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS9" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D6" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2141,7 +2198,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS10" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D7" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D7" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2150,7 +2207,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS11" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D8" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D8" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2159,7 +2216,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS12" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D9" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D9" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2168,7 +2225,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY18" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS13" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D10" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D10" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY19" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2177,7 +2234,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY20" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS14" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D11" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D11" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY21" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2186,7 +2243,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY22" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS15" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D12" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D12" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY23" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2195,7 +2252,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY24" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS0" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D13" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D13" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY25" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2204,7 +2261,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY26" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS1" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D14" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D14" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY27" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2213,7 +2270,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY28" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS2" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D15" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D15" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY29" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2222,7 +2279,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY30" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS3" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D16" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D16" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY31" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND31" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R31" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2231,7 +2288,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY32" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS16" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D17" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D17" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY33" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2240,7 +2297,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY34" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS17" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D18" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D18" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY35" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R35" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2249,7 +2306,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY36" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS18" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D19" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D19" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY37" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2258,7 +2315,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY38" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS19" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D20" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D20" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY39" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R39" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2267,7 +2324,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY40" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS20" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D21" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D21" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY41" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND41" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R41" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2276,7 +2333,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY42" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND42" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS21" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D22" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D22" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY43" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R43" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2285,7 +2342,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY44" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS22" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D23" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D23" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY45" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R45" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2294,7 +2351,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY46" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND46" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS23" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D24" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D24" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY47" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R47" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2303,7 +2360,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY48" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS24" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D25" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D25" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY49" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R49" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2312,7 +2369,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY50" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND50" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS25" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D26" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D26" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY51" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND51" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R51" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2321,7 +2378,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY52" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND52" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS26" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D27" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D27" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY53" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND53" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R53" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2330,7 +2387,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY54" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND54" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS27" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D28" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D28" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY55" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND55" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R55" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2339,7 +2396,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY56" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND56" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS28" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D29" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D29" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY57" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND57" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R57" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2348,7 +2405,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY58" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND58" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS29" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D30" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D30" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY59" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND59" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R59" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2357,7 +2414,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY60" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND60" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS30" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D31" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D31" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY61" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND61" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R61" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2366,7 +2423,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY62" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND62" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS31" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D32" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D32" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY63" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND63" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R63" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2375,7 +2432,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY64" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND64" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS32" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D33" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D33" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY65" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND65" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R65" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2384,7 +2441,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY66" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND66" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS33" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D34" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D34" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY67" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND67" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R67" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2393,7 +2450,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY68" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND68" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS34" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D35" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D35" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY69" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND69" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R69" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>
@@ -2402,7 +2459,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="SUPPLY70" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND70" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LS35" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
-<part name="D36" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="D36" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY71" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND71" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R71" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75K"/>

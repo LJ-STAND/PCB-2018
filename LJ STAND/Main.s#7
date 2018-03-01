@@ -11979,7 +11979,7 @@ Source:
 <part name="SUPPLY57" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY58" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="M_LEFT" library="jst-vh" deviceset="B2P-VH" device=""/>
-<part name="PWR_IN2" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="M_RIGHT" library="jst-vh" deviceset="B2P-VH" device=""/>
 <part name="PWR_IN3" library="jst-vh" deviceset="B2P-VH" device=""/>
 <part name="PWR_IN4" library="jst-vh" deviceset="B2P-VH" device=""/>
 </parts>
@@ -12324,7 +12324,7 @@ Source:
 <instance part="SUPPLY57" gate="G$1" x="-33.02" y="-347.98"/>
 <instance part="SUPPLY58" gate="G$1" x="-68.58" y="-347.98"/>
 <instance part="M_LEFT" gate="G$1" x="-33.02" y="-147.32"/>
-<instance part="PWR_IN2" gate="G$1" x="81.28" y="-149.86"/>
+<instance part="M_RIGHT" gate="G$1" x="81.28" y="-149.86"/>
 <instance part="PWR_IN3" gate="G$1" x="81.28" y="-261.62"/>
 <instance part="PWR_IN4" gate="G$1" x="-33.02" y="-259.08"/>
 </instances>
@@ -14416,7 +14416,7 @@ Source:
 <junction x="73.66" y="-142.24"/>
 <junction x="73.66" y="-147.32"/>
 <junction x="73.66" y="-144.78"/>
-<pinref part="PWR_IN2" gate="G$1" pin="1"/>
+<pinref part="M_RIGHT" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="-149.86" x2="81.28" y2="-149.86" width="0.1524" layer="91"/>
 <junction x="73.66" y="-149.86"/>
 </segment>
@@ -14449,7 +14449,7 @@ Source:
 <junction x="73.66" y="-162.56"/>
 <junction x="73.66" y="-165.1"/>
 <junction x="73.66" y="-167.64"/>
-<pinref part="PWR_IN2" gate="G$1" pin="2"/>
+<pinref part="M_RIGHT" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="-152.4" x2="73.66" y2="-152.4" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-152.4" x2="73.66" y2="-154.94" width="0.1524" layer="91"/>
 </segment>

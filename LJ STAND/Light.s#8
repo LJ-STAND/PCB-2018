@@ -1456,7 +1456,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS4" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1465,7 +1465,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$2" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS5" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1474,7 +1474,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$3" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS6" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1483,7 +1483,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$4" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS7" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1492,7 +1492,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$5" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS8" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1501,7 +1501,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$6" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS9" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D6" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1510,7 +1510,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$7" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS10" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D7" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1519,7 +1519,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$8" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS11" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D8" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1528,7 +1528,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$9" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS12" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D9" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1537,7 +1537,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY18" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$10" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS13" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D10" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY19" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1546,7 +1546,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY20" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$11" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS14" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D11" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY21" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1555,7 +1555,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY22" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$12" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS15" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D12" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY23" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1564,7 +1564,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY24" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$13" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS0" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D13" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY25" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1573,7 +1573,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY26" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$14" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS1" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D14" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY27" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1582,7 +1582,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY28" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$15" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS2" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D15" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY29" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1591,7 +1591,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY30" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$16" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS3" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D16" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY31" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND31" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1600,7 +1600,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R32" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY32" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$17" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS16" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D17" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY33" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1609,7 +1609,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY34" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$18" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS17" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D18" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY35" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1618,7 +1618,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R36" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY36" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$19" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS18" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D19" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY37" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1627,7 +1627,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R38" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY38" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$20" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS19" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D20" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY39" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1636,7 +1636,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R40" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY40" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$21" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS20" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D21" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY41" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND41" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1645,7 +1645,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R42" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY42" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND42" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$22" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS21" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D22" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY43" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1654,7 +1654,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R44" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY44" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$23" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS22" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D23" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY45" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1663,7 +1663,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R46" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY46" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND46" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$24" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS23" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
 <part name="D24" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="SUPPLY47" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1678,7 +1678,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="50.8" y="60.96"/>
+<instance part="LS4" gate="G$1" x="50.8" y="60.96"/>
 <instance part="D1" gate="G$1" x="81.28" y="50.8"/>
 <instance part="SUPPLY1" gate="G$1" x="53.34" y="68.58"/>
 <instance part="GND1" gate="1" x="53.34" y="33.02"/>
@@ -1687,7 +1687,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R2" gate="G$1" x="81.28" y="60.96" rot="R90"/>
 <instance part="SUPPLY2" gate="G$1" x="81.28" y="68.58"/>
 <instance part="GND2" gate="1" x="81.28" y="40.64"/>
-<instance part="U$2" gate="G$1" x="96.52" y="60.96"/>
+<instance part="LS5" gate="G$1" x="96.52" y="60.96"/>
 <instance part="D2" gate="G$1" x="127" y="50.8"/>
 <instance part="SUPPLY3" gate="G$1" x="99.06" y="68.58"/>
 <instance part="GND3" gate="1" x="99.06" y="33.02"/>
@@ -1696,7 +1696,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R4" gate="G$1" x="127" y="60.96" rot="R90"/>
 <instance part="SUPPLY4" gate="G$1" x="127" y="68.58"/>
 <instance part="GND4" gate="1" x="127" y="40.64"/>
-<instance part="U$3" gate="G$1" x="139.7" y="60.96"/>
+<instance part="LS6" gate="G$1" x="139.7" y="60.96"/>
 <instance part="D3" gate="G$1" x="170.18" y="50.8"/>
 <instance part="SUPPLY5" gate="G$1" x="142.24" y="68.58"/>
 <instance part="GND5" gate="1" x="142.24" y="33.02"/>
@@ -1705,7 +1705,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R6" gate="G$1" x="170.18" y="60.96" rot="R90"/>
 <instance part="SUPPLY6" gate="G$1" x="170.18" y="68.58"/>
 <instance part="GND6" gate="1" x="170.18" y="40.64"/>
-<instance part="U$4" gate="G$1" x="185.42" y="60.96"/>
+<instance part="LS7" gate="G$1" x="185.42" y="60.96"/>
 <instance part="D4" gate="G$1" x="215.9" y="50.8"/>
 <instance part="SUPPLY7" gate="G$1" x="187.96" y="68.58"/>
 <instance part="GND7" gate="1" x="187.96" y="33.02"/>
@@ -1714,7 +1714,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R8" gate="G$1" x="215.9" y="60.96" rot="R90"/>
 <instance part="SUPPLY8" gate="G$1" x="215.9" y="68.58"/>
 <instance part="GND8" gate="1" x="215.9" y="40.64"/>
-<instance part="U$5" gate="G$1" x="50.8" y="7.62"/>
+<instance part="LS8" gate="G$1" x="50.8" y="7.62"/>
 <instance part="D5" gate="G$1" x="81.28" y="-2.54"/>
 <instance part="SUPPLY9" gate="G$1" x="53.34" y="15.24"/>
 <instance part="GND9" gate="1" x="53.34" y="-20.32"/>
@@ -1723,7 +1723,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R10" gate="G$1" x="81.28" y="7.62" rot="R90"/>
 <instance part="SUPPLY10" gate="G$1" x="81.28" y="15.24"/>
 <instance part="GND10" gate="1" x="81.28" y="-12.7"/>
-<instance part="U$6" gate="G$1" x="96.52" y="7.62"/>
+<instance part="LS9" gate="G$1" x="96.52" y="7.62"/>
 <instance part="D6" gate="G$1" x="127" y="-2.54"/>
 <instance part="SUPPLY11" gate="G$1" x="99.06" y="15.24"/>
 <instance part="GND11" gate="1" x="99.06" y="-20.32"/>
@@ -1732,7 +1732,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R12" gate="G$1" x="127" y="7.62" rot="R90"/>
 <instance part="SUPPLY12" gate="G$1" x="127" y="15.24"/>
 <instance part="GND12" gate="1" x="127" y="-12.7"/>
-<instance part="U$7" gate="G$1" x="139.7" y="7.62"/>
+<instance part="LS10" gate="G$1" x="139.7" y="7.62"/>
 <instance part="D7" gate="G$1" x="170.18" y="-2.54"/>
 <instance part="SUPPLY13" gate="G$1" x="142.24" y="15.24"/>
 <instance part="GND13" gate="1" x="142.24" y="-20.32"/>
@@ -1741,7 +1741,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R14" gate="G$1" x="170.18" y="7.62" rot="R90"/>
 <instance part="SUPPLY14" gate="G$1" x="170.18" y="15.24"/>
 <instance part="GND14" gate="1" x="170.18" y="-12.7"/>
-<instance part="U$8" gate="G$1" x="185.42" y="7.62"/>
+<instance part="LS11" gate="G$1" x="185.42" y="7.62"/>
 <instance part="D8" gate="G$1" x="215.9" y="-2.54"/>
 <instance part="SUPPLY15" gate="G$1" x="187.96" y="15.24"/>
 <instance part="GND15" gate="1" x="187.96" y="-20.32"/>
@@ -1750,7 +1750,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R16" gate="G$1" x="215.9" y="7.62" rot="R90"/>
 <instance part="SUPPLY16" gate="G$1" x="215.9" y="15.24"/>
 <instance part="GND16" gate="1" x="215.9" y="-12.7"/>
-<instance part="U$9" gate="G$1" x="50.8" y="-45.72"/>
+<instance part="LS12" gate="G$1" x="50.8" y="-45.72"/>
 <instance part="D9" gate="G$1" x="81.28" y="-55.88"/>
 <instance part="SUPPLY17" gate="G$1" x="53.34" y="-38.1"/>
 <instance part="GND17" gate="1" x="53.34" y="-73.66"/>
@@ -1759,7 +1759,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R18" gate="G$1" x="81.28" y="-45.72" rot="R90"/>
 <instance part="SUPPLY18" gate="G$1" x="81.28" y="-38.1"/>
 <instance part="GND18" gate="1" x="81.28" y="-66.04"/>
-<instance part="U$10" gate="G$1" x="96.52" y="-45.72"/>
+<instance part="LS13" gate="G$1" x="96.52" y="-45.72"/>
 <instance part="D10" gate="G$1" x="127" y="-55.88"/>
 <instance part="SUPPLY19" gate="G$1" x="99.06" y="-38.1"/>
 <instance part="GND19" gate="1" x="99.06" y="-73.66"/>
@@ -1768,7 +1768,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R20" gate="G$1" x="127" y="-45.72" rot="R90"/>
 <instance part="SUPPLY20" gate="G$1" x="127" y="-38.1"/>
 <instance part="GND20" gate="1" x="127" y="-66.04"/>
-<instance part="U$11" gate="G$1" x="139.7" y="-45.72"/>
+<instance part="LS14" gate="G$1" x="139.7" y="-45.72"/>
 <instance part="D11" gate="G$1" x="170.18" y="-55.88"/>
 <instance part="SUPPLY21" gate="G$1" x="142.24" y="-38.1"/>
 <instance part="GND21" gate="1" x="142.24" y="-73.66"/>
@@ -1777,7 +1777,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R22" gate="G$1" x="170.18" y="-45.72" rot="R90"/>
 <instance part="SUPPLY22" gate="G$1" x="170.18" y="-38.1"/>
 <instance part="GND22" gate="1" x="170.18" y="-66.04"/>
-<instance part="U$12" gate="G$1" x="185.42" y="-45.72"/>
+<instance part="LS15" gate="G$1" x="185.42" y="-45.72"/>
 <instance part="D12" gate="G$1" x="215.9" y="-55.88"/>
 <instance part="SUPPLY23" gate="G$1" x="187.96" y="-38.1"/>
 <instance part="GND23" gate="1" x="187.96" y="-73.66"/>
@@ -1786,7 +1786,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R24" gate="G$1" x="215.9" y="-45.72" rot="R90"/>
 <instance part="SUPPLY24" gate="G$1" x="215.9" y="-38.1"/>
 <instance part="GND24" gate="1" x="215.9" y="-66.04"/>
-<instance part="U$13" gate="G$1" x="50.8" y="114.3"/>
+<instance part="LS0" gate="G$1" x="50.8" y="114.3"/>
 <instance part="D13" gate="G$1" x="81.28" y="104.14"/>
 <instance part="SUPPLY25" gate="G$1" x="53.34" y="121.92"/>
 <instance part="GND25" gate="1" x="53.34" y="86.36"/>
@@ -1795,7 +1795,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R26" gate="G$1" x="81.28" y="114.3" rot="R90"/>
 <instance part="SUPPLY26" gate="G$1" x="81.28" y="121.92"/>
 <instance part="GND26" gate="1" x="81.28" y="93.98"/>
-<instance part="U$14" gate="G$1" x="96.52" y="114.3"/>
+<instance part="LS1" gate="G$1" x="96.52" y="114.3"/>
 <instance part="D14" gate="G$1" x="127" y="104.14"/>
 <instance part="SUPPLY27" gate="G$1" x="99.06" y="121.92"/>
 <instance part="GND27" gate="1" x="99.06" y="86.36"/>
@@ -1804,7 +1804,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R28" gate="G$1" x="127" y="114.3" rot="R90"/>
 <instance part="SUPPLY28" gate="G$1" x="127" y="121.92"/>
 <instance part="GND28" gate="1" x="127" y="93.98"/>
-<instance part="U$15" gate="G$1" x="139.7" y="114.3"/>
+<instance part="LS2" gate="G$1" x="139.7" y="114.3"/>
 <instance part="D15" gate="G$1" x="170.18" y="104.14"/>
 <instance part="SUPPLY29" gate="G$1" x="142.24" y="121.92"/>
 <instance part="GND29" gate="1" x="142.24" y="86.36"/>
@@ -1813,7 +1813,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R30" gate="G$1" x="170.18" y="114.3" rot="R90"/>
 <instance part="SUPPLY30" gate="G$1" x="170.18" y="121.92"/>
 <instance part="GND30" gate="1" x="170.18" y="93.98"/>
-<instance part="U$16" gate="G$1" x="185.42" y="114.3"/>
+<instance part="LS3" gate="G$1" x="185.42" y="114.3"/>
 <instance part="D16" gate="G$1" x="215.9" y="104.14"/>
 <instance part="SUPPLY31" gate="G$1" x="187.96" y="121.92"/>
 <instance part="GND31" gate="1" x="187.96" y="86.36"/>
@@ -1822,7 +1822,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R32" gate="G$1" x="215.9" y="114.3" rot="R90"/>
 <instance part="SUPPLY32" gate="G$1" x="215.9" y="121.92"/>
 <instance part="GND32" gate="1" x="215.9" y="93.98"/>
-<instance part="U$17" gate="G$1" x="50.8" y="-101.6"/>
+<instance part="LS16" gate="G$1" x="50.8" y="-101.6"/>
 <instance part="D17" gate="G$1" x="81.28" y="-111.76"/>
 <instance part="SUPPLY33" gate="G$1" x="53.34" y="-93.98"/>
 <instance part="GND33" gate="1" x="53.34" y="-129.54"/>
@@ -1831,7 +1831,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R34" gate="G$1" x="81.28" y="-101.6" rot="R90"/>
 <instance part="SUPPLY34" gate="G$1" x="81.28" y="-93.98"/>
 <instance part="GND34" gate="1" x="81.28" y="-121.92"/>
-<instance part="U$18" gate="G$1" x="96.52" y="-101.6"/>
+<instance part="LS17" gate="G$1" x="96.52" y="-101.6"/>
 <instance part="D18" gate="G$1" x="127" y="-111.76"/>
 <instance part="SUPPLY35" gate="G$1" x="99.06" y="-93.98"/>
 <instance part="GND35" gate="1" x="99.06" y="-129.54"/>
@@ -1840,7 +1840,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R36" gate="G$1" x="127" y="-101.6" rot="R90"/>
 <instance part="SUPPLY36" gate="G$1" x="127" y="-93.98"/>
 <instance part="GND36" gate="1" x="127" y="-121.92"/>
-<instance part="U$19" gate="G$1" x="139.7" y="-101.6"/>
+<instance part="LS18" gate="G$1" x="139.7" y="-101.6"/>
 <instance part="D19" gate="G$1" x="170.18" y="-111.76"/>
 <instance part="SUPPLY37" gate="G$1" x="142.24" y="-93.98"/>
 <instance part="GND37" gate="1" x="142.24" y="-129.54"/>
@@ -1849,7 +1849,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R38" gate="G$1" x="170.18" y="-101.6" rot="R90"/>
 <instance part="SUPPLY38" gate="G$1" x="170.18" y="-93.98"/>
 <instance part="GND38" gate="1" x="170.18" y="-121.92"/>
-<instance part="U$20" gate="G$1" x="185.42" y="-101.6"/>
+<instance part="LS19" gate="G$1" x="185.42" y="-101.6"/>
 <instance part="D20" gate="G$1" x="215.9" y="-111.76"/>
 <instance part="SUPPLY39" gate="G$1" x="187.96" y="-93.98"/>
 <instance part="GND39" gate="1" x="187.96" y="-129.54"/>
@@ -1858,7 +1858,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R40" gate="G$1" x="215.9" y="-101.6" rot="R90"/>
 <instance part="SUPPLY40" gate="G$1" x="215.9" y="-93.98"/>
 <instance part="GND40" gate="1" x="215.9" y="-121.92"/>
-<instance part="U$21" gate="G$1" x="50.8" y="-154.94"/>
+<instance part="LS20" gate="G$1" x="50.8" y="-154.94"/>
 <instance part="D21" gate="G$1" x="81.28" y="-165.1"/>
 <instance part="SUPPLY41" gate="G$1" x="53.34" y="-147.32"/>
 <instance part="GND41" gate="1" x="53.34" y="-182.88"/>
@@ -1867,7 +1867,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R42" gate="G$1" x="81.28" y="-154.94" rot="R90"/>
 <instance part="SUPPLY42" gate="G$1" x="81.28" y="-147.32"/>
 <instance part="GND42" gate="1" x="81.28" y="-175.26"/>
-<instance part="U$22" gate="G$1" x="96.52" y="-154.94"/>
+<instance part="LS21" gate="G$1" x="96.52" y="-154.94"/>
 <instance part="D22" gate="G$1" x="127" y="-165.1"/>
 <instance part="SUPPLY43" gate="G$1" x="99.06" y="-147.32"/>
 <instance part="GND43" gate="1" x="99.06" y="-182.88"/>
@@ -1876,7 +1876,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R44" gate="G$1" x="127" y="-154.94" rot="R90"/>
 <instance part="SUPPLY44" gate="G$1" x="127" y="-147.32"/>
 <instance part="GND44" gate="1" x="127" y="-175.26"/>
-<instance part="U$23" gate="G$1" x="139.7" y="-154.94"/>
+<instance part="LS22" gate="G$1" x="139.7" y="-154.94"/>
 <instance part="D23" gate="G$1" x="170.18" y="-165.1"/>
 <instance part="SUPPLY45" gate="G$1" x="142.24" y="-147.32"/>
 <instance part="GND45" gate="1" x="142.24" y="-182.88"/>
@@ -1885,7 +1885,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="R46" gate="G$1" x="170.18" y="-154.94" rot="R90"/>
 <instance part="SUPPLY46" gate="G$1" x="170.18" y="-147.32"/>
 <instance part="GND46" gate="1" x="170.18" y="-175.26"/>
-<instance part="U$24" gate="G$1" x="185.42" y="-154.94"/>
+<instance part="LS23" gate="G$1" x="185.42" y="-154.94"/>
 <instance part="D24" gate="G$1" x="215.9" y="-165.1"/>
 <instance part="SUPPLY47" gate="G$1" x="187.96" y="-147.32"/>
 <instance part="GND47" gate="1" x="187.96" y="-182.88"/>
@@ -1900,7 +1900,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <nets>
 <net name="LS1" class="0">
 <segment>
-<pinref part="U$14" gate="G$1" pin="E"/>
+<pinref part="LS1" gate="G$1" pin="E"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="109.22" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="106.68" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
@@ -2278,122 +2278,122 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="5V" class="0">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
-<pinref part="U$1" gate="G$1" pin="C"/>
+<pinref part="LS4" gate="G$1" pin="C"/>
 <wire x1="53.34" y1="68.58" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
-<pinref part="U$2" gate="G$1" pin="C"/>
+<pinref part="LS5" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="68.58" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="5V"/>
-<pinref part="U$3" gate="G$1" pin="C"/>
+<pinref part="LS6" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="68.58" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
-<pinref part="U$4" gate="G$1" pin="C"/>
+<pinref part="LS7" gate="G$1" pin="C"/>
 <wire x1="187.96" y1="68.58" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="5V"/>
-<pinref part="U$5" gate="G$1" pin="C"/>
+<pinref part="LS8" gate="G$1" pin="C"/>
 <wire x1="53.34" y1="15.24" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="5V"/>
-<pinref part="U$6" gate="G$1" pin="C"/>
+<pinref part="LS9" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="15.24" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="G$1" pin="5V"/>
-<pinref part="U$7" gate="G$1" pin="C"/>
+<pinref part="LS10" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="15.24" x2="142.24" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY15" gate="G$1" pin="5V"/>
-<pinref part="U$8" gate="G$1" pin="C"/>
+<pinref part="LS11" gate="G$1" pin="C"/>
 <wire x1="187.96" y1="15.24" x2="187.96" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY17" gate="G$1" pin="5V"/>
-<pinref part="U$9" gate="G$1" pin="C"/>
+<pinref part="LS12" gate="G$1" pin="C"/>
 <wire x1="53.34" y1="-38.1" x2="53.34" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY19" gate="G$1" pin="5V"/>
-<pinref part="U$10" gate="G$1" pin="C"/>
+<pinref part="LS13" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="-38.1" x2="99.06" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY21" gate="G$1" pin="5V"/>
-<pinref part="U$11" gate="G$1" pin="C"/>
+<pinref part="LS14" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="-38.1" x2="142.24" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY23" gate="G$1" pin="5V"/>
-<pinref part="U$12" gate="G$1" pin="C"/>
+<pinref part="LS15" gate="G$1" pin="C"/>
 <wire x1="187.96" y1="-38.1" x2="187.96" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY25" gate="G$1" pin="5V"/>
-<pinref part="U$13" gate="G$1" pin="C"/>
+<pinref part="LS0" gate="G$1" pin="C"/>
 <wire x1="53.34" y1="121.92" x2="53.34" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY27" gate="G$1" pin="5V"/>
-<pinref part="U$14" gate="G$1" pin="C"/>
+<pinref part="LS1" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="121.92" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY29" gate="G$1" pin="5V"/>
-<pinref part="U$15" gate="G$1" pin="C"/>
+<pinref part="LS2" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="121.92" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY31" gate="G$1" pin="5V"/>
-<pinref part="U$16" gate="G$1" pin="C"/>
+<pinref part="LS3" gate="G$1" pin="C"/>
 <wire x1="187.96" y1="121.92" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY33" gate="G$1" pin="5V"/>
-<pinref part="U$17" gate="G$1" pin="C"/>
+<pinref part="LS16" gate="G$1" pin="C"/>
 <wire x1="53.34" y1="-93.98" x2="53.34" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY35" gate="G$1" pin="5V"/>
-<pinref part="U$18" gate="G$1" pin="C"/>
+<pinref part="LS17" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="-93.98" x2="99.06" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY37" gate="G$1" pin="5V"/>
-<pinref part="U$19" gate="G$1" pin="C"/>
+<pinref part="LS18" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="-93.98" x2="142.24" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY39" gate="G$1" pin="5V"/>
-<pinref part="U$20" gate="G$1" pin="C"/>
+<pinref part="LS19" gate="G$1" pin="C"/>
 <wire x1="187.96" y1="-93.98" x2="187.96" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY41" gate="G$1" pin="5V"/>
-<pinref part="U$21" gate="G$1" pin="C"/>
+<pinref part="LS20" gate="G$1" pin="C"/>
 <wire x1="53.34" y1="-147.32" x2="53.34" y2="-149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY43" gate="G$1" pin="5V"/>
-<pinref part="U$22" gate="G$1" pin="C"/>
+<pinref part="LS21" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="-147.32" x2="99.06" y2="-149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY45" gate="G$1" pin="5V"/>
-<pinref part="U$23" gate="G$1" pin="C"/>
+<pinref part="LS22" gate="G$1" pin="C"/>
 <wire x1="142.24" y1="-147.32" x2="142.24" y2="-149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY47" gate="G$1" pin="5V"/>
-<pinref part="U$24" gate="G$1" pin="C"/>
+<pinref part="LS23" gate="G$1" pin="C"/>
 <wire x1="187.96" y1="-147.32" x2="187.96" y2="-149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2689,7 +2689,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS0" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="E"/>
+<pinref part="LS0" gate="G$1" pin="E"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="109.22" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="106.68" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
@@ -2704,7 +2704,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS2" class="0">
 <segment>
-<pinref part="U$15" gate="G$1" pin="E"/>
+<pinref part="LS2" gate="G$1" pin="E"/>
 <pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="109.22" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="106.68" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
@@ -2719,7 +2719,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS3" class="0">
 <segment>
-<pinref part="U$16" gate="G$1" pin="E"/>
+<pinref part="LS3" gate="G$1" pin="E"/>
 <pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="109.22" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="106.68" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
@@ -2734,7 +2734,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="E"/>
+<pinref part="LS4" gate="G$1" pin="E"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="55.88" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="53.34" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
@@ -2749,7 +2749,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS5" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="E"/>
+<pinref part="LS5" gate="G$1" pin="E"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="55.88" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="53.34" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
@@ -2764,7 +2764,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS6" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="E"/>
+<pinref part="LS6" gate="G$1" pin="E"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="55.88" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="53.34" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
@@ -2779,7 +2779,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS7" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="E"/>
+<pinref part="LS7" gate="G$1" pin="E"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="55.88" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="53.34" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
@@ -2794,7 +2794,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS8" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="E"/>
+<pinref part="LS8" gate="G$1" pin="E"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="2.54" x2="53.34" y2="0" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="0" x2="53.34" y2="-2.54" width="0.1524" layer="91"/>
@@ -2809,7 +2809,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS9" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="E"/>
+<pinref part="LS9" gate="G$1" pin="E"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="2.54" x2="99.06" y2="0" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="0" x2="99.06" y2="-2.54" width="0.1524" layer="91"/>
@@ -2824,7 +2824,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS10" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="E"/>
+<pinref part="LS10" gate="G$1" pin="E"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="2.54" x2="142.24" y2="0" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="0" x2="142.24" y2="-2.54" width="0.1524" layer="91"/>
@@ -2839,7 +2839,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS11" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="E"/>
+<pinref part="LS11" gate="G$1" pin="E"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="2.54" x2="187.96" y2="0" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="0" x2="187.96" y2="-2.54" width="0.1524" layer="91"/>
@@ -2854,7 +2854,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS12" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="E"/>
+<pinref part="LS12" gate="G$1" pin="E"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="-50.8" x2="53.34" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-53.34" x2="53.34" y2="-55.88" width="0.1524" layer="91"/>
@@ -2869,7 +2869,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS13" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="E"/>
+<pinref part="LS13" gate="G$1" pin="E"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="-50.8" x2="99.06" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-53.34" x2="99.06" y2="-55.88" width="0.1524" layer="91"/>
@@ -2884,7 +2884,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS14" class="0">
 <segment>
-<pinref part="U$11" gate="G$1" pin="E"/>
+<pinref part="LS14" gate="G$1" pin="E"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="-50.8" x2="142.24" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-53.34" x2="142.24" y2="-55.88" width="0.1524" layer="91"/>
@@ -2899,7 +2899,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS15" class="0">
 <segment>
-<pinref part="U$12" gate="G$1" pin="E"/>
+<pinref part="LS15" gate="G$1" pin="E"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="-50.8" x2="187.96" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="-53.34" x2="187.96" y2="-55.88" width="0.1524" layer="91"/>
@@ -2914,7 +2914,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS16" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="E"/>
+<pinref part="LS16" gate="G$1" pin="E"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="-106.68" x2="53.34" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-109.22" x2="53.34" y2="-111.76" width="0.1524" layer="91"/>
@@ -2929,7 +2929,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS17" class="0">
 <segment>
-<pinref part="U$18" gate="G$1" pin="E"/>
+<pinref part="LS17" gate="G$1" pin="E"/>
 <pinref part="R35" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="-106.68" x2="99.06" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-109.22" x2="99.06" y2="-111.76" width="0.1524" layer="91"/>
@@ -2944,7 +2944,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS18" class="0">
 <segment>
-<pinref part="U$19" gate="G$1" pin="E"/>
+<pinref part="LS18" gate="G$1" pin="E"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="-106.68" x2="142.24" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-109.22" x2="142.24" y2="-111.76" width="0.1524" layer="91"/>
@@ -2959,7 +2959,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS19" class="0">
 <segment>
-<pinref part="U$20" gate="G$1" pin="E"/>
+<pinref part="LS19" gate="G$1" pin="E"/>
 <pinref part="R39" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="-106.68" x2="187.96" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="-109.22" x2="187.96" y2="-111.76" width="0.1524" layer="91"/>
@@ -2974,7 +2974,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS20" class="0">
 <segment>
-<pinref part="U$21" gate="G$1" pin="E"/>
+<pinref part="LS20" gate="G$1" pin="E"/>
 <pinref part="R41" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="-160.02" x2="53.34" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-162.56" x2="53.34" y2="-165.1" width="0.1524" layer="91"/>
@@ -2989,7 +2989,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS21" class="0">
 <segment>
-<pinref part="U$22" gate="G$1" pin="E"/>
+<pinref part="LS21" gate="G$1" pin="E"/>
 <pinref part="R43" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="-160.02" x2="99.06" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-162.56" x2="99.06" y2="-165.1" width="0.1524" layer="91"/>
@@ -3004,7 +3004,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS22" class="0">
 <segment>
-<pinref part="U$23" gate="G$1" pin="E"/>
+<pinref part="LS22" gate="G$1" pin="E"/>
 <pinref part="R45" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="-160.02" x2="142.24" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="-162.56" x2="142.24" y2="-165.1" width="0.1524" layer="91"/>
@@ -3019,7 +3019,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS23" class="0">
 <segment>
-<pinref part="U$24" gate="G$1" pin="E"/>
+<pinref part="LS23" gate="G$1" pin="E"/>
 <pinref part="R47" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="-160.02" x2="187.96" y2="-162.56" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="-162.56" x2="187.96" y2="-165.1" width="0.1524" layer="91"/>
