@@ -171,7 +171,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="SMD" urn="urn:adsk.eagle:package:1968583/1" type="box" library_version="1">
+<package3d name="SMD" urn="urn:adsk.eagle:package:1968583/2" type="model" library_version="2">
 </package3d>
 </packages3d>
 <symbols>
@@ -197,7 +197,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ALS" urn="urn:adsk.eagle:component:1968584/1" library_version="1">
+<deviceset name="ALS" urn="urn:adsk.eagle:component:1968584/2" library_version="2">
 <gates>
 <gate name="G$1" symbol="OT-NO" x="0" y="0"/>
 </gates>
@@ -208,7 +208,7 @@
 <connect gate="G$1" pin="E" pad="E"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1484,9 +1484,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="pinhead+">
+<library name="pinhead+" urn="urn:adsk.eagle:library:2032525">
 <packages>
-<package name="2X08_SMT">
+<package name="2X08_SMT" urn="urn:adsk.eagle:footprint:2032656/1" library_version="2">
 <wire x1="-10.16" y1="2.54" x2="10.16" y2="2.54" width="0.127" layer="21"/>
 <wire x1="10.16" y1="2.54" x2="10.16" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="10.16" y1="-2.54" x2="-10.16" y2="-2.54" width="0.127" layer="21"/>
@@ -1510,7 +1510,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <text x="-10.16" y="5.715" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-10.16" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="2X08">
+<package name="2X08" urn="urn:adsk.eagle:footprint:2032654/1" library_version="2">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-10.16" y1="-1.905" x2="-9.525" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-8.255" y1="-2.54" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
@@ -1604,7 +1604,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <rectangle x1="8.636" y1="1.016" x2="9.144" y2="1.524" layer="51"/>
 <rectangle x1="8.636" y1="-1.524" x2="9.144" y2="-1.016" layer="51"/>
 </package>
-<package name="2X08/90">
+<package name="2X08/90" urn="urn:adsk.eagle:footprint:2032655/1" library_version="2">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-10.16" y1="-1.905" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="-1.905" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
@@ -1691,8 +1691,18 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <rectangle x1="8.509" y1="-5.461" x2="9.271" y2="-4.699" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="2X08_SMT" urn="urn:adsk.eagle:package:2032807/2" type="model" library_version="2">
+</package3d>
+<package3d name="2X08" urn="urn:adsk.eagle:package:2032806/1" type="box" library_version="2">
+<description>PIN HEADER</description>
+</package3d>
+<package3d name="2X08/90" urn="urn:adsk.eagle:package:2032808/1" type="box" library_version="2">
+<description>PIN HEADER</description>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="PINH2X8">
+<symbol name="PINH2X8" urn="urn:adsk.eagle:symbol:2032653/1" library_version="2">
 <wire x1="-6.35" y1="-12.7" x2="8.89" y2="-12.7" width="0.4064" layer="94"/>
 <wire x1="8.89" y1="-12.7" x2="8.89" y2="10.16" width="0.4064" layer="94"/>
 <wire x1="8.89" y1="10.16" x2="-6.35" y2="10.16" width="0.4064" layer="94"/>
@@ -1718,7 +1728,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHD-2X8" prefix="JP" uservalue="yes">
+<deviceset name="PINHD-2X8" urn="urn:adsk.eagle:component:2032875/2" prefix="JP" uservalue="yes" library_version="2">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINH2X8" x="0" y="0"/>
@@ -1743,6 +1753,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2032806/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1766,6 +1779,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2032808/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1789,6 +1805,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2032807/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1797,11 +1816,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="analog-devices">
+<library name="analog-devices" urn="urn:adsk.eagle:library:2033836">
 <description>&lt;b&gt;Analog Devices Components&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="QFP-7X7-48-NO-EXP">
+<package name="QFP-7X7-48-NO-EXP" urn="urn:adsk.eagle:footprint:2034052/1" library_version="1">
 <description>&lt;b&gt;TQFP48&lt;/b&gt; 7x7&lt;p&gt;
 Thin Plastic Quad Flat Package, TQFP&lt;br&gt;
 Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</description>
@@ -2010,8 +2029,15 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <rectangle x1="-3.325" y1="3.975" x2="-2.175" y2="4.225" layer="31" rot="R270"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="QFP-7X7-48-NO-EXP" urn="urn:adsk.eagle:package:2034172/2" type="model" library_version="2">
+<description>TQFP48 7x7
+Thin Plastic Quad Flat Package, TQFP
+Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</description>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="ADG732">
+<symbol name="ADG732" urn="urn:adsk.eagle:symbol:2034051/1" library_version="1">
 <wire x1="-27.94" y1="-27.94" x2="25.4" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-27.94" x2="25.4" y2="25.4" width="0.254" layer="94"/>
 <wire x1="25.4" y1="25.4" x2="-27.94" y2="25.4" width="0.254" layer="94"/>
@@ -2069,7 +2095,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ADG732">
+<deviceset name="ADG732" urn="urn:adsk.eagle:component:2034502/2" library_version="2">
 <gates>
 <gate name="G$1" symbol="ADG732" x="0" y="0"/>
 </gates>
@@ -2125,6 +2151,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <connect gate="G$1" pin="VSS" pad="24"/>
 <connect gate="G$1" pin="WR" pad="21"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2034172/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -2143,7 +2172,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 </class>
 </classes>
 <parts>
-<part name="LS4" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS4" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2152,7 +2181,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS5" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS5" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2161,7 +2190,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS6" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS6" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2170,7 +2199,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS7" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS7" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2179,7 +2208,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS8" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS8" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2188,7 +2217,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS9" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS9" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2197,7 +2226,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS10" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS10" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D7" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2206,7 +2235,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS11" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS11" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D8" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2215,7 +2244,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS12" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS12" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D9" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2224,7 +2253,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY18" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS13" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS13" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D10" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY19" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2233,7 +2262,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY20" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS14" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS14" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D11" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY21" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2242,7 +2271,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY22" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS15" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS15" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D12" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY23" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2251,7 +2280,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY24" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS0" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS0" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D13" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY25" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2260,7 +2289,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY26" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS1" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS1" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D14" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY27" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2269,7 +2298,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY28" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS2" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS2" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D15" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY29" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2278,7 +2307,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY30" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS3" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS3" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D16" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY31" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND31" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2287,7 +2316,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R32" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY32" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS16" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS16" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D17" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY33" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2296,7 +2325,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY34" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS17" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS17" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D18" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY35" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2305,7 +2334,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R36" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY36" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS18" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS18" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D19" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY37" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2314,7 +2343,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R38" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY38" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS19" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS19" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D20" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY39" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2323,7 +2352,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R40" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY40" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS20" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS20" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D21" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY41" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND41" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2332,7 +2361,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R42" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY42" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND42" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS21" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS21" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D22" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY43" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2341,7 +2370,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R44" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY44" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS22" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS22" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D23" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY45" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2350,7 +2379,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R46" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY46" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND46" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS23" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS23" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D24" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY47" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2359,7 +2388,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R48" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY48" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS24" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS24" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D25" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY49" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2368,7 +2397,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R50" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY50" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND50" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS25" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS25" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D26" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY51" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND51" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2377,7 +2406,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R52" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY52" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND52" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS26" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS26" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D27" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY53" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND53" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2386,7 +2415,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R54" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY54" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND54" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS27" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS27" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D28" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY55" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND55" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2395,7 +2424,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R56" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY56" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND56" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS28" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS28" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D29" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY57" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND57" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2404,7 +2433,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R58" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY58" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND58" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS29" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS29" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D30" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY59" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND59" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2413,7 +2442,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R60" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY60" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND60" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS30" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS30" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D31" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY61" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND61" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2422,7 +2451,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R62" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY62" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND62" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS31" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS31" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D32" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY63" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND63" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2431,7 +2460,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R64" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY64" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND64" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS32" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS32" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D33" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY65" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND65" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2440,7 +2469,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R66" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY66" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND66" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS33" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS33" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D34" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY67" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND67" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2449,7 +2478,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R68" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY68" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND68" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS34" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS34" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D35" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY69" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND69" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2458,7 +2487,7 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R70" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY70" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND70" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LS35" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/1"/>
+<part name="LS35" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="D36" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
 <part name="SUPPLY71" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND71" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2467,12 +2496,12 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="R72" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="75"/>
 <part name="SUPPLY72" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND72" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead+" deviceset="PINHD-2X8" device="SMT"/>
-<part name="U$1" library="analog-devices" deviceset="ADG732" device=""/>
-<part name="SUPPLY73" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="GND73" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="JP1" library="pinhead+" library_urn="urn:adsk.eagle:library:2032525" deviceset="PINHD-2X8" device="SMT" package3d_urn="urn:adsk.eagle:package:2032807/2"/>
+<part name="U$1" library="analog-devices" library_urn="urn:adsk.eagle:library:2033836" deviceset="ADG732" device="" package3d_urn="urn:adsk.eagle:package:2034172/2"/>
 <part name="SUPPLY74" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND74" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND73" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="SUPPLY73" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2805,10 +2834,10 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <instance part="GND72" gate="1" x="215.9" y="-342.9"/>
 <instance part="JP1" gate="A" x="274.32" y="106.68"/>
 <instance part="U$1" gate="G$1" x="297.18" y="43.18"/>
-<instance part="SUPPLY73" gate="G$1" x="264.16" y="116.84"/>
-<instance part="GND73" gate="1" x="287.02" y="91.44"/>
 <instance part="SUPPLY74" gate="G$1" x="281.94" y="2.54"/>
 <instance part="GND74" gate="1" x="307.34" y="5.08"/>
+<instance part="GND73" gate="1" x="248.92" y="93.98"/>
+<instance part="SUPPLY73" gate="G$1" x="248.92" y="106.68"/>
 </instances>
 <busses>
 </busses>
@@ -2828,9 +2857,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="111.76" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="271.78" y1="111.76" x2="266.7" y2="111.76" width="0.1524" layer="91"/>
-<label x="266.7" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="A" pin="5"/>
+<wire x1="271.78" y1="109.22" x2="266.7" y2="109.22" width="0.1524" layer="91"/>
+<label x="266.7" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3375,18 +3404,6 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="215.9" y1="-340.36" x2="215.9" y2="-337.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="14"/>
-<wire x1="279.4" y1="99.06" x2="287.02" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="99.06" x2="287.02" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="GND73" gate="1" pin="GND"/>
-<pinref part="JP1" gate="A" pin="16"/>
-<wire x1="287.02" y1="96.52" x2="287.02" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="96.52" x2="281.94" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="96.52" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="96.52" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
-<junction x="287.02" y="96.52"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="307.34" y1="12.7" x2="307.34" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VSS"/>
@@ -3395,6 +3412,16 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="307.34" y1="10.16" x2="307.34" y2="7.62" width="0.1524" layer="91"/>
 <junction x="307.34" y="10.16"/>
 <pinref part="GND74" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="13"/>
+<wire x1="271.78" y1="99.06" x2="248.92" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="99.06" x2="248.92" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="GND73" gate="1" pin="GND"/>
+<pinref part="JP1" gate="A" pin="11"/>
+<wire x1="271.78" y1="101.6" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="101.6" x2="248.92" y2="99.06" width="0.1524" layer="91"/>
+<junction x="248.92" y="99.06"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3766,12 +3793,6 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="187.96" y1="-314.96" x2="187.96" y2="-317.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="271.78" y1="114.3" x2="264.16" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="114.3" x2="264.16" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="SUPPLY73" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="VDD"/>
 <wire x1="281.94" y1="12.7" x2="281.94" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="10.16" x2="284.48" y2="10.16" width="0.1524" layer="91"/>
@@ -3781,6 +3802,12 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="284.48" y1="10.16" x2="284.48" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="2.54" x2="281.94" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY74" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="9"/>
+<wire x1="271.78" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="SUPPLY73" gate="G$1" pin="3.3V"/>
+<wire x1="248.92" y1="104.14" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3959,9 +3986,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="66.04" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="279.4" y1="114.3" x2="284.48" y2="114.3" width="0.1524" layer="91"/>
-<label x="284.48" y="114.3" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="7"/>
+<wire x1="271.78" y1="106.68" x2="266.7" y2="106.68" width="0.1524" layer="91"/>
+<label x="266.7" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS2" class="0">
@@ -3979,9 +4006,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="154.94" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="279.4" y1="111.76" x2="284.48" y2="111.76" width="0.1524" layer="91"/>
-<label x="284.48" y="111.76" size="1.778" layer="95" xref="yes"/>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="271.78" y1="111.76" x2="266.7" y2="111.76" width="0.1524" layer="91"/>
+<label x="266.7" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS3" class="0">
@@ -3999,9 +4026,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="200.66" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="5"/>
-<wire x1="271.78" y1="109.22" x2="266.7" y2="109.22" width="0.1524" layer="91"/>
-<label x="266.7" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="271.78" y1="114.3" x2="266.7" y2="114.3" width="0.1524" layer="91"/>
+<label x="266.7" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS4" class="0">
@@ -4019,9 +4046,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="66.04" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S1"/>
-<wire x1="266.7" y1="27.94" x2="264.16" y2="27.94" width="0.1524" layer="91"/>
-<label x="264.16" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S12"/>
+<wire x1="266.7" y1="55.88" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
+<label x="264.16" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS5" class="0">
@@ -4039,9 +4066,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="111.76" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S2"/>
-<wire x1="266.7" y1="30.48" x2="264.16" y2="30.48" width="0.1524" layer="91"/>
-<label x="264.16" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S11"/>
+<wire x1="266.7" y1="53.34" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
+<label x="264.16" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS6" class="0">
@@ -4059,9 +4086,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="154.94" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S3"/>
-<wire x1="266.7" y1="33.02" x2="264.16" y2="33.02" width="0.1524" layer="91"/>
-<label x="264.16" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S10"/>
+<wire x1="266.7" y1="50.8" x2="264.16" y2="50.8" width="0.1524" layer="91"/>
+<label x="264.16" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS7" class="0">
@@ -4079,9 +4106,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="200.66" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S4"/>
-<wire x1="266.7" y1="35.56" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
-<label x="264.16" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S9"/>
+<wire x1="266.7" y1="48.26" x2="264.16" y2="48.26" width="0.1524" layer="91"/>
+<label x="264.16" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS8" class="0">
@@ -4099,9 +4126,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="66.04" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S5"/>
-<wire x1="266.7" y1="38.1" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
-<label x="264.16" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S13"/>
+<wire x1="281.94" y1="71.12" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
+<label x="281.94" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LS9" class="0">
@@ -4119,9 +4146,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="111.76" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S6"/>
-<wire x1="266.7" y1="40.64" x2="264.16" y2="40.64" width="0.1524" layer="91"/>
-<label x="264.16" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S14"/>
+<wire x1="284.48" y1="71.12" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
+<label x="284.48" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LS10" class="0">
@@ -4139,9 +4166,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="154.94" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S7"/>
-<wire x1="266.7" y1="43.18" x2="264.16" y2="43.18" width="0.1524" layer="91"/>
-<label x="264.16" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S15"/>
+<wire x1="287.02" y1="71.12" x2="287.02" y2="73.66" width="0.1524" layer="91"/>
+<label x="287.02" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LS11" class="0">
@@ -4159,9 +4186,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="200.66" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S8"/>
-<wire x1="264.16" y1="45.72" x2="266.7" y2="45.72" width="0.1524" layer="91"/>
-<label x="264.16" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S16"/>
+<wire x1="289.56" y1="71.12" x2="289.56" y2="73.66" width="0.1524" layer="91"/>
+<label x="289.56" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LS12" class="0">
@@ -4179,9 +4206,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="66.04" y="-53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S9"/>
-<wire x1="266.7" y1="48.26" x2="264.16" y2="48.26" width="0.1524" layer="91"/>
-<label x="264.16" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S32"/>
+<wire x1="302.26" y1="71.12" x2="302.26" y2="73.66" width="0.1524" layer="91"/>
+<label x="302.26" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LS13" class="0">
@@ -4199,9 +4226,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="111.76" y="-53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S10"/>
-<wire x1="266.7" y1="50.8" x2="264.16" y2="50.8" width="0.1524" layer="91"/>
-<label x="264.16" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S31"/>
+<wire x1="304.8" y1="71.12" x2="304.8" y2="73.66" width="0.1524" layer="91"/>
+<label x="304.8" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LS14" class="0">
@@ -4219,9 +4246,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="154.94" y="-53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S11"/>
-<wire x1="266.7" y1="53.34" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
-<label x="264.16" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S30"/>
+<wire x1="307.34" y1="71.12" x2="307.34" y2="73.66" width="0.1524" layer="91"/>
+<label x="307.34" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LS15" class="0">
@@ -4239,9 +4266,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="200.66" y="-53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S12"/>
-<wire x1="266.7" y1="55.88" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
-<label x="264.16" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S29"/>
+<wire x1="309.88" y1="71.12" x2="309.88" y2="73.66" width="0.1524" layer="91"/>
+<label x="309.88" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="LS16" class="0">
@@ -4259,9 +4286,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="66.04" y="-109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S13"/>
-<wire x1="281.94" y1="71.12" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
-<label x="281.94" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S28"/>
+<wire x1="325.12" y1="55.88" x2="327.66" y2="55.88" width="0.1524" layer="91"/>
+<label x="327.66" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS17" class="0">
@@ -4279,9 +4306,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="111.76" y="-109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S14"/>
-<wire x1="284.48" y1="71.12" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
-<label x="284.48" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S27"/>
+<wire x1="325.12" y1="53.34" x2="327.66" y2="53.34" width="0.1524" layer="91"/>
+<label x="327.66" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS18" class="0">
@@ -4299,9 +4326,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="154.94" y="-109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S15"/>
-<wire x1="287.02" y1="71.12" x2="287.02" y2="73.66" width="0.1524" layer="91"/>
-<label x="287.02" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S26"/>
+<wire x1="325.12" y1="50.8" x2="327.66" y2="50.8" width="0.1524" layer="91"/>
+<label x="327.66" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS19" class="0">
@@ -4319,9 +4346,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="200.66" y="-109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S16"/>
-<wire x1="289.56" y1="71.12" x2="289.56" y2="73.66" width="0.1524" layer="91"/>
-<label x="289.56" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S25"/>
+<wire x1="325.12" y1="48.26" x2="327.66" y2="48.26" width="0.1524" layer="91"/>
+<label x="327.66" y="48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS20" class="0">
@@ -4339,9 +4366,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="66.04" y="-162.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S17"/>
-<wire x1="325.12" y1="27.94" x2="327.66" y2="27.94" width="0.1524" layer="91"/>
-<label x="327.66" y="27.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S24"/>
+<wire x1="325.12" y1="45.72" x2="327.66" y2="45.72" width="0.1524" layer="91"/>
+<label x="327.66" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS21" class="0">
@@ -4359,9 +4386,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="111.76" y="-162.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S18"/>
-<wire x1="325.12" y1="30.48" x2="327.66" y2="30.48" width="0.1524" layer="91"/>
-<label x="327.66" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S23"/>
+<wire x1="325.12" y1="43.18" x2="327.66" y2="43.18" width="0.1524" layer="91"/>
+<label x="327.66" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS22" class="0">
@@ -4379,9 +4406,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="154.94" y="-162.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S19"/>
-<wire x1="325.12" y1="33.02" x2="327.66" y2="33.02" width="0.1524" layer="91"/>
-<label x="327.66" y="33.02" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S22"/>
+<wire x1="325.12" y1="40.64" x2="327.66" y2="40.64" width="0.1524" layer="91"/>
+<label x="327.66" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS23" class="0">
@@ -4399,9 +4426,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="200.66" y="-162.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S20"/>
-<wire x1="325.12" y1="35.56" x2="327.66" y2="35.56" width="0.1524" layer="91"/>
-<label x="327.66" y="35.56" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S21"/>
+<wire x1="325.12" y1="38.1" x2="327.66" y2="38.1" width="0.1524" layer="91"/>
+<label x="327.66" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -4503,9 +4530,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="66.04" y="-220.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S21"/>
-<wire x1="325.12" y1="38.1" x2="327.66" y2="38.1" width="0.1524" layer="91"/>
-<label x="327.66" y="38.1" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S20"/>
+<wire x1="325.12" y1="35.56" x2="327.66" y2="35.56" width="0.1524" layer="91"/>
+<label x="327.66" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS25" class="0">
@@ -4523,9 +4550,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="111.76" y="-220.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S22"/>
-<wire x1="325.12" y1="40.64" x2="327.66" y2="40.64" width="0.1524" layer="91"/>
-<label x="327.66" y="40.64" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S19"/>
+<wire x1="325.12" y1="33.02" x2="327.66" y2="33.02" width="0.1524" layer="91"/>
+<label x="327.66" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS26" class="0">
@@ -4543,9 +4570,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="154.94" y="-220.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S23"/>
-<wire x1="325.12" y1="43.18" x2="327.66" y2="43.18" width="0.1524" layer="91"/>
-<label x="327.66" y="43.18" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S18"/>
+<wire x1="325.12" y1="30.48" x2="327.66" y2="30.48" width="0.1524" layer="91"/>
+<label x="327.66" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS27" class="0">
@@ -4563,9 +4590,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="200.66" y="-220.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S24"/>
-<wire x1="325.12" y1="45.72" x2="327.66" y2="45.72" width="0.1524" layer="91"/>
-<label x="327.66" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S17"/>
+<wire x1="325.12" y1="27.94" x2="327.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="327.66" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS28" class="0">
@@ -4583,9 +4610,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="66.04" y="-276.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S25"/>
-<wire x1="325.12" y1="48.26" x2="327.66" y2="48.26" width="0.1524" layer="91"/>
-<label x="327.66" y="48.26" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S1"/>
+<wire x1="266.7" y1="27.94" x2="264.16" y2="27.94" width="0.1524" layer="91"/>
+<label x="264.16" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS29" class="0">
@@ -4603,9 +4630,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="111.76" y="-276.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S26"/>
-<wire x1="325.12" y1="50.8" x2="327.66" y2="50.8" width="0.1524" layer="91"/>
-<label x="327.66" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S2"/>
+<wire x1="266.7" y1="30.48" x2="264.16" y2="30.48" width="0.1524" layer="91"/>
+<label x="264.16" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS30" class="0">
@@ -4623,9 +4650,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="154.94" y="-276.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S27"/>
-<wire x1="325.12" y1="53.34" x2="327.66" y2="53.34" width="0.1524" layer="91"/>
-<label x="327.66" y="53.34" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S3"/>
+<wire x1="266.7" y1="33.02" x2="264.16" y2="33.02" width="0.1524" layer="91"/>
+<label x="264.16" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS31" class="0">
@@ -4643,9 +4670,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="200.66" y="-276.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S28"/>
-<wire x1="325.12" y1="55.88" x2="327.66" y2="55.88" width="0.1524" layer="91"/>
-<label x="327.66" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S4"/>
+<wire x1="266.7" y1="35.56" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
+<label x="264.16" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS32" class="0">
@@ -4663,9 +4690,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="66.04" y="-330.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S29"/>
-<wire x1="309.88" y1="71.12" x2="309.88" y2="73.66" width="0.1524" layer="91"/>
-<label x="309.88" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S5"/>
+<wire x1="266.7" y1="38.1" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
+<label x="264.16" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS33" class="0">
@@ -4683,9 +4710,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="111.76" y="-330.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S30"/>
-<wire x1="307.34" y1="71.12" x2="307.34" y2="73.66" width="0.1524" layer="91"/>
-<label x="307.34" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S6"/>
+<wire x1="266.7" y1="40.64" x2="264.16" y2="40.64" width="0.1524" layer="91"/>
+<label x="264.16" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS34" class="0">
@@ -4703,9 +4730,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="154.94" y="-330.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S31"/>
-<wire x1="304.8" y1="71.12" x2="304.8" y2="73.66" width="0.1524" layer="91"/>
-<label x="304.8" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S7"/>
+<wire x1="266.7" y1="43.18" x2="264.16" y2="43.18" width="0.1524" layer="91"/>
+<label x="264.16" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LS35" class="0">
@@ -4723,33 +4750,33 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <label x="200.66" y="-330.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S32"/>
-<wire x1="302.26" y1="71.12" x2="302.26" y2="73.66" width="0.1524" layer="91"/>
-<label x="302.26" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="S8"/>
+<wire x1="264.16" y1="45.72" x2="266.7" y2="45.72" width="0.1524" layer="91"/>
+<label x="264.16" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A1" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="8"/>
-<wire x1="279.4" y1="106.68" x2="284.48" y2="106.68" width="0.1524" layer="91"/>
-<label x="284.48" y="106.68" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A1"/>
 <wire x1="289.56" y1="12.7" x2="289.56" y2="10.16" width="0.1524" layer="91"/>
 <label x="289.56" y="10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="279.4" y1="114.3" x2="284.48" y2="114.3" width="0.1524" layer="91"/>
+<label x="284.48" y="114.3" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="A3" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="10"/>
-<wire x1="279.4" y1="104.14" x2="284.48" y2="104.14" width="0.1524" layer="91"/>
-<label x="284.48" y="104.14" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A3"/>
 <wire x1="294.64" y1="12.7" x2="294.64" y2="10.16" width="0.1524" layer="91"/>
 <label x="294.64" y="10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="279.4" y1="106.68" x2="284.48" y2="106.68" width="0.1524" layer="91"/>
+<label x="284.48" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS" class="0">
@@ -4766,79 +4793,122 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 </net>
 <net name="A0" class="0">
 <segment>
-<pinref part="JP1" gate="A" pin="7"/>
-<wire x1="271.78" y1="106.68" x2="266.7" y2="106.68" width="0.1524" layer="91"/>
-<label x="266.7" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="A0"/>
 <wire x1="287.02" y1="12.7" x2="287.02" y2="10.16" width="0.1524" layer="91"/>
 <label x="287.02" y="10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="279.4" y1="111.76" x2="284.48" y2="111.76" width="0.1524" layer="91"/>
+<label x="284.48" y="111.76" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="A2" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="9"/>
-<wire x1="271.78" y1="104.14" x2="266.7" y2="104.14" width="0.1524" layer="91"/>
-<label x="266.7" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A2"/>
 <wire x1="292.1" y1="12.7" x2="292.1" y2="10.16" width="0.1524" layer="91"/>
 <label x="292.1" y="10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
-</net>
-<net name="A4" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="11"/>
-<wire x1="271.78" y1="101.6" x2="266.7" y2="101.6" width="0.1524" layer="91"/>
-<label x="266.7" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="A4"/>
-<wire x1="297.18" y1="12.7" x2="297.18" y2="10.16" width="0.1524" layer="91"/>
-<label x="297.18" y="10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="MUX_OUT" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="6"/>
 <wire x1="279.4" y1="109.22" x2="284.48" y2="109.22" width="0.1524" layer="91"/>
 <label x="284.48" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="A4" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="A4"/>
+<wire x1="297.18" y1="12.7" x2="297.18" y2="10.16" width="0.1524" layer="91"/>
+<label x="297.18" y="10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="10"/>
+<wire x1="279.4" y1="104.14" x2="284.48" y2="104.14" width="0.1524" layer="91"/>
+<label x="284.48" y="104.14" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MUX_OUT" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D"/>
 <wire x1="294.64" y1="71.12" x2="294.64" y2="73.66" width="0.1524" layer="91"/>
 <label x="294.64" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
-</net>
-<net name="EN" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="13"/>
-<wire x1="271.78" y1="99.06" x2="266.7" y2="99.06" width="0.1524" layer="91"/>
-<label x="266.7" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="EN"/>
-<wire x1="304.8" y1="12.7" x2="304.8" y2="10.16" width="0.1524" layer="91"/>
-<label x="304.8" y="10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="WR" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="15"/>
 <wire x1="271.78" y1="96.52" x2="266.7" y2="96.52" width="0.1524" layer="91"/>
 <label x="266.7" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="EN" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="EN"/>
+<wire x1="304.8" y1="12.7" x2="304.8" y2="10.16" width="0.1524" layer="91"/>
+<label x="304.8" y="10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="16"/>
+<wire x1="279.4" y1="96.52" x2="284.48" y2="96.52" width="0.1524" layer="91"/>
+<label x="284.48" y="96.52" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="WR" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="WR"/>
 <wire x1="302.26" y1="12.7" x2="302.26" y2="10.16" width="0.1524" layer="91"/>
 <label x="302.26" y="10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="14"/>
+<wire x1="279.4" y1="99.06" x2="284.48" y2="99.06" width="0.1524" layer="91"/>
+<label x="284.48" y="99.06" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,281.94,12.7,U$1,VDD,3.3V,,,"/>
+<approved hash="104,1,284.48,12.7,U$1,VDD_2,3.3V,,,"/>
+<approved hash="104,1,309.88,12.7,U$1,VSS,GND,,,"/>
+<approved hash="103,1,281.94,71.12,U$1,S13,LS8,,,"/>
+<approved hash="113,1,81.6017,49.53,D1,,,,,"/>
+<approved hash="113,1,127.322,49.53,D2,,,,,"/>
+<approved hash="113,1,170.502,49.53,D3,,,,,"/>
+<approved hash="113,1,216.222,49.53,D4,,,,,"/>
+<approved hash="113,1,81.6017,-3.81,D5,,,,,"/>
+<approved hash="113,1,127.322,-3.81,D6,,,,,"/>
+<approved hash="113,1,170.502,-3.81,D7,,,,,"/>
+<approved hash="113,1,216.222,-3.81,D8,,,,,"/>
+<approved hash="113,1,81.6017,-57.15,D9,,,,,"/>
+<approved hash="113,1,127.322,-57.15,D10,,,,,"/>
+<approved hash="113,1,170.502,-57.15,D11,,,,,"/>
+<approved hash="113,1,216.222,-57.15,D12,,,,,"/>
+<approved hash="113,1,81.6017,102.87,D13,,,,,"/>
+<approved hash="113,1,127.322,102.87,D14,,,,,"/>
+<approved hash="113,1,170.502,102.87,D15,,,,,"/>
+<approved hash="113,1,216.222,102.87,D16,,,,,"/>
+<approved hash="113,1,81.6017,-113.03,D17,,,,,"/>
+<approved hash="113,1,127.322,-113.03,D18,,,,,"/>
+<approved hash="113,1,170.502,-113.03,D19,,,,,"/>
+<approved hash="113,1,216.222,-113.03,D20,,,,,"/>
+<approved hash="113,1,81.6017,-166.37,D21,,,,,"/>
+<approved hash="113,1,127.322,-166.37,D22,,,,,"/>
+<approved hash="113,1,170.502,-166.37,D23,,,,,"/>
+<approved hash="113,1,216.222,-166.37,D24,,,,,"/>
+<approved hash="113,1,81.6017,-224.79,D25,,,,,"/>
+<approved hash="113,1,127.322,-224.79,D26,,,,,"/>
+<approved hash="113,1,170.502,-224.79,D27,,,,,"/>
+<approved hash="113,1,216.222,-224.79,D28,,,,,"/>
+<approved hash="113,1,81.6017,-280.67,D29,,,,,"/>
+<approved hash="113,1,127.322,-280.67,D30,,,,,"/>
+<approved hash="113,1,170.502,-280.67,D31,,,,,"/>
+<approved hash="113,1,216.222,-280.67,D32,,,,,"/>
+<approved hash="113,1,81.6017,-334.01,D33,,,,,"/>
+<approved hash="113,1,127.322,-334.01,D34,,,,,"/>
+<approved hash="113,1,170.502,-334.01,D35,,,,,"/>
+<approved hash="113,1,216.222,-334.01,D36,,,,,"/>
+<approved hash="113,1,275.548,106.906,JP1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -1542,6 +1542,9 @@ Source:
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,-7.85707,98.5164,J1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
