@@ -24,20 +24,20 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -4939,6 +4939,14 @@
 <rectangle x1="145.7299625" y1="67.16268125" x2="151.3179625" y2="67.1728375" layer="21"/>
 <text x="53.431440625" y="61.254640625" size="3.81" layer="22" font="vector" ratio="15" rot="MR270">-</text>
 <text x="57.4649625" y="61.24448125" size="3.81" layer="22" font="vector" ratio="15" rot="MR270">+</text>
+<text x="86.624159375" y="104.028240625" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">GND</text>
+<text x="89.214959375" y="104.048559375" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">MOSI</text>
+<text x="91.754959375" y="104.099359375" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">MISO</text>
+<text x="94.223840625" y="104.05871875" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">3.3V</text>
+<text x="85.598003125" y="92.120721875" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">SCKL</text>
+<text x="88.20911875" y="92.161359375" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">CS1</text>
+<text x="90.79991875" y="92.16135625" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">CS2</text>
+<text x="93.380559375" y="92.202" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">CS3</text>
 </plain>
 <libraries>
 <library name="teensy-3.5" urn="urn:adsk.eagle:library:1951252">
@@ -7867,7 +7875,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$2" library="Gyro" package="GYRO" value="GYRO" x="89.9922" y="98.1202" smashed="yes" rot="MR180"/>
 <element name="LIGHT_GATE" library="jst-ph" library_urn="urn:adsk.eagle:library:1951258" package="B5B-PH-K-S" package3d_urn="urn:adsk.eagle:package:1951342/1" value="" x="89.8144" y="112.4204" smashed="yes" rot="MR0">
-<attribute name="NAME" x="95.722959375" y="115.702721875" size="1.27" layer="26" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="94.9" y="115.621440625" size="1.27" layer="26" font="vector" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="95.8144" y="107.9204" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R61" library="SparkFun-Resistors" package="0603-RES" value="1K" x="27.7368" y="127.5588" smashed="yes" rot="R90">

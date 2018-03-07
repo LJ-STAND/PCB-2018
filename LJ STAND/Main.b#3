@@ -7736,12 +7736,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="150.0382" y="78.8926" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="MOTOR_SWITCH" library="jst-vh" package="B2P-VH" value="" x="39.3702" y="44.6026" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.5546" y="39.3656" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="44.676521875" y="38.5629625" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="32.3702" y="47.6026" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="LOGIC_SWITCH" library="jst-vh" package="B2P-VH" value="" x="39.3442" y="56.058" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.945" y="51.0756" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="32.3442" y="59.058" size="1.27" layer="27" rot="R270"/>
+<element name="LOGIC_SWITCH" library="jst-vh" package="B2P-VH" value="" x="37.109" y="56.0072" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.78091875" y="50.831759375" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="30.109" y="59.0072" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C14" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="42.1638" y="129.4132" smashed="yes" rot="R180">
 <attribute name="VALUE" x="40.1572" y="129.845" size="0.4064" layer="27" font="vector" rot="R180"/>
@@ -8683,8 +8683,8 @@ design rules under a new name.</description>
 <via x="14.9352" y="63.9064" extent="1-16" drill="0.508"/>
 <via x="25.3746" y="65.4304" extent="1-16" drill="0.508"/>
 <via x="26.3652" y="52.324" extent="1-16" drill="0.508"/>
-<via x="32.6644" y="57.3786" extent="1-16" drill="0.508"/>
-<via x="32.5882" y="50.3174" extent="1-16" drill="0.508"/>
+<via x="33.528" y="57.195721875" extent="1-16" drill="0.508"/>
+<via x="32.30371875" y="48.265078125" extent="1-16" drill="0.508"/>
 <via x="24.4348" y="44.8056" extent="1-16" drill="0.508"/>
 <via x="29.3116" y="37.7444" extent="1-16" drill="0.508"/>
 <via x="47.6758" y="61.0362" extent="1-16" drill="0.508"/>
@@ -8746,9 +8746,9 @@ design rules under a new name.</description>
 <wire x1="70.2052" y1="51.2558" x2="60.7074" y2="51.2558" width="5.08" layer="1"/>
 <wire x1="60.7074" y1="51.2558" x2="55.245" y2="56.7182" width="5.08" layer="1"/>
 <wire x1="55.245" y1="56.7182" x2="51.954" y2="56.7182" width="5.08" layer="1"/>
-<wire x1="45.466" y1="53.0352" x2="39.5224" y2="53.0352" width="5.08" layer="1"/>
+<wire x1="45.466" y1="53.0352" x2="41.595040625" y2="53.0352" width="5.08" layer="1"/>
+<wire x1="41.595040625" y1="53.0352" x2="39.5224" y2="53.0352" width="5.08" layer="1"/>
 <wire x1="45.466" y1="53.0352" x2="49.1854" y2="56.7546" width="5.08" layer="1"/>
-<wire x1="39.3442" y1="54.078" x2="39.5732" y2="53.849" width="2.54" layer="1"/>
 <wire x1="39.5732" y1="53.086" x2="39.5224" y2="53.0352" width="2.54" layer="1"/>
 <wire x1="39.5732" y1="53.849" x2="39.5732" y2="53.086" width="2.54" layer="1"/>
 <wire x1="39.5224" y1="47.2186" x2="39.5224" y2="53.0352" width="5.08" layer="1"/>
@@ -8757,6 +8757,8 @@ design rules under a new name.</description>
 <wire x1="49.2218" y1="56.7182" x2="51.954" y2="56.7182" width="5.08" layer="1"/>
 <wire x1="51.2318" y1="56.7546" x2="51.2682" y2="56.7182" width="2.54" layer="1"/>
 <wire x1="51.2682" y1="56.7182" x2="51.954" y2="56.7182" width="2.54" layer="1"/>
+<wire x1="37.109" y1="54.0272" x2="38.0502" y2="53.086" width="2.032" layer="1"/>
+<wire x1="38.0502" y1="53.086" x2="39.5732" y2="53.086" width="2.032" layer="1"/>
 </signal>
 <signal name="MOTOR_PWR">
 <contactref element="MOTOR_FUSE" pad="3"/>
@@ -12661,11 +12663,10 @@ design rules under a new name.</description>
 <contactref element="LOGIC_SWITCH" pad="1"/>
 <contactref element="LOGIC_FUSE" pad="1"/>
 <contactref element="LOGIC_FUSE" pad="2"/>
-<wire x1="39.3442" y1="58.038" x2="43.8656" y2="62.5594" width="2.032" layer="1"/>
-<wire x1="43.8656" y1="62.5594" x2="43.8656" y2="65.5066" width="2.032" layer="1"/>
+<wire x1="43.8656" y1="65.5066" x2="43.8656" y2="62.5594" width="2.032" layer="1"/>
 <wire x1="43.8656" y1="65.5066" x2="43.8656" y2="68.9102" width="2.032" layer="1"/>
-</signal>
-<signal name="N$7">
+<wire x1="43.8656" y1="62.5594" x2="39.2934" y2="57.9872" width="2.032" layer="1"/>
+<wire x1="39.2934" y1="57.9872" x2="37.109" y2="57.9872" width="2.032" layer="1"/>
 </signal>
 <signal name="LED_A_CTRL">
 <contactref element="SLAVE_DEBUG" pad="2"/>

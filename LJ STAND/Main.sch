@@ -14172,8 +14172,9 @@ Source:
 <wire x1="-68.58" y1="-10.16" x2="-68.58" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="GND99" gate="1" pin="GND"/>
 <wire x1="-68.58" y1="-10.16" x2="-68.58" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="-7.62" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-68.58" y="-10.16"/>
+<pinref part="LIGHT_GATE" gate="G$1" pin="4"/>
+<wire x1="-60.96" y1="-7.62" x2="-68.58" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -17088,12 +17089,6 @@ Source:
 <wire x1="55.88" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
 <junction x="58.42" y="119.38"/>
 <label x="73.66" y="119.38" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="N$61" class="0">
-<segment>
-<pinref part="LIGHT_GATE" gate="G$1" pin="4"/>
-<wire x1="-60.96" y1="-7.62" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$58" class="0">

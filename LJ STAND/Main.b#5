@@ -13354,9 +13354,30 @@ design rules under a new name.</description>
 </signal>
 <signal name="LIGHT_GATE_OUT">
 <contactref element="LIGHT_GATE" pad="2"/>
+<contactref element="MASTER" pad="20"/>
+<wire x1="66.446" y1="119.2018" x2="72.6186" y2="125.3744" width="0.3048" layer="16"/>
+<wire x1="72.6186" y1="125.3744" x2="79.100265625" y2="125.3744" width="0.3048" layer="16"/>
+<wire x1="84.754" y1="111.9811625" x2="85.3751625" y2="111.36" width="0.3048" layer="16"/>
+<wire x1="85.3751625" y1="111.36" x2="90.2536375" y2="111.36" width="0.3048" layer="16"/>
+<wire x1="84.754" y1="119.720665625" x2="84.754" y2="111.9811625" width="0.3048" layer="16"/>
+<wire x1="90.2536375" y1="111.36" x2="91.3140375" y2="112.4204" width="0.3048" layer="16"/>
+<wire x1="91.3140375" y1="112.4204" x2="91.8144" y2="112.4204" width="0.3048" layer="16"/>
+<wire x1="79.100265625" y1="125.3744" x2="84.754" y2="119.720665625" width="0.3048" layer="16"/>
 </signal>
 <signal name="LIGHT_GATE_LASER">
 <contactref element="LIGHT_GATE" pad="3"/>
+<contactref element="MASTER" pad="23"/>
+<contactref element="MASTER" pad="21"/>
+<contactref element="MASTER" pad="22"/>
+<wire x1="89.8144" y1="112.4204" x2="89.59088125" y2="112.64391875" width="0.3048" layer="16"/>
+<wire x1="89.59088125" y1="112.64391875" x2="89.59088125" y2="115.60220625" width="0.3048" layer="16"/>
+<wire x1="73.34766875" y1="127.9144" x2="73.32735" y2="127.89408125" width="0.3048" layer="16"/>
+<wire x1="89.59088125" y1="115.60220625" x2="77.2786875" y2="127.9144" width="0.3048" layer="16"/>
+<wire x1="77.2786875" y1="127.9144" x2="73.34766875" y2="127.9144" width="0.3048" layer="16"/>
+<wire x1="67.51828125" y1="127.89408125" x2="66.446" y2="126.8218" width="0.3048" layer="16"/>
+<wire x1="73.32735" y1="127.89408125" x2="67.51828125" y2="127.89408125" width="0.3048" layer="16"/>
+<wire x1="66.446" y1="126.8218" x2="66.446" y2="124.2818" width="0.3048" layer="16"/>
+<wire x1="66.446" y1="124.2818" x2="66.446" y2="121.7418" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$61">
 <contactref element="LIGHT_GATE" pad="4"/>

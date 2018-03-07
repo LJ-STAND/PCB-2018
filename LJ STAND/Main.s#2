@@ -16708,11 +16708,6 @@ Source:
 <wire x1="-137.16" y1="119.38" x2="-132.08" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="271.78" y1="116.84" x2="271.78" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="LED_A_CTRL" class="0">
 <segment>
 <pinref part="SLAVE_DEBUG" gate="G$1" pin="2/PWM"/>

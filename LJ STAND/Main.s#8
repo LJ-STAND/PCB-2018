@@ -15595,12 +15595,22 @@ Source:
 <wire x1="-193.04" y1="-195.58" x2="-190.5" y2="-195.58" width="0.1524" layer="91"/>
 <label x="-190.5" y="-195.58" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SLAVE_DEBUG" gate="G$1" pin="24"/>
+<wire x1="304.8" y1="63.5" x2="302.26" y2="63.5" width="0.1524" layer="91"/>
+<label x="302.26" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SCREEN_D1" class="0">
 <segment>
 <pinref part="SCREEN" gate="G$1" pin="D1"/>
 <wire x1="-193.04" y1="-200.66" x2="-190.5" y2="-200.66" width="0.1524" layer="91"/>
 <label x="-190.5" y="-200.66" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SLAVE_DEBUG" gate="G$1" pin="25"/>
+<wire x1="304.8" y1="58.42" x2="302.26" y2="58.42" width="0.1524" layer="91"/>
+<label x="302.26" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCREEN_D2" class="0">
@@ -15609,12 +15619,22 @@ Source:
 <wire x1="-193.04" y1="-205.74" x2="-190.5" y2="-205.74" width="0.1524" layer="91"/>
 <label x="-190.5" y="-205.74" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SLAVE_DEBUG" gate="G$1" pin="26"/>
+<wire x1="304.8" y1="53.34" x2="302.26" y2="53.34" width="0.1524" layer="91"/>
+<label x="302.26" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SCREEN_D3" class="0">
 <segment>
 <pinref part="SCREEN" gate="G$1" pin="D3"/>
 <wire x1="-193.04" y1="-210.82" x2="-190.5" y2="-210.82" width="0.1524" layer="91"/>
 <label x="-190.5" y="-210.82" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SLAVE_DEBUG" gate="G$1" pin="27"/>
+<wire x1="304.8" y1="48.26" x2="302.26" y2="48.26" width="0.1524" layer="91"/>
+<label x="302.26" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCREEN_D4" class="0">
@@ -15623,12 +15643,22 @@ Source:
 <wire x1="-193.04" y1="-215.9" x2="-190.5" y2="-215.9" width="0.1524" layer="91"/>
 <label x="-190.5" y="-215.9" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SLAVE_DEBUG" gate="G$1" pin="28"/>
+<wire x1="304.8" y1="43.18" x2="302.26" y2="43.18" width="0.1524" layer="91"/>
+<label x="302.26" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SCREEN_D5" class="0">
 <segment>
 <pinref part="SCREEN" gate="G$1" pin="D5"/>
 <wire x1="-193.04" y1="-220.98" x2="-190.5" y2="-220.98" width="0.1524" layer="91"/>
 <label x="-190.5" y="-220.98" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SLAVE_DEBUG" gate="G$1" pin="29/PWM"/>
+<wire x1="304.8" y1="38.1" x2="302.26" y2="38.1" width="0.1524" layer="91"/>
+<label x="302.26" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCREEN_D6" class="0">
@@ -15637,12 +15667,22 @@ Source:
 <wire x1="-193.04" y1="-226.06" x2="-190.5" y2="-226.06" width="0.1524" layer="91"/>
 <label x="-190.5" y="-226.06" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SLAVE_DEBUG" gate="G$1" pin="30/PWM"/>
+<wire x1="304.8" y1="33.02" x2="302.26" y2="33.02" width="0.1524" layer="91"/>
+<label x="302.26" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SCREEN_D7" class="0">
 <segment>
 <pinref part="SCREEN" gate="G$1" pin="D7"/>
 <wire x1="-193.04" y1="-231.14" x2="-190.5" y2="-231.14" width="0.1524" layer="91"/>
 <label x="-190.5" y="-231.14" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SLAVE_DEBUG" gate="G$1" pin="31/A12/RX4/CS1"/>
+<wire x1="304.8" y1="27.94" x2="302.26" y2="27.94" width="0.1524" layer="91"/>
+<label x="302.26" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCREEN_X+" class="0">
@@ -17100,62 +17140,6 @@ Source:
 <pinref part="Q3" gate="G$1" pin="B"/>
 <pinref part="R62" gate="G$1" pin="2"/>
 <wire x1="459.74" y1="101.6" x2="457.2" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="D0" class="0">
-<segment>
-<pinref part="SLAVE_DEBUG" gate="G$1" pin="24"/>
-<wire x1="304.8" y1="63.5" x2="302.26" y2="63.5" width="0.1524" layer="91"/>
-<label x="302.26" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="D1" class="0">
-<segment>
-<pinref part="SLAVE_DEBUG" gate="G$1" pin="25"/>
-<wire x1="304.8" y1="58.42" x2="302.26" y2="58.42" width="0.1524" layer="91"/>
-<label x="302.26" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="D2" class="0">
-<segment>
-<pinref part="SLAVE_DEBUG" gate="G$1" pin="26"/>
-<wire x1="304.8" y1="53.34" x2="302.26" y2="53.34" width="0.1524" layer="91"/>
-<label x="302.26" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="D3" class="0">
-<segment>
-<pinref part="SLAVE_DEBUG" gate="G$1" pin="27"/>
-<wire x1="304.8" y1="48.26" x2="302.26" y2="48.26" width="0.1524" layer="91"/>
-<label x="302.26" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="D4" class="0">
-<segment>
-<pinref part="SLAVE_DEBUG" gate="G$1" pin="28"/>
-<wire x1="304.8" y1="43.18" x2="302.26" y2="43.18" width="0.1524" layer="91"/>
-<label x="302.26" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="D5" class="0">
-<segment>
-<pinref part="SLAVE_DEBUG" gate="G$1" pin="29/PWM"/>
-<wire x1="304.8" y1="38.1" x2="302.26" y2="38.1" width="0.1524" layer="91"/>
-<label x="302.26" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="D6" class="0">
-<segment>
-<pinref part="SLAVE_DEBUG" gate="G$1" pin="30/PWM"/>
-<wire x1="304.8" y1="33.02" x2="302.26" y2="33.02" width="0.1524" layer="91"/>
-<label x="302.26" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="D7" class="0">
-<segment>
-<pinref part="SLAVE_DEBUG" gate="G$1" pin="31/A12/RX4/CS1"/>
-<wire x1="304.8" y1="27.94" x2="302.26" y2="27.94" width="0.1524" layer="91"/>
-<label x="302.26" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

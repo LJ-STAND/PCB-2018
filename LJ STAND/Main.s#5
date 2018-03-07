@@ -3206,7 +3206,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <library name="VNH5050ATR-E">
 <packages>
 <package name="SOP50P1030X247-36N">
-<text x="-5.59686875" y="5.43366875" size="1.271559375" layer="25">VNH5050ATR-E</text>
 <circle x="-6.505" y="4.6" radius="0.2" width="0" layer="21"/>
 <circle x="-6.505" y="4.6" radius="0.2" width="0" layer="51"/>
 <wire x1="-3.75" y1="5.15" x2="3.75" y2="5.15" width="0.127" layer="51"/>
