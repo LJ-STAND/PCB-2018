@@ -3127,22 +3127,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="7.6" y1="12.4" x2="7.6" y2="-6.1" width="0.127" layer="21"/>
 <wire x1="7.6" y1="-6.1" x2="-5.9" y2="-6.1" width="0.127" layer="21"/>
 <wire x1="-5.9" y1="-6.1" x2="-5.9" y2="12.4" width="0.127" layer="21"/>
-<text x="-4.318" y="3.81" size="0.254" layer="25" ratio="1">UART_TX</text>
-<text x="-4.318" y="5.334" size="0.254" layer="25" ratio="1">UART_RTS</text>
-<text x="-4.318" y="2.286" size="0.254" layer="25" ratio="1">UART_CTS</text>
-<text x="-4.318" y="0.762" size="0.254" layer="25" ratio="1">UART_RX</text>
-<text x="-4.318" y="-0.762" size="0.254" layer="25" ratio="1">NC1</text>
-<text x="-4.318" y="-2.286" size="0.254" layer="25" ratio="1">NC2</text>
-<text x="-4.318" y="-3.81" size="0.254" layer="25" ratio="1">NV1</text>
-<text x="-4.318" y="-5.08" size="0.254" layer="25" ratio="1">NV2</text>
-<text x="4.572" y="-5.08" size="0.254" layer="25" ratio="1">VCC</text>
-<text x="4.572" y="-3.81" size="0.254" layer="25" ratio="1">NC3</text>
-<text x="4.572" y="-2.286" size="0.254" layer="25" ratio="1">RESETB</text>
-<text x="4.572" y="-0.762" size="0.254" layer="25" ratio="1">GND</text>
-<text x="4.572" y="0.762" size="0.254" layer="25" ratio="1">PIO3</text>
-<text x="4.572" y="2.286" size="0.254" layer="25" ratio="1">PIO2</text>
-<text x="4.572" y="3.81" size="0.254" layer="25" ratio="1">PIO1</text>
-<text x="4.572" y="5.334" size="0.254" layer="25" ratio="1">PIO0</text>
 <text x="-3.81" y="10.16" size="1.016" layer="25" font="vector">&gt;NAME</text>
 </package>
 </packages>
@@ -16724,11 +16708,6 @@ Source:
 <wire x1="-137.16" y1="119.38" x2="-132.08" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="271.78" y1="116.84" x2="271.78" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="LED_A_CTRL" class="0">
 <segment>
 <pinref part="SLAVE_DEBUG" gate="G$1" pin="2/PWM"/>
@@ -17085,12 +17064,30 @@ Source:
 <wire x1="-60.96" y1="-2.54" x2="-66.04" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-66.04" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="MASTER" gate="G$1" pin="20/A6/PWM/CS0"/>
+<wire x1="55.88" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
+<label x="58.42" y="109.22" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="LIGHT_GATE_LASER" class="0">
 <segment>
 <pinref part="LIGHT_GATE" gate="G$1" pin="3"/>
 <wire x1="-60.96" y1="-5.08" x2="-66.04" y2="-5.08" width="0.1524" layer="91"/>
 <label x="-66.04" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MASTER" gate="G$1" pin="23/A9/PWM"/>
+<wire x1="55.88" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="MASTER" gate="G$1" pin="21/A7/PWM/CS0"/>
+<wire x1="55.88" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="124.46" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="119.38" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="119.38" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="MASTER" gate="G$1" pin="22/A8/PWM"/>
+<wire x1="55.88" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
+<junction x="58.42" y="119.38"/>
+<label x="73.66" y="119.38" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$61" class="0">
