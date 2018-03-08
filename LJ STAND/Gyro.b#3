@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -155,7 +155,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTBjMzI3" projecturn="a.cGVyc29uYWw6dWUyYTBjMzI3IzIwMTgwMjIxMTE4OTc1ODMx" f3durn="urn:adsk.wipprod:dm.lineage:Tke1iICORnWAOaZ-JwScow" pcbguid="213e2727-0e72-4588-9cd1-dbc844d016ae" lastpulledtime="2018-03-06T07:18:50Z" lastsyncedchangeguid="2919e83e-61c9-4f83-928e-f3e3658d2175"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTBjMzI3" projecturn="a.cGVyc29uYWw6dWUyYTBjMzI3IzIwMTgwMjIxMTE4OTc1ODMx" f3durn="urn:adsk.wipprod:dm.lineage:Tke1iICORnWAOaZ-JwScow" pcbguid="213e2727-0e72-4588-9cd1-dbc844d016ae" lastpulledtime="2018-03-06T07:18:50Z" lastsyncedchangeguid="c907a5bb-626c-7caf-5af6-95de0cbd069e"/>
 <plain>
 <wire x1="2" y1="20.32" x2="0" y2="18.32" width="0.254" layer="20" curve="90"/>
 <wire x1="0" y1="18.32" x2="0" y2="2" width="0.254" layer="20"/>

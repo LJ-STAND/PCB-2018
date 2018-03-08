@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -276,6 +276,9 @@
 </packages>
 <packages3d>
 <package3d name="TEENSY-3.5" urn="urn:adsk.eagle:package:1951255/3" type="model" library_version="3" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="TEENSY-3.5"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -1370,7 +1373,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="_D2PAK(TO-263AB)" package="D2PAK(TO-263AB)">
 <connects>
-<connect gate="G$1" pin="ANODE" pad="A"/>
+<connect gate="G$1" pin="ANODE" pad="A NOP"/>
 <connect gate="G$1" pin="CATHODE" pad="C"/>
 </connects>
 <technologies>
@@ -2569,6 +2572,9 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </packages>
 <packages3d>
 <package3d name="OPENMV3" urn="urn:adsk.eagle:package:1989053/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="OPENMV3"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -2874,38 +2880,68 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 </package>
 </packages>
 <packages3d>
+<package3d name="LED-0603" urn="urn:adsk.eagle:package:1982017/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="LED-0603"/>
+</packageinstances>
+</package3d>
+<package3d name="WS2812B" urn="urn:adsk.eagle:package:1982049/1" type="box" library_version="2">
+<description>Intelligent control LED with integrated light source
+WS2812B
+source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</description>
+<packageinstances>
+<packageinstance name="WS2812B"/>
+</packageinstances>
+</package3d>
 <package3d name="LED5MM" urn="urn:adsk.eagle:package:1982014/1" type="box" library_version="2">
 <description>LED
 5 mm, round</description>
+<packageinstances>
+<packageinstance name="LED5MM"/>
+</packageinstances>
 </package3d>
 <package3d name="LED3MM" urn="urn:adsk.eagle:package:1982016/1" type="box" library_version="2">
 <description>LED
 3 mm, round</description>
+<packageinstances>
+<packageinstance name="LED3MM"/>
+</packageinstances>
 </package3d>
 <package3d name="LED-1206" urn="urn:adsk.eagle:package:1982015/1" type="box" library_version="2">
-</package3d>
-<package3d name="LED-0603" urn="urn:adsk.eagle:package:1982017/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="LED-1206"/>
+</packageinstances>
 </package3d>
 <package3d name="LED10MM" urn="urn:adsk.eagle:package:1982019/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="LED10MM"/>
+</packageinstances>
 </package3d>
 <package3d name="FKIT-LED-1206" urn="urn:adsk.eagle:package:1982021/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="FKIT-LED-1206"/>
+</packageinstances>
 </package3d>
 <package3d name="LED3MM-NS" urn="urn:adsk.eagle:package:1982018/1" type="box" library_version="2">
 <description>LED 3MM - No Silk
 3 mm, round</description>
+<packageinstances>
+<packageinstance name="LED3MM-NS"/>
+</packageinstances>
 </package3d>
 <package3d name="LED5MM-KIT" urn="urn:adsk.eagle:package:1982025/1" type="box" library_version="2">
 <description>LED5MM-KIT
 5MM Through-hole LED
 
 Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+<packageinstances>
+<packageinstance name="LED5MM-KIT"/>
+</packageinstances>
 </package3d>
 <package3d name="LED-1206-BOTTOM" urn="urn:adsk.eagle:package:1982020/1" type="box" library_version="2">
-</package3d>
-<package3d name="WS2812B" urn="urn:adsk.eagle:package:1982049/1" type="box" library_version="2">
-<description>Intelligent control LED with integrated light source
-WS2812B
-source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</description>
+<packageinstances>
+<packageinstance name="LED-1206-BOTTOM"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -11721,12 +11757,24 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </packages>
 <packages3d>
 <package3d name="B4B-PH-K-S" urn="urn:adsk.eagle:package:1951337/2" type="model" library_version="2">
-</package3d>
-<package3d name="B4B-PH-SM4-TB" urn="urn:adsk.eagle:package:1951339/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B4B-PH-K-S"/>
+</packageinstances>
 </package3d>
 <package3d name="B5B-PH-K-S" urn="urn:adsk.eagle:package:1951342/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B5B-PH-K-S"/>
+</packageinstances>
+</package3d>
+<package3d name="B4B-PH-SM4-TB" urn="urn:adsk.eagle:package:1951339/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B4B-PH-SM4-TB"/>
+</packageinstances>
 </package3d>
 <package3d name="B5B-PH-SM4-TB" urn="urn:adsk.eagle:package:1951340/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B5B-PH-SM4-TB"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -12055,13 +12103,22 @@ Source:
 </package>
 </packages>
 <packages3d>
+<package3d name="2X08_SMT" urn="urn:adsk.eagle:package:2032807/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="2X08_SMT"/>
+</packageinstances>
+</package3d>
 <package3d name="2X08" urn="urn:adsk.eagle:package:2032806/1" type="box" library_version="2">
 <description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="2X08"/>
+</packageinstances>
 </package3d>
 <package3d name="2X08/90" urn="urn:adsk.eagle:package:2032808/1" type="box" library_version="2">
 <description>PIN HEADER</description>
-</package3d>
-<package3d name="2X08_SMT" urn="urn:adsk.eagle:package:2032807/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="2X08/90"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -12231,6 +12288,9 @@ Source:
 </packages>
 <packages3d>
 <package3d name="ADAFRUIT-2.4-TFT" urn="urn:adsk.eagle:package:2068538/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="ADAFRUIT-2.4-TFT"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -12457,9 +12517,9 @@ Source:
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
-<part name="BT_IRC_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
+<part name="BT_IRC_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="BLUE"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
-<part name="BT_DEBUG_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
+<part name="BT_DEBUG_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="BLUE"/>
 <part name="P1" library="VNH5050ATR-E" deviceset="SOP50P1030X247-36N" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
@@ -12768,6 +12828,10 @@ Source:
 <part name="GND99" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R61" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
 <part name="R62" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
+<part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="GND100" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND101" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13133,6 +13197,10 @@ Source:
 <instance part="GND99" gate="1" x="-68.58" y="-15.24"/>
 <instance part="R61" gate="G$1" x="421.64" y="101.6"/>
 <instance part="R62" gate="G$1" x="452.12" y="101.6"/>
+<instance part="C18" gate="G$1" x="-132.08" y="-25.4"/>
+<instance part="C19" gate="G$1" x="-132.08" y="-91.44"/>
+<instance part="GND100" gate="1" x="-132.08" y="-33.02"/>
+<instance part="GND101" gate="1" x="-132.08" y="-99.06"/>
 </instances>
 <busses>
 </busses>
@@ -14176,6 +14244,16 @@ Source:
 <pinref part="LIGHT_GATE" gate="G$1" pin="4"/>
 <wire x1="-60.96" y1="-7.62" x2="-68.58" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="GND101" gate="1" pin="GND"/>
+<wire x1="-132.08" y1="-93.98" x2="-132.08" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="GND100" gate="1" pin="GND"/>
+<wire x1="-132.08" y1="-27.94" x2="-132.08" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$12" class="0">
 <segment>
@@ -14437,16 +14515,24 @@ Source:
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="-147.32" y1="-17.78" x2="-127" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="-17.78" x2="-132.08" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="-17.78" x2="-127" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-127" y1="-17.78" x2="-127" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 <pinref part="BT_IRC" gate="G$1" pin="VCC"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="-132.08" y1="-20.32" x2="-132.08" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="-132.08" y="-17.78"/>
 </segment>
 <segment>
-<wire x1="-147.32" y1="-83.82" x2="-127" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="-83.82" x2="-132.08" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="-83.82" x2="-127" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="-127" y1="-83.82" x2="-127" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 <pinref part="BT_DEBUG" gate="G$1" pin="VCC"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="-132.08" y1="-86.36" x2="-132.08" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="-132.08" y="-83.82"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>

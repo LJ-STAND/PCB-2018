@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -156,9 +156,9 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Freescale_Sensors_v2" urn="urn:adsk.eagle:library:2086820">
+<library name="Freescale_Sensors_v2">
 <packages>
-<package name="QFN24_0P5_4X4_ASYM_EXP" urn="urn:adsk.eagle:footprint:2086828/1" library_version="2">
+<package name="QFN24_0P5_4X4_ASYM_EXP">
 <smd name="4" x="-1.84" y="0" dx="0.9144" dy="0.2794" layer="1"/>
 <smd name="3" x="-1.84" y="0.5" dx="0.9144" dy="0.2794" layer="1"/>
 <smd name="2" x="-1.84" y="1" dx="0.9144" dy="0.2794" layer="1"/>
@@ -188,23 +188,22 @@
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="51"/>
 <wire x1="-2" y1="-2" x2="-2" y2="1.524" width="0.127" layer="51"/>
 <wire x1="-2" y1="1.524" x2="-1.524" y2="2" width="0.127" layer="51"/>
+<text x="-3.205" y="2.42" size="0.6096" layer="25">&gt;name</text>
+<text x="1.472" y="-3.487" size="0.6096" layer="27">&gt;value</text>
+<text x="-2.499" y="1.778" size="0.4064" layer="49">1</text>
+<text x="-1.777" y="-2.777" size="0.4064" layer="49">8</text>
+<text x="2.273" y="-2.658" size="0.4064" layer="49">13</text>
+<text x="2.281" y="2.49" size="0.4064" layer="49">20</text>
 <wire x1="1.27" y1="2.159" x2="2.159" y2="2.159" width="0.2032" layer="21"/>
 <wire x1="2.159" y1="2.159" x2="2.159" y2="1.778" width="0.2032" layer="21"/>
 <wire x1="1.27" y1="-2.159" x2="2.159" y2="-2.159" width="0.2032" layer="21"/>
 <wire x1="2.159" y1="-2.159" x2="2.159" y2="-1.778" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-2.159" x2="-2.159" y2="-2.159" width="0.2032" layer="21"/>
 <wire x1="-2.159" y1="-2.159" x2="-2.159" y2="-1.778" width="0.2032" layer="21"/>
-<text x="-3.205" y="2.42" size="0.6096" layer="25">&gt;name</text>
-<text x="1.472" y="-3.487" size="0.6096" layer="27">&gt;value</text>
-<text x="-2.499" y="1.778" size="0.4064" layer="49">1</text>
 </package>
 </packages>
-<packages3d>
-<package3d name="QFN24_0P5_4X4_ASYM_EXP" urn="urn:adsk.eagle:package:2086843/2" type="model" library_version="2">
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="FXAS21000" urn="urn:adsk.eagle:symbol:2086827/1" library_version="2">
+<symbol name="FXAS21000">
 <wire x1="-17.78" y1="-20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
 <wire x1="17.78" y1="20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
@@ -238,7 +237,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FXAS21000" urn="urn:adsk.eagle:component:2086850/2" library_version="2">
+<deviceset name="FXAS21000">
 <description>Xtrinsic FXAS21000 3-Axis Rate Digital Gyroscope 
 I2C and SPI interfaces
 
@@ -276,9 +275,6 @@ CASE 2209-01</description>
 <connect gate="G$1" pin="VSS3" pad="14"/>
 <connect gate="G$1" pin="VSS4" pad="19"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2086843/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1861,7 +1857,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </class>
 </classes>
 <parts>
-<part name="GYRO_1" library="Freescale_Sensors_v2" library_urn="urn:adsk.eagle:library:2086820" deviceset="FXAS21000" device="" package3d_urn="urn:adsk.eagle:package:2086843/2"/>
+<part name="GYRO_1" library="Freescale_Sensors_v2" deviceset="FXAS21000" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1872,10 +1868,10 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GYRO_2" library="Freescale_Sensors_v2" library_urn="urn:adsk.eagle:library:2086820" deviceset="FXAS21000" device="" package3d_urn="urn:adsk.eagle:package:2086843/2"/>
+<part name="GYRO_2" library="Freescale_Sensors_v2" deviceset="FXAS21000" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1886,10 +1882,10 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GYRO_3" library="Freescale_Sensors_v2" library_urn="urn:adsk.eagle:library:2086820" deviceset="FXAS21000" device="" package3d_urn="urn:adsk.eagle:package:2086843/2"/>
+<part name="GYRO_3" library="Freescale_Sensors_v2" deviceset="FXAS21000" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1900,7 +1896,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
@@ -2443,21 +2439,4 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>

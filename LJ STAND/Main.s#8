@@ -3206,7 +3206,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <library name="VNH5050ATR-E">
 <packages>
 <package name="SOP50P1030X247-36N">
-<text x="-5.59686875" y="5.43366875" size="1.271559375" layer="25">VNH5050ATR-E</text>
 <circle x="-6.505" y="4.6" radius="0.2" width="0" layer="21"/>
 <circle x="-6.505" y="4.6" radius="0.2" width="0" layer="51"/>
 <wire x1="-3.75" y1="5.15" x2="3.75" y2="5.15" width="0.127" layer="51"/>
@@ -10909,17 +10908,17 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <library name="TSSP58038">
 <packages>
 <package name="TSSP58038">
-<pad name="2" x="0" y="0" drill="0.6"/>
-<pad name="1" x="2.54" y="0" drill="0.6"/>
-<pad name="3" x="-2.54" y="0" drill="0.6"/>
+<pad name="2" x="0" y="0" drill="1.016"/>
+<pad name="1" x="2.54" y="0" drill="1.016"/>
+<pad name="3" x="-2.54" y="0" drill="1.016"/>
 <wire x1="2.5" y1="-1.45" x2="-2.5" y2="-1.45" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="1.35" x2="-2" y2="1.35" width="0.127" layer="21"/>
 <wire x1="2.5" y1="1.35" x2="2" y2="1.35" width="0.127" layer="21"/>
 <wire x1="-2" y1="1.35" x2="2" y2="1.35" width="0.127" layer="21" curve="-180"/>
-<wire x1="2.5" y1="1.35" x2="2.5" y2="0.75" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-1.45" x2="2.5" y2="-0.75" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-1.45" x2="-2.5" y2="-0.75" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="1.35" x2="-2.5" y2="0.75" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.35" x2="2.5" y2="1.016" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.45" x2="2.5" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.45" x2="-2.5" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.35" x2="-2.5" y2="1.016" width="0.127" layer="21"/>
 <text x="-2.54" y="-2.54" size="0.762" layer="21">&gt;NAME</text>
 </package>
 </packages>
@@ -16248,34 +16247,6 @@ Source:
 <label x="-71.12" y="-327.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CAM_CS" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="SSEL"/>
-<wire x1="-147.32" y1="83.82" x2="-144.78" y2="83.82" width="0.1524" layer="91"/>
-<label x="-144.78" y="83.82" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CAM_SCK" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="SCLK"/>
-<wire x1="-147.32" y1="81.28" x2="-144.78" y2="81.28" width="0.1524" layer="91"/>
-<label x="-144.78" y="81.28" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CAM_MISO" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="MISO"/>
-<wire x1="-147.32" y1="78.74" x2="-144.78" y2="78.74" width="0.1524" layer="91"/>
-<label x="-144.78" y="78.74" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CAM_MOSI" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="MOSI"/>
-<wire x1="-147.32" y1="76.2" x2="-144.78" y2="76.2" width="0.1524" layer="91"/>
-<label x="-144.78" y="76.2" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="CAM_RX" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="TXD/SCL"/>
@@ -16777,9 +16748,9 @@ Source:
 <label x="302.26" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="444.5" y="101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
+<label x="436.88" y="101.6" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="R62" gate="G$1" pin="1"/>
-<wire x1="447.04" y1="101.6" x2="444.5" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="447.04" y1="101.6" x2="436.88" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">

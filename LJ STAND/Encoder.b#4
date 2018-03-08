@@ -498,37 +498,37 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="allegro" library_urn="urn:adsk.eagle:library:93" package="SOT23-W" package3d_urn="urn:adsk.eagle:package:3443/1" value="A1301LH" x="2.3368" y="3.2766" smashed="yes" rot="R37.5">
-<attribute name="MF" value="ALLEGRO MICROSYSTEMS, INC." x="2.3368" y="3.2766" size="1.778" layer="27" rot="R37.5" display="off"/>
-<attribute name="MPN" value="A1301ELHLT-T" x="2.3368" y="3.2766" size="1.778" layer="27" rot="R37.5" display="off"/>
-<attribute name="OC_FARNELL" value="1198084" x="2.3368" y="3.2766" size="1.778" layer="27" rot="R37.5" display="off"/>
-<attribute name="OC_NEWARK" value="31K6634" x="2.3368" y="3.2766" size="1.778" layer="27" rot="R37.5" display="off"/>
+<element name="IC1" library="allegro" library_urn="urn:adsk.eagle:library:93" package="SOT23-W" package3d_urn="urn:adsk.eagle:package:3443/1" value="A1301LH" x="2.3622" y="3.3782" smashed="yes" rot="R37.5">
+<attribute name="MF" value="ALLEGRO MICROSYSTEMS, INC." x="2.3622" y="3.3782" size="1.778" layer="27" rot="R37.5" display="off"/>
+<attribute name="MPN" value="A1301ELHLT-T" x="2.3622" y="3.3782" size="1.778" layer="27" rot="R37.5" display="off"/>
+<attribute name="OC_FARNELL" value="1198084" x="2.3622" y="3.3782" size="1.778" layer="27" rot="R37.5" display="off"/>
+<attribute name="OC_NEWARK" value="31K6634" x="2.3622" y="3.3782" size="1.778" layer="27" rot="R37.5" display="off"/>
 </element>
-<element name="IC2" library="allegro" library_urn="urn:adsk.eagle:library:93" package="SOT23-W" package3d_urn="urn:adsk.eagle:package:3443/1" value="A1301LH" x="19.6088" y="3.3274" smashed="yes" rot="R322.5">
-<attribute name="MF" value="ALLEGRO MICROSYSTEMS, INC." x="19.6088" y="3.3274" size="1.778" layer="27" rot="R322.5" display="off"/>
-<attribute name="MPN" value="A1301ELHLT-T" x="19.6088" y="3.3274" size="1.778" layer="27" rot="R322.5" display="off"/>
-<attribute name="OC_FARNELL" value="1198084" x="19.6088" y="3.3274" size="1.778" layer="27" rot="R322.5" display="off"/>
-<attribute name="OC_NEWARK" value="31K6634" x="19.6088" y="3.3274" size="1.778" layer="27" rot="R322.5" display="off"/>
+<element name="IC2" library="allegro" library_urn="urn:adsk.eagle:library:93" package="SOT23-W" package3d_urn="urn:adsk.eagle:package:3443/1" value="A1301LH" x="19.6342" y="3.3782" smashed="yes" rot="R322.5">
+<attribute name="MF" value="ALLEGRO MICROSYSTEMS, INC." x="19.6342" y="3.3782" size="1.778" layer="27" rot="R322.5" display="off"/>
+<attribute name="MPN" value="A1301ELHLT-T" x="19.6342" y="3.3782" size="1.778" layer="27" rot="R322.5" display="off"/>
+<attribute name="OC_FARNELL" value="1198084" x="19.6342" y="3.3782" size="1.778" layer="27" rot="R322.5" display="off"/>
+<attribute name="OC_NEWARK" value="31K6634" x="19.6342" y="3.3782" size="1.778" layer="27" rot="R322.5" display="off"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="10K" x="8.255" y="5.08" rot="R180"/>
 <element name="R2" library="SparkFun-Resistors" package="0603-RES" value="10K" x="12.7" y="5.08" rot="R180"/>
 <element name="C1" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="19.05" y="7.62"/>
-<element name="J1" library="jst-ph" library_urn="urn:adsk.eagle:library:1951258" package="B4B-PH-K-S" package3d_urn="urn:adsk.eagle:package:1951337/2" value="" x="10.9474" y="8.2296" smashed="yes" rot="MR0"/>
+<element name="J1" library="jst-ph" library_urn="urn:adsk.eagle:library:1951258" package="B4B-PH-K-S" package3d_urn="urn:adsk.eagle:package:1951337/2" value="" x="10.9982" y="8.2296" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="OUTA">
 <contactref element="IC1" pad="2"/>
 <contactref element="R1" pad="1"/>
 <contactref element="J1" pad="3"/>
-<wire x1="9.105" y1="5.08" x2="9.9474" y2="8.2296" width="0" layer="19" extent="1-1"/>
-<wire x1="4.000878125" y1="2.914878125" x2="9.105" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="9.105" y1="5.08" x2="9.9982" y2="8.2296" width="0" layer="19" extent="1-1"/>
+<wire x1="4.026278125" y1="3.016478125" x2="9.105" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUTB">
 <contactref element="IC2" pad="2"/>
 <contactref element="R2" pad="1"/>
 <contactref element="J1" pad="2"/>
-<wire x1="13.55" y1="5.08" x2="19.690096875" y2="1.6264" width="0" layer="19" extent="1-1"/>
-<wire x1="11.9474" y1="8.2296" x2="13.55" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="13.55" y1="5.08" x2="19.715496875" y2="1.6772" width="0" layer="19" extent="1-1"/>
+<wire x1="11.9982" y1="8.2296" x2="13.55" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC1" pad="1"/>
@@ -537,11 +537,11 @@ design rules under a new name.</description>
 <contactref element="R2" pad="2"/>
 <contactref element="C1" pad="1"/>
 <contactref element="J1" pad="4"/>
-<wire x1="17.94471875" y1="2.965678125" x2="18.2" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="11.85" y1="5.08" x2="17.94471875" y2="2.965678125" width="0" layer="19" extent="1-1"/>
+<wire x1="17.97011875" y1="3.016478125" x2="18.2" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="11.85" y1="5.08" x2="17.97011875" y2="3.016478125" width="0" layer="19" extent="1-1"/>
 <wire x1="7.405" y1="5.08" x2="11.85" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="7.9474" y1="8.2296" x2="7.405" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="2.2555" y1="1.5756" x2="7.405" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="7.9982" y1="8.2296" x2="7.405" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="2.2809" y1="1.6772" x2="7.405" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="IC1" pad="3"/>
@@ -554,8 +554,8 @@ design rules under a new name.</description>
 <vertex x="26.035" y="-3.175"/>
 <vertex x="26.035" y="17.78"/>
 </polygon>
-<wire x1="19.9" y1="7.62" x2="20.4001875" y2="4.35875625" width="0" layer="19" extent="1-1"/>
-<wire x1="1.545409375" y1="4.30795625" x2="13.9474" y2="8.2296" width="0" layer="19" extent="1-1"/>
+<wire x1="19.9" y1="7.62" x2="20.4255875" y2="4.40955625" width="0" layer="19" extent="1-1"/>
+<wire x1="1.570809375" y1="4.40955625" x2="13.9982" y2="8.2296" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
