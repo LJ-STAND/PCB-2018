@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12457,9 +12457,9 @@ Source:
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
-<part name="BT_IRC_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
+<part name="BT_IRC_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="BLUE"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
-<part name="BT_DEBUG_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
+<part name="BT_DEBUG_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="BLUE"/>
 <part name="P1" library="VNH5050ATR-E" deviceset="SOP50P1030X247-36N" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>

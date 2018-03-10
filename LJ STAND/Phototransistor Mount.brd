@@ -441,7 +441,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="33K" library="SparkFun-Passives" package="0603-RES" value="" x="7.62" y="15.24"/>
+<element name="33K" library="SparkFun-Passives" package="0603-RES" value="75K" x="7.62" y="15.24"/>
 <element name="CN1" library="jst-ph" library_urn="urn:adsk.eagle:library:1951258" package="B3B-PH-K-S" package3d_urn="urn:adsk.eagle:package:1951338/1" value="" x="6.35" y="24.13"/>
 <element name="U$1" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="5.08" y="19.05"/>
 </elements>

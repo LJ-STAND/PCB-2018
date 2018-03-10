@@ -276,6 +276,9 @@
 </packages>
 <packages3d>
 <package3d name="TEENSY-3.5" urn="urn:adsk.eagle:package:1951255/3" type="model" library_version="3" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="TEENSY-3.5"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -1370,7 +1373,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="_D2PAK(TO-263AB)" package="D2PAK(TO-263AB)">
 <connects>
-<connect gate="G$1" pin="ANODE" pad="A"/>
+<connect gate="G$1" pin="ANODE" pad="A NOP"/>
 <connect gate="G$1" pin="CATHODE" pad="C"/>
 </connects>
 <technologies>
@@ -2569,6 +2572,9 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </packages>
 <packages3d>
 <package3d name="OPENMV3" urn="urn:adsk.eagle:package:1989053/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="OPENMV3"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -2874,38 +2880,68 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 </package>
 </packages>
 <packages3d>
+<package3d name="LED-0603" urn="urn:adsk.eagle:package:1982017/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="LED-0603"/>
+</packageinstances>
+</package3d>
+<package3d name="WS2812B" urn="urn:adsk.eagle:package:1982049/1" type="box" library_version="2">
+<description>Intelligent control LED with integrated light source
+WS2812B
+source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</description>
+<packageinstances>
+<packageinstance name="WS2812B"/>
+</packageinstances>
+</package3d>
 <package3d name="LED5MM" urn="urn:adsk.eagle:package:1982014/1" type="box" library_version="2">
 <description>LED
 5 mm, round</description>
+<packageinstances>
+<packageinstance name="LED5MM"/>
+</packageinstances>
 </package3d>
 <package3d name="LED3MM" urn="urn:adsk.eagle:package:1982016/1" type="box" library_version="2">
 <description>LED
 3 mm, round</description>
+<packageinstances>
+<packageinstance name="LED3MM"/>
+</packageinstances>
 </package3d>
 <package3d name="LED-1206" urn="urn:adsk.eagle:package:1982015/1" type="box" library_version="2">
-</package3d>
-<package3d name="LED-0603" urn="urn:adsk.eagle:package:1982017/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="LED-1206"/>
+</packageinstances>
 </package3d>
 <package3d name="LED10MM" urn="urn:adsk.eagle:package:1982019/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="LED10MM"/>
+</packageinstances>
 </package3d>
 <package3d name="FKIT-LED-1206" urn="urn:adsk.eagle:package:1982021/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="FKIT-LED-1206"/>
+</packageinstances>
 </package3d>
 <package3d name="LED3MM-NS" urn="urn:adsk.eagle:package:1982018/1" type="box" library_version="2">
 <description>LED 3MM - No Silk
 3 mm, round</description>
+<packageinstances>
+<packageinstance name="LED3MM-NS"/>
+</packageinstances>
 </package3d>
 <package3d name="LED5MM-KIT" urn="urn:adsk.eagle:package:1982025/1" type="box" library_version="2">
 <description>LED5MM-KIT
 5MM Through-hole LED
 
 Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+<packageinstances>
+<packageinstance name="LED5MM-KIT"/>
+</packageinstances>
 </package3d>
 <package3d name="LED-1206-BOTTOM" urn="urn:adsk.eagle:package:1982020/1" type="box" library_version="2">
-</package3d>
-<package3d name="WS2812B" urn="urn:adsk.eagle:package:1982049/1" type="box" library_version="2">
-<description>Intelligent control LED with integrated light source
-WS2812B
-source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</description>
+<packageinstances>
+<packageinstance name="LED-1206-BOTTOM"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -11721,12 +11757,24 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </packages>
 <packages3d>
 <package3d name="B4B-PH-K-S" urn="urn:adsk.eagle:package:1951337/2" type="model" library_version="2">
-</package3d>
-<package3d name="B4B-PH-SM4-TB" urn="urn:adsk.eagle:package:1951339/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B4B-PH-K-S"/>
+</packageinstances>
 </package3d>
 <package3d name="B5B-PH-K-S" urn="urn:adsk.eagle:package:1951342/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B5B-PH-K-S"/>
+</packageinstances>
+</package3d>
+<package3d name="B4B-PH-SM4-TB" urn="urn:adsk.eagle:package:1951339/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B4B-PH-SM4-TB"/>
+</packageinstances>
 </package3d>
 <package3d name="B5B-PH-SM4-TB" urn="urn:adsk.eagle:package:1951340/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B5B-PH-SM4-TB"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -12055,13 +12103,22 @@ Source:
 </package>
 </packages>
 <packages3d>
+<package3d name="2X08_SMT" urn="urn:adsk.eagle:package:2032807/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="2X08_SMT"/>
+</packageinstances>
+</package3d>
 <package3d name="2X08" urn="urn:adsk.eagle:package:2032806/1" type="box" library_version="2">
 <description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="2X08"/>
+</packageinstances>
 </package3d>
 <package3d name="2X08/90" urn="urn:adsk.eagle:package:2032808/1" type="box" library_version="2">
 <description>PIN HEADER</description>
-</package3d>
-<package3d name="2X08_SMT" urn="urn:adsk.eagle:package:2032807/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="2X08/90"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -12231,6 +12288,9 @@ Source:
 </packages>
 <packages3d>
 <package3d name="ADAFRUIT-2.4-TFT" urn="urn:adsk.eagle:package:2068538/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="ADAFRUIT-2.4-TFT"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
