@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -276,6 +276,9 @@
 </packages>
 <packages3d>
 <package3d name="TEENSY-3.5" urn="urn:adsk.eagle:package:1951255/3" type="model" library_version="3" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="TEENSY-3.5"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -1370,7 +1373,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 <device name="_D2PAK(TO-263AB)" package="D2PAK(TO-263AB)">
 <connects>
-<connect gate="G$1" pin="ANODE" pad="A"/>
+<connect gate="G$1" pin="ANODE" pad="A NOP"/>
 <connect gate="G$1" pin="CATHODE" pad="C"/>
 </connects>
 <technologies>
@@ -2569,6 +2572,9 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </packages>
 <packages3d>
 <package3d name="OPENMV3" urn="urn:adsk.eagle:package:1989053/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="OPENMV3"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -2874,38 +2880,68 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 </package>
 </packages>
 <packages3d>
+<package3d name="LED-0603" urn="urn:adsk.eagle:package:1982017/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="LED-0603"/>
+</packageinstances>
+</package3d>
+<package3d name="WS2812B" urn="urn:adsk.eagle:package:1982049/1" type="box" library_version="2">
+<description>Intelligent control LED with integrated light source
+WS2812B
+source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</description>
+<packageinstances>
+<packageinstance name="WS2812B"/>
+</packageinstances>
+</package3d>
 <package3d name="LED5MM" urn="urn:adsk.eagle:package:1982014/1" type="box" library_version="2">
 <description>LED
 5 mm, round</description>
+<packageinstances>
+<packageinstance name="LED5MM"/>
+</packageinstances>
 </package3d>
 <package3d name="LED3MM" urn="urn:adsk.eagle:package:1982016/1" type="box" library_version="2">
 <description>LED
 3 mm, round</description>
+<packageinstances>
+<packageinstance name="LED3MM"/>
+</packageinstances>
 </package3d>
 <package3d name="LED-1206" urn="urn:adsk.eagle:package:1982015/1" type="box" library_version="2">
-</package3d>
-<package3d name="LED-0603" urn="urn:adsk.eagle:package:1982017/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="LED-1206"/>
+</packageinstances>
 </package3d>
 <package3d name="LED10MM" urn="urn:adsk.eagle:package:1982019/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="LED10MM"/>
+</packageinstances>
 </package3d>
 <package3d name="FKIT-LED-1206" urn="urn:adsk.eagle:package:1982021/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="FKIT-LED-1206"/>
+</packageinstances>
 </package3d>
 <package3d name="LED3MM-NS" urn="urn:adsk.eagle:package:1982018/1" type="box" library_version="2">
 <description>LED 3MM - No Silk
 3 mm, round</description>
+<packageinstances>
+<packageinstance name="LED3MM-NS"/>
+</packageinstances>
 </package3d>
 <package3d name="LED5MM-KIT" urn="urn:adsk.eagle:package:1982025/1" type="box" library_version="2">
 <description>LED5MM-KIT
 5MM Through-hole LED
 
 Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+<packageinstances>
+<packageinstance name="LED5MM-KIT"/>
+</packageinstances>
 </package3d>
 <package3d name="LED-1206-BOTTOM" urn="urn:adsk.eagle:package:1982020/1" type="box" library_version="2">
-</package3d>
-<package3d name="WS2812B" urn="urn:adsk.eagle:package:1982049/1" type="box" library_version="2">
-<description>Intelligent control LED with integrated light source
-WS2812B
-source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</description>
+<packageinstances>
+<packageinstance name="LED-1206-BOTTOM"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -11721,12 +11757,24 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </packages>
 <packages3d>
 <package3d name="B4B-PH-K-S" urn="urn:adsk.eagle:package:1951337/2" type="model" library_version="2">
-</package3d>
-<package3d name="B4B-PH-SM4-TB" urn="urn:adsk.eagle:package:1951339/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B4B-PH-K-S"/>
+</packageinstances>
 </package3d>
 <package3d name="B5B-PH-K-S" urn="urn:adsk.eagle:package:1951342/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B5B-PH-K-S"/>
+</packageinstances>
+</package3d>
+<package3d name="B4B-PH-SM4-TB" urn="urn:adsk.eagle:package:1951339/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B4B-PH-SM4-TB"/>
+</packageinstances>
 </package3d>
 <package3d name="B5B-PH-SM4-TB" urn="urn:adsk.eagle:package:1951340/1" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="B5B-PH-SM4-TB"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -12055,13 +12103,22 @@ Source:
 </package>
 </packages>
 <packages3d>
+<package3d name="2X08_SMT" urn="urn:adsk.eagle:package:2032807/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="2X08_SMT"/>
+</packageinstances>
+</package3d>
 <package3d name="2X08" urn="urn:adsk.eagle:package:2032806/1" type="box" library_version="2">
 <description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="2X08"/>
+</packageinstances>
 </package3d>
 <package3d name="2X08/90" urn="urn:adsk.eagle:package:2032808/1" type="box" library_version="2">
 <description>PIN HEADER</description>
-</package3d>
-<package3d name="2X08_SMT" urn="urn:adsk.eagle:package:2032807/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="2X08/90"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -12231,6 +12288,9 @@ Source:
 </packages>
 <packages3d>
 <package3d name="ADAFRUIT-2.4-TFT" urn="urn:adsk.eagle:package:2068538/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="ADAFRUIT-2.4-TFT"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -12431,7 +12491,7 @@ Source:
 <part name="LOGIC_FUSE" library="fuse-holder-3568" deviceset="3568-FUSEHOLDER" device="" value="2A"/>
 <part name="VREG-3.3" library="linear" deviceset="LM340?-*" device="S" technology="05" value=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22uF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="22uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12457,9 +12517,9 @@ Source:
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
-<part name="BT_IRC_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
+<part name="BT_IRC_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="BLUE"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
-<part name="BT_DEBUG_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2"/>
+<part name="BT_DEBUG_LED" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="BLUE"/>
 <part name="P1" library="VNH5050ATR-E" deviceset="SOP50P1030X247-36N" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
@@ -12472,8 +12532,8 @@ Source:
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1.5K"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="33nF"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="33nF"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C7" library="rcl" deviceset="CPOL-US" device="E3.5-8" value="470uF"/>
 <part name="C8" library="rcl" deviceset="CPOL-US" device="E3.5-8" value="470uF"/>
@@ -12492,8 +12552,8 @@ Source:
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1.5K"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="33nF"/>
+<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="33nF"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P3" library="VNH5050ATR-E" deviceset="SOP50P1030X247-36N" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12507,8 +12567,8 @@ Source:
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R32" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1.5K"/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="33nF"/>
+<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="33nF"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P4" library="VNH5050ATR-E" deviceset="SOP50P1030X247-36N" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12522,8 +12582,8 @@ Source:
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R41" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="R42" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1.5K"/>
-<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="33nF"/>
+<part name="R42" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
+<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="33nF"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SCREEN" library="Adafruit-2.4-TFT" library_urn="urn:adsk.eagle:library:2068535" deviceset="ADAFRUIT-2.4-TFT" device="" package3d_urn="urn:adsk.eagle:package:2068538/2"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12554,30 +12614,30 @@ Source:
 <part name="IR21" library="TSSP58038" deviceset="TSSP58038" device=""/>
 <part name="IR22" library="TSSP58038" deviceset="TSSP58038" device=""/>
 <part name="IR23" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="C38" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C39" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C40" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C41" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C42" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C43" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C44" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C45" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C46" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C47" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C48" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C49" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C50" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C51" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C52" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C53" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C54" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C55" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C56" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C57" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C58" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C59" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C60" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C61" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C38" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C39" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C40" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C41" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C42" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C43" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C44" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C45" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C46" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C47" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C48" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C49" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C50" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C51" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C52" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C53" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C54" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C55" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C56" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C57" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C58" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C59" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C60" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C61" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:1982049/1"/>
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:1982049/1"/>
 <part name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:1982049/1"/>
@@ -12590,18 +12650,18 @@ Source:
 <part name="D12" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:1982049/1"/>
 <part name="D13" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:1982049/1"/>
 <part name="D14" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:1982049/1"/>
-<part name="C62" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C63" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C64" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C65" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C66" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C67" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C68" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C69" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C70" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C71" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C72" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C73" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C62" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C63" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C64" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C65" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C66" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C67" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C68" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C69" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C70" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C71" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C72" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C73" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="R67" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="470"/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12693,16 +12753,16 @@ Source:
 <part name="GND76" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND78" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND80" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND81" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND77" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="C15" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C15" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND79" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND82" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND83" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12768,6 +12828,10 @@ Source:
 <part name="GND99" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R61" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
 <part name="R62" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
+<part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="GND100" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND101" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13133,6 +13197,10 @@ Source:
 <instance part="GND99" gate="1" x="-68.58" y="-15.24"/>
 <instance part="R61" gate="G$1" x="421.64" y="101.6"/>
 <instance part="R62" gate="G$1" x="452.12" y="101.6"/>
+<instance part="C18" gate="G$1" x="-132.08" y="-25.4"/>
+<instance part="C19" gate="G$1" x="-132.08" y="-91.44"/>
+<instance part="GND100" gate="1" x="-132.08" y="-33.02"/>
+<instance part="GND101" gate="1" x="-132.08" y="-99.06"/>
 </instances>
 <busses>
 </busses>
@@ -13198,9 +13266,9 @@ Source:
 <label x="165.1" y="73.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MASTER" gate="G$1" pin="13/SCK0"/>
-<wire x1="55.88" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<label x="58.42" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="MASTER" gate="G$1" pin="14/A0/PWM"/>
+<wire x1="55.88" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<label x="58.42" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS_MOTOR" class="0">
@@ -14172,8 +14240,19 @@ Source:
 <wire x1="-68.58" y1="-10.16" x2="-68.58" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="GND99" gate="1" pin="GND"/>
 <wire x1="-68.58" y1="-10.16" x2="-68.58" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="-7.62" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="-68.58" y="-10.16"/>
+<pinref part="LIGHT_GATE" gate="G$1" pin="4"/>
+<wire x1="-60.96" y1="-7.62" x2="-68.58" y2="-7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="GND101" gate="1" pin="GND"/>
+<wire x1="-132.08" y1="-93.98" x2="-132.08" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="GND100" gate="1" pin="GND"/>
+<wire x1="-132.08" y1="-27.94" x2="-132.08" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -14436,16 +14515,24 @@ Source:
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="-147.32" y1="-17.78" x2="-127" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="-17.78" x2="-132.08" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="-17.78" x2="-127" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-127" y1="-17.78" x2="-127" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 <pinref part="BT_IRC" gate="G$1" pin="VCC"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="-132.08" y1="-20.32" x2="-132.08" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="-132.08" y="-17.78"/>
 </segment>
 <segment>
-<wire x1="-147.32" y1="-83.82" x2="-127" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="-83.82" x2="-132.08" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="-83.82" x2="-127" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="-127" y1="-83.82" x2="-127" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 <pinref part="BT_DEBUG" gate="G$1" pin="VCC"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="-132.08" y1="-86.36" x2="-132.08" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="-132.08" y="-83.82"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -16691,6 +16778,23 @@ Source:
 <junction x="203.2" y="2.54"/>
 <label x="200.66" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="48/TX6"/>
+<wire x1="266.7" y1="7.62" x2="269.24" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="7.62" x2="269.24" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="49/A23"/>
+<wire x1="269.24" y1="2.54" x2="266.7" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="50/A24"/>
+<wire x1="266.7" y1="-2.54" x2="269.24" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="-2.54" x2="269.24" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="2.54" x2="271.78" y2="2.54" width="0.1524" layer="91"/>
+<junction x="269.24" y="2.54"/>
+<label x="271.78" y="2.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="47/RX6"/>
+<wire x1="266.7" y1="12.7" x2="269.24" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="12.7" x2="269.24" y2="7.62" width="0.1524" layer="91"/>
+<junction x="269.24" y="7.62"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -16706,11 +16810,6 @@ Source:
 <wire x1="-137.16" y1="111.76" x2="-137.16" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="LOGIC_FUSE" gate="G$1" pin="P1"/>
 <wire x1="-137.16" y1="119.38" x2="-132.08" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="271.78" y1="116.84" x2="271.78" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED_A_CTRL" class="0">
@@ -17093,12 +17192,6 @@ Source:
 <wire x1="55.88" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
 <junction x="58.42" y="119.38"/>
 <label x="73.66" y="119.38" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="N$61" class="0">
-<segment>
-<pinref part="LIGHT_GATE" gate="G$1" pin="4"/>
-<wire x1="-60.96" y1="-7.62" x2="-66.04" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$58" class="0">

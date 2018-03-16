@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2502,6 +2502,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <part name="GND74" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND73" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY73" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="C37" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="GND75" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C38" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -2838,6 +2841,9 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <instance part="GND74" gate="1" x="307.34" y="5.08"/>
 <instance part="GND73" gate="1" x="248.92" y="93.98"/>
 <instance part="SUPPLY73" gate="G$1" x="248.92" y="106.68"/>
+<instance part="C37" gate="G$1" x="284.48" y="-2.54" rot="R180"/>
+<instance part="GND75" gate="1" x="284.48" y="-12.7"/>
+<instance part="C38" gate="G$1" x="241.3" y="101.6"/>
 </instances>
 <busses>
 </busses>
@@ -3422,6 +3428,13 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="271.78" y1="101.6" x2="248.92" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="101.6" x2="248.92" y2="99.06" width="0.1524" layer="91"/>
 <junction x="248.92" y="99.06"/>
+<pinref part="C38" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="99.06" x2="248.92" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C37" gate="G$1" pin="1"/>
+<pinref part="GND75" gate="1" pin="GND"/>
+<wire x1="284.48" y1="-10.16" x2="284.48" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3802,12 +3815,18 @@ Source: www.analog.com/UploadedFiles/Data_Sheets/33830397585263AD9859_0.pdf</des
 <wire x1="284.48" y1="10.16" x2="284.48" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="2.54" x2="281.94" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY74" gate="G$1" pin="3.3V"/>
+<pinref part="C37" gate="G$1" pin="2"/>
+<wire x1="284.48" y1="2.54" x2="284.48" y2="0" width="0.1524" layer="91"/>
+<junction x="284.48" y="2.54"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="9"/>
 <wire x1="271.78" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="SUPPLY73" gate="G$1" pin="3.3V"/>
 <wire x1="248.92" y1="104.14" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="C38" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="106.68" x2="241.3" y2="106.68" width="0.1524" layer="91"/>
+<junction x="248.92" y="106.68"/>
 </segment>
 </net>
 <net name="N$1" class="0">

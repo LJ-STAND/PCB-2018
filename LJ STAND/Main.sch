@@ -12238,7 +12238,7 @@ Source:
 </library>
 <library name="Adafruit-2.4-TFT" urn="urn:adsk.eagle:library:2068535">
 <packages>
-<package name="ADAFRUIT-2.4-TFT" urn="urn:adsk.eagle:footprint:2068537/1" library_version="2">
+<package name="ADAFRUIT-2.4-TFT" urn="urn:adsk.eagle:footprint:2068537/1" locally_modified="yes" library_version="2" library_locally_modified="yes">
 <pad name="GND" x="2.54" y="2.54" drill="1.016"/>
 <pad name="VIN" x="5.08" y="2.54" drill="1.016"/>
 <pad name="3VO" x="7.62" y="2.54" drill="1.016"/>
@@ -12247,10 +12247,6 @@ Source:
 <pad name="MOSI" x="15.24" y="2.54" drill="1.016"/>
 <pad name="CS" x="17.78" y="2.54" drill="1.016"/>
 <pad name="D/C" x="20.32" y="2.54" drill="1.016"/>
-<pad name="RST" x="22.86" y="2.54" drill="1.016"/>
-<pad name="LITE" x="25.4" y="2.54" drill="1.016"/>
-<pad name="Y+" x="27.94" y="2.54" drill="1.016"/>
-<pad name="X+" x="30.48" y="2.54" drill="1.016"/>
 <pad name="Y-" x="33.02" y="2.54" drill="1.016"/>
 <pad name="X-" x="35.56" y="2.54" drill="1.016"/>
 <pad name="IM0" x="38.1" y="2.54" drill="1.016"/>
@@ -12287,22 +12283,16 @@ Source:
 </package>
 </packages>
 <packages3d>
-<package3d name="ADAFRUIT-2.4-TFT" urn="urn:adsk.eagle:package:2068538/2" type="model" library_version="2">
+<package3d name="ADAFRUIT-2.4-TFT" urn="urn:adsk.eagle:package:2068538/2" locally_modified="yes" type="model" library_version="2" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="ADAFRUIT-2.4-TFT"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="ADAFRUIT-2.4-TFT" urn="urn:adsk.eagle:symbol:2068536/1" library_version="2">
-<pin name="LITE" x="-25.4" y="0" length="middle"/>
-<pin name="RST" x="-25.4" y="5.08" length="middle"/>
+<symbol name="ADAFRUIT-2.4-TFT" urn="urn:adsk.eagle:symbol:2068536/1" locally_modified="yes" library_version="2" library_locally_modified="yes">
 <pin name="D/C" x="-25.4" y="10.16" length="middle"/>
-<pin name="Y+" x="-25.4" y="-5.08" length="middle"/>
-<pin name="X+" x="-25.4" y="-10.16" length="middle"/>
 <pin name="CS" x="-25.4" y="15.24" length="middle"/>
-<pin name="Y-" x="-25.4" y="-15.24" length="middle"/>
-<pin name="X-" x="-25.4" y="-20.32" length="middle"/>
 <pin name="IM0" x="-25.4" y="-25.4" length="middle"/>
 <pin name="IM1" x="-25.4" y="-30.48" length="middle"/>
 <pin name="MOSI" x="-25.4" y="20.32" length="middle"/>
@@ -12344,7 +12334,7 @@ Source:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ADAFRUIT-2.4-TFT" urn="urn:adsk.eagle:component:2068539/2" library_version="2">
+<deviceset name="ADAFRUIT-2.4-TFT" urn="urn:adsk.eagle:component:2068539/2" locally_modified="yes" library_version="2" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="ADAFRUIT-2.4-TFT" x="0" y="0"/>
 </gates>
@@ -12373,23 +12363,17 @@ Source:
 <connect gate="G$1" pin="IM1" pad="IM1"/>
 <connect gate="G$1" pin="IM2" pad="IM2"/>
 <connect gate="G$1" pin="IM3" pad="IM3"/>
-<connect gate="G$1" pin="LITE" pad="LITE"/>
 <connect gate="G$1" pin="LITE_2" pad="LITE_2"/>
 <connect gate="G$1" pin="MISO" pad="MISO"/>
 <connect gate="G$1" pin="MOSI" pad="MOSI"/>
 <connect gate="G$1" pin="RD" pad="RD"/>
-<connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="RST_2" pad="RST_2"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 <connect gate="G$1" pin="VIN_2" pad="VIN_2"/>
 <connect gate="G$1" pin="WR" pad="WR"/>
-<connect gate="G$1" pin="X+" pad="X+"/>
 <connect gate="G$1" pin="X+_2" pad="X+_2"/>
-<connect gate="G$1" pin="X-" pad="X-"/>
 <connect gate="G$1" pin="X-_2" pad="X-_2"/>
-<connect gate="G$1" pin="Y+" pad="Y+"/>
 <connect gate="G$1" pin="Y+_2" pad="Y+_2"/>
-<connect gate="G$1" pin="Y-" pad="Y-"/>
 <connect gate="G$1" pin="Y-_2" pad="Y-_2"/>
 </connects>
 <package3dinstances>
@@ -12490,10 +12474,10 @@ Source:
 <part name="MOTOR_FUSE" library="fuse-holder-3568" deviceset="3568-FUSEHOLDER" device="" value="30A"/>
 <part name="LOGIC_FUSE" library="fuse-holder-3568" deviceset="3568-FUSEHOLDER" device="" value="2A"/>
 <part name="VREG-3.3" library="linear" deviceset="LM340?-*" device="S" technology="05" value=""/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="22uF"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10uF"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="22uF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
@@ -12832,6 +12816,7 @@ Source:
 <part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND100" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND101" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND102" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13132,12 +13117,12 @@ Source:
 <instance part="GND84" gate="1" x="132.08" y="-73.66"/>
 <instance part="GND85" gate="1" x="99.06" y="134.62"/>
 <instance part="GND86" gate="1" x="193.04" y="134.62"/>
-<instance part="GND87" gate="1" x="269.24" y="63.5"/>
+<instance part="GND87" gate="1" x="279.4" y="66.04"/>
 <instance part="GND88" gate="1" x="185.42" y="12.7"/>
 <instance part="GND89" gate="1" x="203.2" y="-43.18"/>
 <instance part="GND90" gate="1" x="236.22" y="-73.66"/>
 <instance part="GND91" gate="1" x="302.26" y="134.62"/>
-<instance part="GND92" gate="1" x="368.3" y="63.5"/>
+<instance part="GND92" gate="1" x="383.54" y="66.04"/>
 <instance part="GND93" gate="1" x="302.26" y="12.7"/>
 <instance part="GND94" gate="1" x="302.26" y="-43.18"/>
 <instance part="GND95" gate="1" x="335.28" y="-73.66"/>
@@ -13201,6 +13186,7 @@ Source:
 <instance part="C19" gate="G$1" x="-132.08" y="-91.44"/>
 <instance part="GND100" gate="1" x="-132.08" y="-33.02"/>
 <instance part="GND101" gate="1" x="-132.08" y="-99.06"/>
+<instance part="GND102" gate="1" x="-248.92" y="-139.7"/>
 </instances>
 <busses>
 </busses>
@@ -13251,24 +13237,24 @@ Source:
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="SLAVE_DEBUG" gate="G$1" pin="13/SCK0"/>
-<wire x1="365.76" y1="73.66" x2="368.3" y2="73.66" width="0.1524" layer="91"/>
-<label x="368.3" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="MASTER" gate="G$1" pin="14/A0/PWM"/>
+<wire x1="55.88" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<label x="58.42" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SLAVE_SENSOR" gate="G$1" pin="13/SCK0"/>
-<wire x1="266.7" y1="73.66" x2="269.24" y2="73.66" width="0.1524" layer="91"/>
-<label x="269.24" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_MOTOR" gate="G$1" pin="14/A0/PWM"/>
+<wire x1="162.56" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
+<label x="165.1" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SLAVE_MOTOR" gate="G$1" pin="13/SCK0"/>
-<wire x1="162.56" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
-<label x="165.1" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_DEBUG" gate="G$1" pin="14/A0/PWM"/>
+<wire x1="365.76" y1="78.74" x2="368.3" y2="78.74" width="0.1524" layer="91"/>
+<label x="368.3" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MASTER" gate="G$1" pin="13/SCK0"/>
-<wire x1="55.88" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<label x="58.42" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="14/A0/PWM"/>
+<wire x1="266.7" y1="78.74" x2="269.24" y2="78.74" width="0.1524" layer="91"/>
+<label x="269.24" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS_MOTOR" class="0">
@@ -13330,9 +13316,9 @@ Source:
 <label x="-182.88" y="137.16" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SLAVE_DEBUG" gate="G$1" pin="14/A0/PWM"/>
-<wire x1="365.76" y1="78.74" x2="368.3" y2="78.74" width="0.1524" layer="91"/>
-<label x="368.3" y="78.74" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_DEBUG" gate="G$1" pin="A22/DAC1"/>
+<wire x1="365.76" y1="63.5" x2="368.3" y2="63.5" width="0.1524" layer="91"/>
+<label x="368.3" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -14141,8 +14127,7 @@ Source:
 </segment>
 <segment>
 <pinref part="SLAVE_SENSOR" gate="G$1" pin="GND-1"/>
-<wire x1="266.7" y1="68.58" x2="269.24" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="68.58" x2="269.24" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="68.58" x2="279.4" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND87" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -14170,8 +14155,7 @@ Source:
 </segment>
 <segment>
 <pinref part="SLAVE_DEBUG" gate="G$1" pin="GND-1"/>
-<wire x1="365.76" y1="68.58" x2="368.3" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="68.58" x2="368.3" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="68.58" x2="383.54" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND92" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -14253,6 +14237,12 @@ Source:
 <pinref part="C18" gate="G$1" pin="2"/>
 <pinref part="GND100" gate="1" pin="GND"/>
 <wire x1="-132.08" y1="-27.94" x2="-132.08" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SCREEN" gate="G$1" pin="GND"/>
+<wire x1="-243.84" y1="-134.62" x2="-248.92" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="-248.92" y1="-134.62" x2="-248.92" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="GND102" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -15014,9 +15004,9 @@ Source:
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="SLAVE_MOTOR" gate="G$1" pin="17/A3"/>
-<wire x1="162.56" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
-<label x="165.1" y="93.98" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_MOTOR" gate="G$1" pin="19/A5/SCL0"/>
+<wire x1="162.56" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<label x="165.1" y="104.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -15299,9 +15289,9 @@ Source:
 <pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="SLAVE_MOTOR" gate="G$1" pin="14/A0/PWM"/>
-<wire x1="162.56" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-<label x="165.1" y="78.74" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_MOTOR" gate="G$1" pin="16/A2"/>
+<wire x1="162.56" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
+<label x="165.1" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR2_CS" class="0">
@@ -15315,9 +15305,9 @@ Source:
 <pinref part="C11" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="SLAVE_MOTOR" gate="G$1" pin="15/A1/CS0"/>
-<wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<label x="165.1" y="83.82" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_MOTOR" gate="G$1" pin="17/A3"/>
+<wire x1="162.56" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<label x="165.1" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR2_ENA" class="0">
@@ -15481,9 +15471,9 @@ Source:
 <pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="SLAVE_MOTOR" gate="G$1" pin="16/A2"/>
-<wire x1="162.56" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
-<label x="165.1" y="88.9" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_MOTOR" gate="G$1" pin="18/A4/SDA0"/>
+<wire x1="162.56" y1="99.06" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
+<label x="165.1" y="99.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR4_INA" class="0">
@@ -16344,14 +16334,14 @@ Source:
 </net>
 <net name="LS0" class="0">
 <segment>
-<pinref part="SLAVE_SENSOR" gate="G$1" pin="14/A0/PWM"/>
-<wire x1="266.7" y1="78.74" x2="269.24" y2="78.74" width="0.1524" layer="91"/>
-<label x="269.24" y="78.74" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="LS_CONNECTOR" gate="A" pin="7"/>
 <wire x1="-76.2" y1="66.04" x2="-81.28" y2="66.04" width="0.1524" layer="91"/>
 <label x="-81.28" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="A22/DAC1"/>
+<wire x1="266.7" y1="63.5" x2="269.24" y2="63.5" width="0.1524" layer="91"/>
+<label x="269.24" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS1" class="0">
@@ -16778,6 +16768,23 @@ Source:
 <junction x="203.2" y="2.54"/>
 <label x="200.66" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="48/TX6"/>
+<wire x1="266.7" y1="7.62" x2="269.24" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="7.62" x2="269.24" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="49/A23"/>
+<wire x1="269.24" y1="2.54" x2="266.7" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="50/A24"/>
+<wire x1="266.7" y1="-2.54" x2="269.24" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="-2.54" x2="269.24" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="2.54" x2="271.78" y2="2.54" width="0.1524" layer="91"/>
+<junction x="269.24" y="2.54"/>
+<label x="271.78" y="2.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="47/RX6"/>
+<wire x1="266.7" y1="12.7" x2="269.24" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="12.7" x2="269.24" y2="7.62" width="0.1524" layer="91"/>
+<junction x="269.24" y="7.62"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -17092,9 +17099,9 @@ Source:
 <label x="-180.34" y="-279.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MASTER" gate="G$1" pin="42"/>
-<wire x1="-5.08" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-7.62" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="MASTER" gate="G$1" pin="55"/>
+<wire x1="55.88" y1="-27.94" x2="58.42" y2="-27.94" width="0.1524" layer="91"/>
+<label x="58.42" y="-27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GYRO_CS1" class="0">

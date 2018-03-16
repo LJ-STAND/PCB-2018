@@ -1,9 +1,4 @@
 G04 EAGLE Gerber X2 export*
-%TF.Part,Single*%
-%TF.FileFunction,Other,Bottom Soldermask*%
-%TF.FilePolarity,Positive*%
-%TF.GenerationSoftware,Autodesk,EAGLE,8.7.0*%
-%TF.CreationDate,2018-03-10T10:37:46Z*%
 G75*
 %MOMM*%
 %FSLAX34Y34*%
@@ -2708,4 +2703,6 @@ X475149Y965810D01*
 X477412Y952977D01*
 X465563Y950888D01*
 G37*
+X881770Y603504D03*
+X898770Y603504D03*
 M02*

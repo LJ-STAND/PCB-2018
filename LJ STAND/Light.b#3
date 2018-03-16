@@ -153,7 +153,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTBjMzI3" projecturn="a.cGVyc29uYWw6dWUyYTBjMzI3IzIwMTgwMjIxMTE4OTc1ODMx" f3durn="urn:adsk.wipprod:dm.lineage:MmVaShCzQXqDM1FhY2JLAQ" pcbguid="099f4372-9b0e-4b6f-99e0-a87d2b5cb165" lastpulledtime="2018-03-02T05:35:03Z" lastsyncedchangeguid="5c4f90cb-ca3d-5e8e-b21b-f6a00276a3bf"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTBjMzI3" projecturn="a.cGVyc29uYWw6dWUyYTBjMzI3IzIwMTgwMjIxMTE4OTc1ODMx" f3durn="urn:adsk.wipprod:dm.lineage:MmVaShCzQXqDM1FhY2JLAQ" pcbguid="099f4372-9b0e-4b6f-99e0-a87d2b5cb165" lastpulledtime="2018-03-02T05:35:03Z" lastsyncedchangeguid="6aed2bd6-fbfa-a178-d3de-a81b2620784a"/>
 <plain>
 <hole x="3.5" y="56.1723125" drill="3.1"/>
 <hole x="108.844625" y="56.1723125" drill="3.10005"/>
@@ -4919,7 +4919,7 @@
 <text x="52.9844" y="17.399" size="1.778" layer="21" font="vector" ratio="10">AUSTRALIA</text>
 <text x="67.4878" y="96.1898" size="1.778" layer="21" font="vector" ratio="10">1</text>
 <wire x1="52.3494" y1="88.8492" x2="60.0202" y2="88.8492" width="0.254" layer="21"/>
-<text x="94.234" y="53.9242" size="0.508" layer="21" font="vector" rot="R45">fire
+<text x="94.2086" y="53.9242" size="0.5588" layer="21" font="vector" rot="R45">fire
 water
 earth
 air
@@ -5464,16 +5464,16 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C1" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="81.534" y="85.319" smashed="yes" rot="MR40">
-<attribute name="VALUE" x="83.4432625" y="84.244596875" size="0.4064" layer="28" font="vector" rot="MR310"/>
+<attribute name="VALUE" x="83.7480625" y="83.863596875" size="1.016" layer="28" font="vector" rot="MR310"/>
 </element>
 <element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="56.185" y="97.79" locked="yes" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="55.1055" y="96.774" size="0.4064" layer="28" rot="MR90"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="75K" x="77.749" y="84.785" smashed="yes" rot="MR310">
-<attribute name="VALUE" x="78.77280625" y="86.7198625" size="0.4064" layer="28" font="vector" rot="MR220"/>
+<attribute name="VALUE" x="74.5193375" y="81.69380625" size="1.016" layer="28" font="vector" rot="MR130"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="0603-RES" value="75" x="54.153" y="97.815" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="53.7976" y="99.9238" size="0.4064" layer="28" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="54.8128" y="99.7202" size="1.016" layer="28" font="vector" rot="MR0"/>
 </element>
 <element name="LS4" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="79.096" y="83.566" locked="yes" smashed="yes" rot="MR310"/>
 <element name="LS5" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="83.541" y="79.172" locked="yes" smashed="yes" rot="MR320"/>
@@ -5481,460 +5481,461 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="62.184475" y="96.3168875" size="0.4064" layer="28" rot="MR100"/>
 </element>
 <element name="R3" library="SparkFun-Resistors" package="0603-RES" value="75K" x="82.271" y="80.696" smashed="yes" rot="MR320">
-<attribute name="VALUE" x="83.61051875" y="82.463209375" size="0.4064" layer="28" font="vector" rot="MR230"/>
+<attribute name="VALUE" x="78.623590625" y="78.30191875" size="1.016" layer="28" font="vector" rot="MR140"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="86.487" y="80.035" smashed="yes" rot="MR50">
-<attribute name="VALUE" x="86.569284375" y="77.912390625" size="0.4064" layer="28" font="vector" rot="MR50"/>
+<attribute name="VALUE" x="90.769009375" y="82.454484375" size="1.016" layer="28" font="vector" rot="MR320"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0603-RES" value="75" x="61.534" y="97.394" smashed="yes" rot="MR280">
-<attribute name="VALUE" x="61.569915625" y="99.5390625" size="0.4064" layer="28" font="vector" rot="MR190"/>
+<attribute name="VALUE" x="62.585284375" y="99.1651375" size="1.016" layer="28" font="vector" rot="MR10"/>
 </element>
 <element name="LS6" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="87.122" y="74.092" locked="yes" smashed="yes" rot="MR330"/>
 <element name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="70.409" y="95.225" locked="yes" smashed="yes" rot="MR20">
 <attribute name="VALUE" x="69.047109375" y="94.63948125" size="0.4064" layer="28" rot="MR110"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0603-RES" value="75K" x="86.106" y="76.048" smashed="yes" rot="MR330">
-<attribute name="VALUE" x="87.93366875" y="77.244984375" size="0.4064" layer="28" font="vector" rot="MR240"/>
+<attribute name="VALUE" x="82.140015625" y="74.31926875" size="1.016" layer="28" font="vector" rot="MR150"/>
 </element>
 <element name="C3" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="89.713" y="74.6" smashed="yes" rot="MR60">
-<attribute name="VALUE" x="91.214784375" y="72.822734375" size="0.4064" layer="28" font="vector" rot="MR330"/>
+<attribute name="VALUE" x="91.595784375" y="72.568734375" size="1.016" layer="28" font="vector" rot="MR330"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0603-RES" value="75" x="68.631" y="95.834" smashed="yes" rot="MR290">
-<attribute name="VALUE" x="69.210203125" y="97.8909625" size="0.4064" layer="28" font="vector" rot="MR200"/>
+<attribute name="VALUE" x="68.905403125" y="98.7291625" size="1.016" layer="28" font="vector" rot="MR200"/>
 </element>
 <element name="LS7" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="89.764" y="68.402" locked="yes" smashed="yes" rot="MR340"/>
 <element name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="76.987" y="92.227" locked="yes" smashed="yes" rot="MR30">
 <attribute name="VALUE" x="75.544128125" y="91.886865625" size="0.4064" layer="28" rot="MR120"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="0603-RES" value="75K" x="89.383" y="70.155" smashed="yes" rot="MR340">
-<attribute name="VALUE" x="91.251978125" y="71.373859375" size="0.4064" layer="28" font="vector" rot="MR250"/>
+<attribute name="VALUE" x="85.293340625" y="69.179378125" size="1.016" layer="28" font="vector" rot="MR160"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="92.481" y="68.199" smashed="yes" rot="MR70">
-<attribute name="VALUE" x="92.059225" y="65.913540625" size="0.4064" layer="28" font="vector" rot="MR70"/>
+<attribute name="VALUE" x="92.277659375" y="66.100425" size="1.016" layer="28" font="vector" rot="MR340"/>
 </element>
 <element name="R8" library="SparkFun-Resistors" package="0603-RES" value="75" x="74.955" y="92.888" smashed="yes" rot="MR300">
-<attribute name="VALUE" x="75.81521875" y="94.84246875" size="0.4064" layer="28" font="vector" rot="MR210"/>
+<attribute name="VALUE" x="75.68821875" y="95.73146875" size="1.016" layer="28" font="vector" rot="MR210"/>
 </element>
 <element name="LS8" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="91.338" y="62.408" locked="yes" smashed="yes" rot="MR350"/>
 <element name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="82.931" y="88.036" locked="yes" smashed="yes" rot="MR40">
 <attribute name="VALUE" x="81.450984375" y="87.9515875" size="0.4064" layer="28" rot="MR130"/>
 </element>
 <element name="R9" library="SparkFun-Resistors" package="0603-RES" value="75K" x="91.084" y="64.287" smashed="yes" rot="MR350">
-<attribute name="VALUE" x="93.177009375" y="65.105046875" size="0.4064" layer="28" font="vector" rot="MR260"/>
+<attribute name="VALUE" x="86.685353125" y="63.992409375" size="1.016" layer="28" font="vector" rot="MR170"/>
 </element>
 <element name="C5" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="94.132" y="61.747" smashed="yes" rot="MR80">
-<attribute name="VALUE" x="95.916046875" y="59.85799375" size="0.4064" layer="28" font="vector" rot="MR350"/>
+<attribute name="VALUE" x="98.938646875" y="60.41679375" size="1.016" layer="28" font="vector" rot="MR350"/>
 </element>
 <element name="R10" library="SparkFun-Resistors" package="0603-RES" value="75" x="81.458" y="89.103" smashed="yes" rot="MR310">
-<attribute name="VALUE" x="82.60820625" y="90.9876625" size="0.4064" layer="28" font="vector" rot="MR220"/>
+<attribute name="VALUE" x="82.63360625" y="91.7750625" size="1.016" layer="28" font="vector" rot="MR220"/>
 </element>
 <element name="LS9" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="91.872" y="56.185" locked="yes" smashed="yes" rot="MR0"/>
 <element name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="88.011" y="82.906" locked="yes" smashed="yes" rot="MR50">
 <attribute name="VALUE" x="86.5388125" y="83.079871875" size="0.4064" layer="28" rot="MR140"/>
 </element>
 <element name="R11" library="SparkFun-Resistors" package="0603-RES" value="75K" x="91.999" y="58.014" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="94.2082" y="58.4202" size="0.4064" layer="28" font="vector" rot="MR270"/>
+<attribute name="VALUE" x="87.5028" y="58.5466" size="1.016" layer="28" font="vector" rot="MR180"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="94.615" y="54.966" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="94.0058" y="53.213" size="0.4064" layer="28" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="95.7838" y="53.7718" size="1.016" layer="28" font="vector" rot="MR180"/>
 </element>
 <element name="R12" library="SparkFun-Resistors" package="0603-RES" value="75" x="86.716" y="84.43" smashed="yes" rot="MR320">
-<attribute name="VALUE" x="88.18231875" y="86.019209375" size="0.4064" layer="28" font="vector" rot="MR230"/>
+<attribute name="VALUE" x="88.43631875" y="86.832009375" size="1.016" layer="28" font="vector" rot="MR230"/>
 </element>
 <element name="LS10" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="91.389" y="49.936" locked="yes" smashed="yes" rot="MR10"/>
 <element name="D7" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="92.227" y="76.937" locked="yes" smashed="yes" rot="MR60">
 <attribute name="VALUE" x="90.80736875" y="77.363871875" size="0.4064" layer="28" rot="MR150"/>
 </element>
 <element name="R13" library="SparkFun-Resistors" package="0603-RES" value="75K" x="91.745" y="51.613" smashed="yes" rot="MR10">
-<attribute name="VALUE" x="94.0118625" y="51.7546875" size="0.4064" layer="28" font="vector" rot="MR280"/>
+<attribute name="VALUE" x="87.5135125" y="52.8892625" size="1.016" layer="28" font="vector" rot="MR190"/>
 </element>
 <element name="C7" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="93.878" y="48.59" smashed="yes" rot="MR100">
-<attribute name="VALUE" x="94.1726875" y="46.373340625" size="0.4064" layer="28" font="vector" rot="MR10"/>
+<attribute name="VALUE" x="95.3410875" y="45.585940625" size="1.016" layer="28" font="vector" rot="MR10"/>
 </element>
 <element name="R14" library="SparkFun-Resistors" package="0603-RES" value="75" x="91.084" y="78.435" smashed="yes" rot="MR330">
-<attribute name="VALUE" x="92.81106875" y="79.784584375" size="0.4064" layer="28" font="vector" rot="MR240"/>
+<attribute name="VALUE" x="93.09046875" y="80.394184375" size="1.016" layer="28" font="vector" rot="MR240"/>
 </element>
 <element name="LS11" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="89.764" y="43.967" locked="yes" smashed="yes" rot="MR20"/>
 <element name="D8" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="95.275" y="70.383" locked="yes" smashed="yes" rot="MR70">
 <attribute name="VALUE" x="93.9510625" y="71.049903125" size="0.4064" layer="28" rot="MR160"/>
 </element>
 <element name="R15" library="SparkFun-Resistors" package="0603-RES" value="75K" x="90.526" y="45.618" smashed="yes" rot="MR20">
-<attribute name="VALUE" x="92.8619625" y="45.2936" size="0.4064" layer="28" font="vector" rot="MR290"/>
+<attribute name="VALUE" x="86.4562" y="47.5229625" size="1.016" layer="28" font="vector" rot="MR200"/>
 </element>
 <element name="C8" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="92.126" y="42.189" smashed="yes" rot="MR110">
-<attribute name="VALUE" x="92.0804" y="39.929840625" size="0.4064" layer="28" font="vector" rot="MR20"/>
+<attribute name="VALUE" x="92.944" y="39.040840625" size="1.016" layer="28" font="vector" rot="MR20"/>
 </element>
 <element name="R16" library="SparkFun-Resistors" package="0603-RES" value="75" x="94.336" y="72.212" smashed="yes" rot="MR340">
-<attribute name="VALUE" x="96.230778125" y="73.151859375" size="0.4064" layer="28" font="vector" rot="MR250"/>
+<attribute name="VALUE" x="97.068978125" y="73.228059375" size="1.016" layer="28" font="vector" rot="MR250"/>
 </element>
 <element name="LS12" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="87.147" y="38.329" locked="yes" smashed="yes" rot="MR30"/>
 <element name="D9" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="97.155" y="63.373" locked="yes" smashed="yes" rot="MR80">
 <attribute name="VALUE" x="95.966984375" y="64.259671875" size="0.4064" layer="28" rot="MR170"/>
 </element>
 <element name="R17" library="SparkFun-Resistors" package="0603-RES" value="75K" x="88.417" y="39.98" smashed="yes" rot="MR30">
-<attribute name="VALUE" x="90.60066875" y="39.246184375" size="0.4064" layer="28" font="vector" rot="MR300"/>
+<attribute name="VALUE" x="84.858215625" y="42.59466875" size="1.016" layer="28" font="vector" rot="MR210"/>
 </element>
 <element name="C9" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="89.078" y="36.17" smashed="yes" rot="MR120">
-<attribute name="VALUE" x="88.623784375" y="33.909934375" size="0.4064" layer="28" font="vector" rot="MR30"/>
+<attribute name="VALUE" x="89.030184375" y="33.046334375" size="1.016" layer="28" font="vector" rot="MR30"/>
 </element>
 <element name="R18" library="SparkFun-Resistors" package="0603-RES" value="75" x="96.8498" y="64.9478" smashed="yes" rot="MR350">
-<attribute name="VALUE" x="98.790009375" y="65.790846875" size="0.4064" layer="28" font="vector" rot="MR260"/>
+<attribute name="VALUE" x="97.469209375" y="67.746646875" size="1.016" layer="28" font="vector" rot="MR260"/>
 </element>
 <element name="LS13" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="83.541" y="33.198" locked="yes" smashed="yes" rot="MR40"/>
 <element name="D10" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="97.765" y="56.159" locked="yes" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="96.749" y="57.2385" size="0.4064" layer="28" rot="MR180"/>
 </element>
 <element name="R19" library="SparkFun-Resistors" package="0603-RES" value="75K" x="84.938" y="34.569" smashed="yes" rot="MR40">
-<attribute name="VALUE" x="86.9492625" y="33.470396875" size="0.4064" layer="28" font="vector" rot="MR310"/>
+<attribute name="VALUE" x="82.023403125" y="37.7748625" size="1.016" layer="28" font="vector" rot="MR220"/>
 </element>
 <element name="C10" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="85.09" y="30.632" smashed="yes" rot="MR130">
-<attribute name="VALUE" x="84.168796875" y="28.595740625" size="0.4064" layer="28" font="vector" rot="MR40"/>
+<attribute name="VALUE" x="84.702196875" y="27.478140625" size="1.016" layer="28" font="vector" rot="MR40"/>
 </element>
 <element name="R20" library="SparkFun-Resistors" package="0603-RES" value="75" x="97.714" y="58.064" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="99.8986" y="58.2424" size="0.4064" layer="28" font="vector" rot="MR270"/>
+<attribute name="VALUE" x="100.686" y="58.725" size="1.016" layer="28" font="vector" rot="MR270"/>
 </element>
 <element name="LS14" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="79.172" y="28.778" locked="yes" smashed="yes" rot="MR50"/>
 <element name="D11" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="97.155" y="48.92" locked="yes" smashed="yes" rot="MR100">
 <attribute name="VALUE" x="96.341890625" y="50.159525" size="0.4064" layer="28" rot="MR190"/>
 </element>
 <element name="R21" library="SparkFun-Resistors" package="0603-RES" value="75K" x="81.204" y="29.693" smashed="yes" rot="MR50">
-<attribute name="VALUE" x="83.046609375" y="28.124084375" size="0.4064" layer="28" font="vector" rot="MR320"/>
+<attribute name="VALUE" x="78.784515625" y="33.186409375" size="1.016" layer="28" font="vector" rot="MR230"/>
 </element>
 <element name="C11" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="80.289" y="26.137" smashed="yes" rot="MR140">
-<attribute name="VALUE" x="79.101284375" y="24.16599375" size="0.4064" layer="28" font="vector" rot="MR50"/>
+<attribute name="VALUE" x="79.279084375" y="23.14999375" size="1.016" layer="28" font="vector" rot="MR50"/>
 </element>
 <element name="R22" library="SparkFun-Resistors" package="0603-RES" value="75" x="97.307" y="50.8" smashed="yes" rot="MR10">
-<attribute name="VALUE" x="99.4984625" y="50.6872875" size="0.4064" layer="28" font="vector" rot="MR280"/>
+<attribute name="VALUE" x="100.4890625" y="51.1190875" size="1.016" layer="28" font="vector" rot="MR280"/>
 </element>
 <element name="LS15" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="74.066" y="25.197" locked="yes" smashed="yes" rot="MR60"/>
 <element name="D12" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="95.225" y="41.91" locked="yes" smashed="yes" rot="MR110">
 <attribute name="VALUE" x="94.639484375" y="43.271890625" size="0.4064" layer="28" rot="MR200"/>
 </element>
 <element name="R23" library="SparkFun-Resistors" package="0603-RES" value="75K" x="76.022" y="25.984" smashed="yes" rot="MR60">
-<attribute name="VALUE" x="77.524584375" y="24.079734375" size="0.4064" layer="28" font="vector" rot="MR330"/>
+<attribute name="VALUE" x="74.319865625" y="29.975784375" size="1.016" layer="28" font="vector" rot="MR240"/>
 </element>
 <element name="C12" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="74.727" y="22.352" smashed="yes" rot="MR150">
-<attribute name="VALUE" x="73.127334375" y="20.62141875" size="0.4064" layer="28" font="vector" rot="MR60"/>
+<attribute name="VALUE" x="73.051134375" y="19.70701875" size="1.016" layer="28" font="vector" rot="MR60"/>
 </element>
 <element name="R24" library="SparkFun-Resistors" package="0603-RES" value="75" x="95.631" y="43.688" smashed="yes" rot="MR20">
-<attribute name="VALUE" x="97.8145625" y="43.2104" size="0.4064" layer="28" font="vector" rot="MR290"/>
+<attribute name="VALUE" x="98.5257625" y="43.3628" size="1.016" layer="28" font="vector" rot="MR290"/>
 </element>
 <element name="LS0" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="56.185" y="91.923" locked="yes" smashed="yes" rot="MR270"/>
 <element name="D13" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="92.227" y="35.382" locked="yes" smashed="yes" rot="MR120">
 <attribute name="VALUE" x="91.88686875" y="36.824871875" size="0.4064" layer="28" rot="MR210"/>
 </element>
 <element name="R25" library="SparkFun-Resistors" package="0603-RES" value="75K" x="54.229" y="92.075" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="53.7718" y="94.234" size="0.4064" layer="28" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="53.6702" y="87.6046" size="1.016" layer="28" font="vector" rot="MR90"/>
 </element>
 <element name="C13" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="57.302" y="94.691" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="59.5124" y="95.0464" size="0.4064" layer="28" font="vector" rot="MR270"/>
+<attribute name="VALUE" x="60.0204" y="97.9928" size="1.016" layer="28" font="vector" rot="MR270"/>
 </element>
 <element name="R26" library="SparkFun-Resistors" package="0603-RES" value="75" x="92.913" y="37.465" smashed="yes" rot="MR30">
-<attribute name="VALUE" x="94.96986875" y="36.553984375" size="0.4064" layer="28" font="vector" rot="MR300"/>
+<attribute name="VALUE" x="95.83346875" y="36.528584375" size="1.016" layer="28" font="vector" rot="MR300"/>
 </element>
 <element name="LS1" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="62.382" y="91.415" locked="yes" smashed="yes" rot="MR280"/>
 <element name="D14" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="88.062" y="29.413" locked="yes" smashed="yes" rot="MR130">
 <attribute name="VALUE" x="87.977590625" y="30.893015625" size="0.4064" layer="28" rot="MR220"/>
 </element>
 <element name="R27" library="SparkFun-Resistors" package="0603-RES" value="75K" x="60.579" y="91.872" smashed="yes" rot="MR280">
-<attribute name="VALUE" x="60.487915625" y="94.1136625" size="0.4064" layer="28" font="vector" rot="MR190"/>
+<attribute name="VALUE" x="60.6110625" y="89.829284375" size="1.016" layer="28" font="vector" rot="MR280"/>
 </element>
 <element name="C14" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="63.775" y="93.954" smashed="yes" rot="MR10">
-<attribute name="VALUE" x="66.0472625" y="94.1680875" size="0.4064" layer="28" font="vector" rot="MR280"/>
+<attribute name="VALUE" x="65.3215375" y="92.7251125" size="1.016" layer="28" font="vector" rot="MR100"/>
 </element>
 <element name="R28" library="SparkFun-Resistors" package="0603-RES" value="75" x="89.205" y="31.344" smashed="yes" rot="MR40">
-<attribute name="VALUE" x="91.1394625" y="29.964996875" size="0.4064" layer="28" font="vector" rot="MR310"/>
+<attribute name="VALUE" x="91.9268625" y="30.193596875" size="1.016" layer="28" font="vector" rot="MR310"/>
 </element>
 <element name="LS2" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="68.377" y="89.764" locked="yes" smashed="yes" rot="MR290"/>
 <element name="D15" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="82.906" y="24.308" locked="yes" smashed="yes" rot="MR140">
 <attribute name="VALUE" x="83.079875" y="25.7801875" size="0.4064" layer="28" rot="MR230"/>
 </element>
 <element name="R29" library="SparkFun-Resistors" package="0603-RES" value="75K" x="66.751" y="90.449" smashed="yes" rot="MR290">
-<attribute name="VALUE" x="67.076803125" y="92.6581625" size="0.4064" layer="28" font="vector" rot="MR200"/>
+<attribute name="VALUE" x="64.8472375" y="86.584003125" size="1.016" layer="28" font="vector" rot="MR110"/>
 </element>
 <element name="C15" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="70.231" y="92.05" smashed="yes" rot="MR20">
-<attribute name="VALUE" x="72.5919625" y="91.9022" size="0.4064" layer="28" font="vector" rot="MR290"/>
+<attribute name="VALUE" x="73.5825625" y="93.1976" size="1.016" layer="28" font="vector" rot="MR290"/>
 </element>
 <element name="R30" library="SparkFun-Resistors" package="0603-RES" value="75" x="84.404" y="25.756" smashed="yes" rot="MR50">
-<attribute name="VALUE" x="86.120009375" y="24.110484375" size="0.4064" layer="28" font="vector" rot="MR320"/>
+<attribute name="VALUE" x="86.831209375" y="24.186684375" size="1.016" layer="28" font="vector" rot="MR320"/>
 </element>
 <element name="LS3" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="74.041" y="87.147" locked="yes" smashed="yes" rot="MR300"/>
 <element name="D16" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="76.987" y="20.091" locked="yes" smashed="yes" rot="MR150">
 <attribute name="VALUE" x="77.413875" y="21.51063125" size="0.4064" layer="28" rot="MR240"/>
 </element>
 <element name="R31" library="SparkFun-Resistors" package="0603-RES" value="75K" x="72.644" y="88.138" smashed="yes" rot="MR300">
-<attribute name="VALUE" x="73.32621875" y="90.22006875" size="0.4064" layer="28" font="vector" rot="MR210"/>
+<attribute name="VALUE" x="70.05393125" y="84.65461875" size="1.016" layer="28" font="vector" rot="MR120"/>
 </element>
 <element name="C16" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="76.302" y="89.129" smashed="yes" rot="MR30">
-<attribute name="VALUE" x="78.51026875" y="88.548384375" size="0.4064" layer="28" font="vector" rot="MR300"/>
+<attribute name="VALUE" x="79.95806875" y="89.615184375" size="1.016" layer="28" font="vector" rot="MR300"/>
 </element>
 <element name="R32" library="SparkFun-Resistors" package="0603-RES" value="75" x="78.689" y="21.311" smashed="yes" rot="MR60">
-<attribute name="VALUE" x="80.038584375" y="19.482334375" size="0.4064" layer="28" font="vector" rot="MR330"/>
+<attribute name="VALUE" x="80.648184375" y="19.202934375" size="1.016" layer="28" font="vector" rot="MR330"/>
 </element>
 <element name="LS16" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="68.377" y="22.581" locked="yes" smashed="yes" rot="MR70"/>
 <element name="D17" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="70.383" y="17.094" locked="yes" smashed="yes" rot="MR160">
 <attribute name="VALUE" x="71.04990625" y="18.4179375" size="0.4064" layer="28" rot="MR250"/>
 </element>
 <element name="R33" library="SparkFun-Resistors" package="0603-RES" value="75K" x="70.409" y="23.114" smashed="yes" rot="MR70">
-<attribute name="VALUE" x="71.602059375" y="21.066825" size="0.4064" layer="28" font="vector" rot="MR340"/>
+<attribute name="VALUE" x="69.331775" y="27.380659375" size="1.016" layer="28" font="vector" rot="MR250"/>
 </element>
 <element name="C17" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="68.351" y="19.66" smashed="yes" rot="MR160">
-<attribute name="VALUE" x="66.456025" y="18.26274375" size="0.4064" layer="28" font="vector" rot="MR70"/>
+<attribute name="VALUE" x="66.252825" y="17.52614375" size="1.016" layer="28" font="vector" rot="MR70"/>
 </element>
 <element name="R34" library="SparkFun-Resistors" package="0603-RES" value="75" x="72.06" y="17.856" smashed="yes" rot="MR70">
-<attribute name="VALUE" x="73.100859375" y="15.783625" size="0.4064" layer="28" font="vector" rot="MR340"/>
+<attribute name="VALUE" x="73.786659375" y="15.504225" size="1.016" layer="28" font="vector" rot="MR340"/>
 </element>
 <element name="LS17" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="62.382" y="20.98" locked="yes" smashed="yes" rot="MR80"/>
 <element name="D18" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="63.449" y="15.164" locked="yes" smashed="yes" rot="MR170">
 <attribute name="VALUE" x="64.335675" y="16.352015625" size="0.4064" layer="28" rot="MR260"/>
 </element>
 <element name="R35" library="SparkFun-Resistors" package="0603-RES" value="75K" x="64.287" y="20.803" smashed="yes" rot="MR80">
-<attribute name="VALUE" x="65.206646875" y="18.70999375" size="0.4064" layer="28" font="vector" rot="MR350"/>
+<attribute name="VALUE" x="64.09400625" y="25.354046875" size="1.016" layer="28" font="vector" rot="MR260"/>
 </element>
 <element name="C18" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="61.747" y="18.009" smashed="yes" rot="MR170">
-<attribute name="VALUE" x="59.65479375" y="16.91075625" size="0.4064" layer="28" font="vector" rot="MR80"/>
+<attribute name="VALUE" x="59.24839375" y="16.50435625" size="1.016" layer="28" font="vector" rot="MR80"/>
 </element>
 <element name="R36" library="SparkFun-Resistors" package="0603-RES" value="75" x="65.329" y="15.799" smashed="yes" rot="MR80">
-<attribute name="VALUE" x="66.019646875" y="13.73219375" size="0.4064" layer="28" font="vector" rot="MR350"/>
+<attribute name="VALUE" x="66.680046875" y="13.04639375" size="1.016" layer="28" font="vector" rot="MR350"/>
 </element>
 <element name="LS18" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="56.134" y="20.371" locked="yes" smashed="yes" rot="MR90"/>
 <element name="D19" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="56.134" y="14.554" locked="yes" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="57.2135" y="15.57" size="0.4064" layer="28" rot="MR270"/>
 </element>
 <element name="R37" library="SparkFun-Resistors" package="0603-RES" value="75K" x="57.963" y="20.041" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="58.3942" y="17.8056" size="0.4064" layer="28" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="58.4452" y="24.6122" size="1.016" layer="28" font="vector" rot="MR270"/>
 </element>
 <element name="C19" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="55.118" y="17.628" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="52.9078" y="16.9926" size="0.4064" layer="28" font="vector" rot="MR90"/>
+<attribute name="VALUE" x="53.0094" y="18.415" size="1.016" layer="28" font="vector" rot="MR90"/>
 </element>
 <element name="R38" library="SparkFun-Resistors" package="0603-RES" value="75" x="58.217" y="14.681" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="58.5726" y="12.5224" size="0.4064" layer="28" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="59.106" y="11.7096" size="1.016" layer="28" font="vector" rot="MR0"/>
 </element>
 <element name="LS19" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="49.962" y="20.98" locked="yes" smashed="yes" rot="MR100"/>
 <element name="D20" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="48.971" y="15.215" locked="yes" smashed="yes" rot="MR190">
 <attribute name="VALUE" x="50.210528125" y="16.028109375" size="0.4064" layer="28" rot="MR280"/>
 </element>
 <element name="R39" library="SparkFun-Resistors" package="0603-RES" value="75K" x="51.892" y="20.32" smashed="yes" rot="MR100">
-<attribute name="VALUE" x="51.9322875" y="18.128740625" size="0.4064" layer="28" font="vector" rot="MR10"/>
+<attribute name="VALUE" x="53.092859375" y="24.5256875" size="1.016" layer="28" font="vector" rot="MR280"/>
 </element>
 <element name="C20" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="48.641" y="18.567" smashed="yes" rot="MR190">
-<attribute name="VALUE" x="46.374140625" y="18.324115625" size="0.4064" layer="28" font="vector" rot="MR100"/>
+<attribute name="VALUE" x="46.475740625" y="19.416315625" size="1.016" layer="28" font="vector" rot="MR100"/>
 </element>
 <element name="R40" library="SparkFun-Resistors" package="0603-RES" value="75" x="50.927" y="15.113" smashed="yes" rot="MR100">
-<attribute name="VALUE" x="50.8146875" y="12.871140625" size="0.4064" layer="28" font="vector" rot="MR10"/>
+<attribute name="VALUE" x="51.1702875" y="12.058340625" size="1.016" layer="28" font="vector" rot="MR10"/>
 </element>
 <element name="LS20" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="43.942" y="22.581" locked="yes" smashed="yes" rot="MR110"/>
 <element name="D21" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="41.935" y="17.043" locked="yes" smashed="yes" rot="MR200">
 <attribute name="VALUE" x="43.29689375" y="17.628515625" size="0.4064" layer="28" rot="MR290"/>
 </element>
 <element name="R41" library="SparkFun-Resistors" package="0603-RES" value="75K" x="45.745" y="21.717" smashed="yes" rot="MR110">
-<attribute name="VALUE" x="45.4964" y="19.507640625" size="0.4064" layer="28" font="vector" rot="MR20"/>
+<attribute name="VALUE" x="47.726159375" y="25.7606" size="1.016" layer="28" font="vector" rot="MR290"/>
 </element>
 <element name="C21" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="42.316" y="20.091" smashed="yes" rot="MR200">
-<attribute name="VALUE" x="40.031640625" y="20.314603125" size="0.4064" layer="28" font="vector" rot="MR110"/>
+<attribute name="VALUE" x="39.422040625" y="20.162203125" size="1.016" layer="28" font="vector" rot="MR110"/>
 </element>
 <element name="R42" library="SparkFun-Resistors" package="0603-RES" value="75" x="43.866" y="16.485" smashed="yes" rot="MR110">
-<attribute name="VALUE" x="43.337" y="14.352040625" size="0.4064" layer="28" font="vector" rot="MR20"/>
+<attribute name="VALUE" x="43.7688" y="13.488440625" size="1.016" layer="28" font="vector" rot="MR20"/>
 </element>
 <element name="LS21" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="38.278" y="25.171" locked="yes" smashed="yes" rot="MR120"/>
 <element name="D22" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="35.408" y="20.142" locked="yes" smashed="yes" rot="MR210">
 <attribute name="VALUE" x="36.850875" y="20.48213125" size="0.4064" layer="28" rot="MR300"/>
 </element>
 <element name="R43" library="SparkFun-Resistors" package="0603-RES" value="75K" x="40.03" y="24.232" smashed="yes" rot="MR120">
-<attribute name="VALUE" x="39.144584375" y="22.047534375" size="0.4064" layer="28" font="vector" rot="MR30"/>
+<attribute name="VALUE" x="42.646265625" y="27.892384375" size="1.016" layer="28" font="vector" rot="MR300"/>
 </element>
 <element name="C22" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="36.195" y="23.19" smashed="yes" rot="MR210">
-<attribute name="VALUE" x="33.960734375" y="23.87241875" size="0.4064" layer="28" font="vector" rot="MR120"/>
+<attribute name="VALUE" x="32.970134375" y="23.00881875" size="1.016" layer="28" font="vector" rot="MR120"/>
 </element>
 <element name="R44" library="SparkFun-Resistors" package="0603-RES" value="75" x="37.465" y="19.431" smashed="yes" rot="MR120">
-<attribute name="VALUE" x="36.655784375" y="17.374334375" size="0.4064" layer="28" font="vector" rot="MR30"/>
+<attribute name="VALUE" x="36.681184375" y="16.536134375" size="1.016" layer="28" font="vector" rot="MR30"/>
 </element>
 <element name="LS22" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="33.172" y="28.804" locked="yes" smashed="yes" rot="MR130"/>
 <element name="D23" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="29.413" y="24.333" locked="yes" smashed="yes" rot="MR220">
 <attribute name="VALUE" x="30.89301875" y="24.417409375" size="0.4064" layer="28" rot="MR310"/>
 </element>
 <element name="R45" library="SparkFun-Resistors" package="0603-RES" value="75K" x="34.798" y="27.305" smashed="yes" rot="MR130">
-<attribute name="VALUE" x="33.647796875" y="25.242940625" size="0.4064" layer="28" font="vector" rot="MR40"/>
+<attribute name="VALUE" x="37.977659375" y="30.320396875" size="1.016" layer="28" font="vector" rot="MR310"/>
 </element>
 <element name="C23" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="30.683" y="27.127" smashed="yes" rot="MR220">
-<attribute name="VALUE" x="28.494340625" y="28.12480625" size="0.4064" layer="28" font="vector" rot="MR130"/>
+<attribute name="VALUE" x="27.097340625" y="27.18500625" size="1.016" layer="28" font="vector" rot="MR130"/>
 </element>
 <element name="R46" library="SparkFun-Resistors" package="0603-RES" value="75" x="31.445" y="23.292" smashed="yes" rot="MR130">
-<attribute name="VALUE" x="30.269396875" y="21.356540625" size="0.4064" layer="28" font="vector" rot="MR40"/>
+<attribute name="VALUE" x="30.269396875" y="20.492940625" size="1.016" layer="28" font="vector" rot="MR40"/>
 </element>
 <element name="LS23" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="28.778" y="33.198" locked="yes" smashed="yes" rot="MR140"/>
 <element name="D24" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="24.308" y="29.439" locked="yes" smashed="yes" rot="MR230">
 <attribute name="VALUE" x="25.780190625" y="29.265125" size="0.4064" layer="28" rot="MR320"/>
 </element>
 <element name="R47" library="SparkFun-Resistors" package="0603-RES" value="75K" x="29.82" y="31.344" smashed="yes" rot="MR140">
-<attribute name="VALUE" x="28.275884375" y="29.55159375" size="0.4064" layer="28" font="vector" rot="MR50"/>
+<attribute name="VALUE" x="33.54200625" y="33.813084375" size="1.016" layer="28" font="vector" rot="MR320"/>
 </element>
 <element name="C24" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="25.908" y="32.741" smashed="yes" rot="MR230">
-<attribute name="VALUE" x="23.98819375" y="34.00451875" size="0.4064" layer="28" font="vector" rot="MR140"/>
+<attribute name="VALUE" x="21.52439375" y="30.82951875" size="1.016" layer="28" font="vector" rot="MR140"/>
 </element>
 <element name="R48" library="SparkFun-Resistors" package="0603-RES" value="75" x="25.933" y="27.762" smashed="yes" rot="MR140">
-<attribute name="VALUE" x="24.415684375" y="26.14719375" size="0.4064" layer="28" font="vector" rot="MR50"/>
+<attribute name="VALUE" x="24.237884375" y="25.33439375" size="1.016" layer="28" font="vector" rot="MR50"/>
 </element>
 <element name="LS24" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="25.222" y="38.303" locked="yes" smashed="yes" rot="MR150"/>
 <element name="D25" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="20.142" y="35.331" locked="yes" smashed="yes" rot="MR240">
 <attribute name="VALUE" x="21.561634375" y="34.904125" size="0.4064" layer="28" rot="MR330"/>
 </element>
 <element name="R49" library="SparkFun-Resistors" package="0603-RES" value="75K" x="25.984" y="36.449" smashed="yes" rot="MR150">
-<attribute name="VALUE" x="24.257734375" y="35.12441875" size="0.4064" layer="28" font="vector" rot="MR60"/>
+<attribute name="VALUE" x="30.10278125" y="38.354734375" size="1.016" layer="28" font="vector" rot="MR330"/>
 </element>
 <element name="C25" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="22.428" y="37.694" smashed="yes" rot="MR240">
-<attribute name="VALUE" x="20.69701875" y="39.31826875" size="0.4064" layer="28" font="vector" rot="MR150"/>
+<attribute name="VALUE" x="17.47121875" y="36.95606875" size="1.016" layer="28" font="vector" rot="MR150"/>
 </element>
 <element name="R50" library="SparkFun-Resistors" package="0603-RES" value="75" x="21.387" y="33.858" smashed="yes" rot="MR150">
-<attribute name="VALUE" x="19.609734375" y="32.45781875" size="0.4064" layer="28" font="vector" rot="MR60"/>
+<attribute name="VALUE" x="19.304934375" y="31.67041875" size="1.016" layer="28" font="vector" rot="MR60"/>
 </element>
 <element name="LS25" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="22.581" y="43.942" locked="yes" smashed="yes" rot="MR160"/>
 <element name="D26" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="17.069" y="41.961" locked="yes" smashed="yes" rot="MR250">
 <attribute name="VALUE" x="18.392940625" y="41.29409375" size="0.4064" layer="28" rot="MR340"/>
 </element>
 <element name="R51" library="SparkFun-Resistors" package="0603-RES" value="75K" x="23.139" y="42.164" smashed="yes" rot="MR160">
-<attribute name="VALUE" x="21.219025" y="41.09734375" size="0.4064" layer="28" font="vector" rot="MR70"/>
+<attribute name="VALUE" x="27.73665625" y="43.317025" size="1.016" layer="28" font="vector" rot="MR340"/>
 </element>
 <element name="C26" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="19.533" y="43.917" smashed="yes" rot="MR250">
-<attribute name="VALUE" x="18.18654375" y="45.786578125" size="0.4064" layer="28" font="vector" rot="MR160"/>
+<attribute name="VALUE" x="14.37654375" y="44.033978125" size="1.016" layer="28" font="vector" rot="MR160"/>
 </element>
 <element name="R52" library="SparkFun-Resistors" package="0603-RES" value="75" x="18.059" y="40.056" smashed="yes" rot="MR160">
-<attribute name="VALUE" x="16.113425" y="38.98914375" size="0.4064" layer="28" font="vector" rot="MR70"/>
+<attribute name="VALUE" x="15.681625" y="38.20174375" size="1.016" layer="28" font="vector" rot="MR70"/>
 </element>
 <element name="LS26" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="20.955" y="49.962" locked="yes" smashed="yes" rot="MR170"/>
 <element name="D27" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="15.164" y="48.946" locked="yes" smashed="yes" rot="MR260">
 <attribute name="VALUE" x="16.35201875" y="48.059325" size="0.4064" layer="28" rot="MR350"/>
 </element>
 <element name="R53" library="SparkFun-Resistors" package="0603-RES" value="75K" x="21.133" y="47.93" smashed="yes" rot="MR170">
-<attribute name="VALUE" x="19.06579375" y="47.11195625" size="0.4064" layer="28" font="vector" rot="MR80"/>
+<attribute name="VALUE" x="25.68444375" y="48.22499375" size="1.016" layer="28" font="vector" rot="MR350"/>
 </element>
 <element name="C27" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="18.034" y="50.368" smashed="yes" rot="MR260">
-<attribute name="VALUE" x="16.98755625" y="52.511209375" size="0.4064" layer="28" font="vector" rot="MR170"/>
+<attribute name="VALUE" x="13.22835625" y="51.520609375" size="1.016" layer="28" font="vector" rot="MR170"/>
 </element>
 <element name="R54" library="SparkFun-Resistors" package="0603-RES" value="75" x="15.824" y="46.914" smashed="yes" rot="MR170">
-<attribute name="VALUE" x="13.73179375" y="46.29875625" size="0.4064" layer="28" font="vector" rot="MR80"/>
+<attribute name="VALUE" x="13.02059375" y="45.61295625" size="1.016" layer="28" font="vector" rot="MR80"/>
 </element>
 <element name="LS27" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="20.422" y="56.185" locked="yes" smashed="yes" rot="MR180"/>
 <element name="D28" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="14.529" y="56.185" locked="yes" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="15.545" y="55.1055" size="0.4064" layer="28" rot="MR0"/>
 </element>
 <element name="R55" library="SparkFun-Resistors" package="0603-RES" value="75K" x="20.32" y="54.356" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="18.1356" y="53.848" size="0.4064" layer="28" font="vector" rot="MR90"/>
+<attribute name="VALUE" x="23.6474" y="52.2478" size="1.016" layer="28" font="vector" rot="MR0"/>
 </element>
 <element name="C28" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="17.653" y="57.099" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="16.9166" y="59.2582" size="0.4064" layer="28" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="12.9542" y="59.1566" size="1.016" layer="28" font="vector" rot="MR180"/>
 </element>
 <element name="R56" library="SparkFun-Resistors" package="0603-RES" value="75" x="14.605" y="54.508" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="12.725" y="54.8132" size="0.4064" layer="28" font="vector" rot="MR270"/>
+<attribute name="VALUE" x="12.2932" y="55.2958" size="1.016" layer="28" font="vector" rot="MR270"/>
 </element>
 <element name="LS28" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="20.955" y="62.357" locked="yes" smashed="yes" rot="MR190"/>
 <element name="D29" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="15.189" y="63.373" locked="yes" smashed="yes" rot="MR280">
 <attribute name="VALUE" x="16.0021125" y="62.133471875" size="0.4064" layer="28" rot="MR10"/>
 </element>
 <element name="R57" library="SparkFun-Resistors" package="0603-RES" value="75K" x="20.371" y="60.808" smashed="yes" rot="MR190">
-<attribute name="VALUE" x="18.230140625" y="60.793115625" size="0.4064" layer="28" font="vector" rot="MR100"/>
+<attribute name="VALUE" x="24.550884375" y="59.200340625" size="1.016" layer="28" font="vector" rot="MR10"/>
 </element>
 <element name="C29" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="18.4914" y="64.2112" smashed="yes" rot="MR280">
-<attribute name="VALUE" x="18.095515625" y="66.5040625" size="0.4064" layer="28" font="vector" rot="MR190"/>
+<attribute name="VALUE" x="14.209315625" y="66.7072625" size="1.016" layer="28" font="vector" rot="MR190"/>
 </element>
 <element name="R58" library="SparkFun-Resistors" package="0603-RES" value="75" x="15.011" y="61.316" smashed="yes" rot="MR190">
-<attribute name="VALUE" x="12.845340625" y="61.478315625" size="0.4064" layer="28" font="vector" rot="MR100"/>
+<attribute name="VALUE" x="11.778540625" y="61.249715625" size="1.016" layer="28" font="vector" rot="MR100"/>
 </element>
 <element name="LS29" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="22.606" y="68.402" locked="yes" smashed="yes" rot="MR200"/>
 <element name="D30" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="17.12" y="70.409" locked="yes" smashed="yes" rot="MR290">
 <attribute name="VALUE" x="17.70551875" y="69.04710625" size="0.4064" layer="28" rot="MR20"/>
 </element>
 <element name="R59" library="SparkFun-Resistors" package="0603-RES" value="75K" x="21.895" y="66.751" smashed="yes" rot="MR200">
-<attribute name="VALUE" x="19.635240625" y="67.127403125" size="0.4064" layer="28" font="vector" rot="MR110"/>
+<attribute name="VALUE" x="25.938196875" y="64.720240625" size="1.016" layer="28" font="vector" rot="MR20"/>
 </element>
 <element name="C30" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="20.371" y="70.358" smashed="yes" rot="MR290">
-<attribute name="VALUE" x="21.7925625" y="70.921796875" size="0.4064" layer="28" font="vector" rot="MR290"/>
+<attribute name="VALUE" x="18.841803125" y="73.8625625" size="1.016" layer="28" font="vector" rot="MR200"/>
 </element>
 <element name="R60" library="SparkFun-Resistors" package="0603-RES" value="75" x="16.612" y="68.605" smashed="yes" rot="MR200">
-<attribute name="VALUE" x="14.504640625" y="69.108803125" size="0.4064" layer="28" font="vector" rot="MR110"/>
+<attribute name="VALUE" x="13.691840625" y="68.981803125" size="1.016" layer="28" font="vector" rot="MR110"/>
 </element>
 <element name="LS30" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="25.197" y="74.066" locked="yes" smashed="yes" rot="MR210"/>
 <element name="D31" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="20.117" y="76.962" locked="yes" smashed="yes" rot="MR300">
 <attribute name="VALUE" x="20.457134375" y="75.519125" size="0.4064" layer="28" rot="MR30"/>
 </element>
 <element name="R61" library="SparkFun-Resistors" package="0603-RES" value="75K" x="24.257" y="72.492" smashed="yes" rot="MR210">
-<attribute name="VALUE" x="22.123734375" y="73.30081875" size="0.4064" layer="28" font="vector" rot="MR120"/>
+<attribute name="VALUE" x="27.81658125" y="69.850334375" size="1.016" layer="28" font="vector" rot="MR30"/>
 </element>
 <element name="C31" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="23.216" y="76.378" smashed="yes" rot="MR300">
-<attribute name="VALUE" x="24.71386875" y="76.68638125" size="0.4064" layer="28" font="vector" rot="MR300"/>
+<attribute name="VALUE" x="20.36701875" y="80.18746875" size="1.016" layer="28" font="vector" rot="MR210"/>
 </element>
 <element name="R62" library="SparkFun-Resistors" package="0603-RES" value="75" x="19.279" y="75.159" smashed="yes" rot="MR210">
-<attribute name="VALUE" x="17.196134375" y="76.06981875" size="0.4064" layer="28" font="vector" rot="MR120"/>
+<attribute name="VALUE" x="16.434134375" y="75.96821875" size="1.016" layer="28" font="vector" rot="MR120"/>
 </element>
 <element name="LS31" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="28.804" y="79.146" locked="yes" smashed="yes" rot="MR220"/>
 <element name="D32" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="24.257" y="82.956" locked="yes" smashed="yes" rot="MR310">
 <attribute name="VALUE" x="24.3414125" y="81.47598125" size="0.4064" layer="28" rot="MR40"/>
 </element>
 <element name="R63" library="SparkFun-Resistors" package="0603-RES" value="75K" x="27.432" y="77.749" smashed="yes" rot="MR220">
-<attribute name="VALUE" x="25.421140625" y="78.74720625" size="0.4064" layer="28" font="vector" rot="MR130"/>
+<attribute name="VALUE" x="30.44739375" y="74.570140625" size="1.016" layer="28" font="vector" rot="MR40"/>
 </element>
 <element name="C32" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="27.153" y="81.737" smashed="yes" rot="MR310">
-<attribute name="VALUE" x="27.84580625" y="84.1044625" size="0.4064" layer="28" font="vector" rot="MR220"/>
+<attribute name="VALUE" x="24.77240625" y="86.1618625" size="1.016" layer="28" font="vector" rot="MR220"/>
 </element>
 <element name="R64" library="SparkFun-Resistors" package="0603-RES" value="75" x="23.114" y="81.305" smashed="yes" rot="MR220">
-<attribute name="VALUE" x="21.331740625" y="82.60800625" size="0.4064" layer="28" font="vector" rot="MR130"/>
+<attribute name="VALUE" x="20.442740625" y="82.53180625" size="1.016" layer="28" font="vector" rot="MR130"/>
 </element>
 <element name="LS32" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="33.172" y="83.566" locked="yes" smashed="yes" rot="MR230"/>
 <element name="D33" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="29.362" y="88.036" locked="yes" smashed="yes" rot="MR320">
 <attribute name="VALUE" x="29.188128125" y="86.563809375" size="0.4064" layer="28" rot="MR50"/>
 </element>
 <element name="R65" library="SparkFun-Resistors" package="0603-RES" value="75K" x="31.318" y="82.677" smashed="yes" rot="MR230">
-<attribute name="VALUE" x="29.57659375" y="84.11851875" size="0.4064" layer="28" font="vector" rot="MR140"/>
+<attribute name="VALUE" x="33.86448125" y="78.87799375" size="1.016" layer="28" font="vector" rot="MR50"/>
 </element>
 <element name="C33" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="32.258" y="86.309" smashed="yes" rot="MR320">
-<attribute name="VALUE" x="33.259590625" y="85.94771875" size="0.4064" layer="28" font="vector" rot="MR140"/>
+<attribute name="VALUE" x="31.95908125" y="87.513990625" size="1.016" layer="28" font="vector" rot="MR50"/>
 </element>
 <element name="R66" library="SparkFun-Resistors" package="0603-RES" value="75" x="28.143" y="86.716" smashed="yes" rot="MR230">
-<attribute name="VALUE" x="26.45199375" y="88.28411875" size="0.4064" layer="28" font="vector" rot="MR140"/>
+<attribute name="VALUE" x="25.68999375" y="88.36031875" size="1.016" layer="28" font="vector" rot="MR140"/>
 </element>
 <element name="LS33" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="38.303" y="87.147" locked="yes" smashed="yes" rot="MR240"/>
 <element name="D34" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="35.331" y="92.253" locked="yes" smashed="yes" rot="MR330">
 <attribute name="VALUE" x="34.904128125" y="90.833365625" size="0.4064" layer="28" rot="MR60"/>
 </element>
 <element name="R67" library="SparkFun-Resistors" package="0603-RES" value="75K" x="36.551" y="86.436" smashed="yes" rot="MR240">
-<attribute name="VALUE" x="34.97241875" y="88.16306875" size="0.4064" layer="28" font="vector" rot="MR150"/>
+<attribute name="VALUE" x="38.45593125" y="82.06401875" size="1.016" layer="28" font="vector" rot="MR60"/>
 </element>
 <element name="C34" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="37.871" y="90.195" smashed="yes" rot="MR330">
-<attribute name="VALUE" x="39.49666875" y="91.824184375" size="0.4064" layer="28" font="vector" rot="MR240"/>
+<attribute name="VALUE" x="38.78546875" y="94.186384375" size="1.016" layer="28" font="vector" rot="MR240"/>
 </element>
 <element name="R68" library="SparkFun-Resistors" package="0603-RES" value="75" x="33.757" y="91.211" smashed="yes" rot="MR240">
-<attribute name="VALUE" x="32.53421875" y="93.09066875" size="0.4064" layer="28" font="vector" rot="MR150"/>
+<attribute name="VALUE" x="31.72141875" y="93.26846875" size="1.016" layer="28" font="vector" rot="MR150"/>
 </element>
 <element name="LS34" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="43.942" y="89.789" locked="yes" smashed="yes" rot="MR250"/>
 <element name="D35" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="41.885" y="95.326" locked="yes" smashed="yes" rot="MR340">
 <attribute name="VALUE" x="41.218096875" y="94.002059375" size="0.4064" layer="28" rot="MR70"/>
 </element>
 <element name="R69" library="SparkFun-Resistors" package="0603-RES" value="75K" x="42.037" y="89.357" smashed="yes" rot="MR250">
-<attribute name="VALUE" x="40.94554375" y="91.404578125" size="0.4064" layer="28" font="vector" rot="MR160"/>
+<attribute name="VALUE" x="43.012221875" y="85.24314375" size="1.016" layer="28" font="vector" rot="MR70"/>
 </element>
 <element name="C35" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="43.891" y="92.786" smashed="yes" rot="MR340">
-<attribute name="VALUE" x="45.735578125" y="94.157059375" size="0.4064" layer="28" font="vector" rot="MR250"/>
+<attribute name="VALUE" x="45.837178125" y="95.808059375" size="1.016" layer="28" font="vector" rot="MR250"/>
 </element>
 <element name="R70" library="SparkFun-Resistors" package="0603-RES" value="75" x="39.929" y="94.437" smashed="yes" rot="MR250">
-<attribute name="VALUE" x="38.93894375" y="96.383178125" size="0.4064" layer="28" font="vector" rot="MR160"/>
+<attribute name="VALUE" x="38.25314375" y="96.840378125" size="1.016" layer="28" font="vector" rot="MR160"/>
 </element>
 <element name="LS35" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" package="SMD" package3d_urn="urn:adsk.eagle:package:1968583/2" value="ALS" x="49.962" y="91.389" locked="yes" smashed="yes" rot="MR260"/>
 <element name="D36" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" package="LED-0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="" x="48.946" y="97.155" locked="yes" smashed="yes" rot="MR350">
 <attribute name="VALUE" x="48.059328125" y="95.96698125" size="0.4064" layer="28" rot="MR80"/>
 </element>
 <element name="R71" library="SparkFun-Resistors" package="0603-RES" value="75K" x="48.108" y="91.364" smashed="yes" rot="MR260">
-<attribute name="VALUE" x="47.28935625" y="93.431009375" size="0.4064" layer="28" font="vector" rot="MR170"/>
+<attribute name="VALUE" x="48.453390625" y="87.01495625" size="1.016" layer="28" font="vector" rot="MR80"/>
 </element>
 <element name="C36" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="50.343" y="94.209" smashed="yes" rot="MR350">
-<attribute name="VALUE" x="52.485409375" y="95.280846875" size="0.4064" layer="28" font="vector" rot="MR260"/>
+<attribute name="VALUE" x="52.612409375" y="97.160446875" size="1.016" layer="28" font="vector" rot="MR260"/>
 </element>
 <element name="R72" library="SparkFun-Resistors" package="0603-RES" value="75" x="46.888" y="96.672" smashed="yes" rot="MR260">
-<attribute name="VALUE" x="46.19775625" y="98.713409375" size="0.4064" layer="28" font="vector" rot="MR170"/>
+<attribute name="VALUE" x="47.24884375" y="98.619190625" size="1.016" layer="28" font="vector" rot="MR350"/>
 </element>
 <element name="JP1" library="pinhead+" library_urn="urn:adsk.eagle:library:2032525" package="2X08_SMT" package3d_urn="urn:adsk.eagle:package:2032807/2" value="" x="56.1848" y="93.9042" smashed="yes" rot="R180">
 <attribute name="VALUE" x="66.3448" y="100.8892" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U$1" library="analog-devices" library_urn="urn:adsk.eagle:library:2033836" package="QFP-7X7-48-NO-EXP" package3d_urn="urn:adsk.eagle:package:2034172/2" value="ADG732" x="93.960090625" y="56.185471875" smashed="yes" rot="R135"/>
+<element name="C37" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="-14.224" y="-7.9248"/>
 </elements>
 <signals>
 <signal name="LS1">
@@ -6089,6 +6090,118 @@ design rules under a new name.</description>
 <wire x1="49.8348" y1="96.8252" x2="49.8348" y2="98.171" width="0.762" layer="1"/>
 <wire x1="49.8348" y1="98.171" x2="50.2158" y2="98.552" width="0.762" layer="1"/>
 <via x="50.2158" y="98.552" extent="1-16" drill="0.508"/>
+<contactref element="C37" pad="1"/>
+<wire x1="75.56588125" y1="89.554" x2="77.4255" y2="92.986503125" width="0" layer="19" extent="16-16"/>
+<wire x1="73.069" y1="88.87411875" x2="75.56588125" y2="89.554" width="0" layer="19" extent="16-16"/>
+<wire x1="78.295371875" y1="85.4361375" x2="75.56588125" y2="89.554" width="0" layer="19" extent="16-16"/>
+<wire x1="80.8828625" y1="85.86536875" x2="78.295371875" y2="85.4361375" width="0" layer="19" extent="16-16"/>
+<wire x1="83.494725" y1="88.70781875" x2="80.8828625" y2="85.86536875" width="0" layer="19" extent="16-16"/>
+<wire x1="69.4322625" y1="92.340715625" x2="73.069" y2="88.87411875" width="0" layer="19" extent="16-16"/>
+<wire x1="67.04171875" y1="91.2477375" x2="69.4322625" y2="92.340715625" width="0" layer="19" extent="16-16"/>
+<wire x1="70.708953125" y1="96.049109375" x2="69.4322625" y2="92.340715625" width="0" layer="19" extent="16-16"/>
+<wire x1="62.937915625" y1="94.1016" x2="67.04171875" y2="91.2477375" width="0" layer="19" extent="16-16"/>
+<wire x1="60.726603125" y1="92.709084375" x2="62.937915625" y2="94.1016" width="0" layer="19" extent="16-16"/>
+<wire x1="63.576290625" y1="97.993675" x2="62.937915625" y2="94.1016" width="0" layer="19" extent="16-16"/>
+<wire x1="56.452" y1="94.691" x2="60.726603125" y2="92.709084375" width="0" layer="19" extent="16-16"/>
+<wire x1="54.229" y1="92.925" x2="56.452" y2="94.691" width="0" layer="19" extent="16-16"/>
+<wire x1="56.185" y1="98.667" x2="56.452" y2="94.691" width="0" layer="19" extent="16-16"/>
+<wire x1="52.3748" y1="96.8252" x2="56.185" y2="98.667" width="0" layer="19" extent="1-16"/>
+<wire x1="50.2158" y1="98.552" x2="51.4858" y2="98.552" width="0" layer="19" extent="1-1"/>
+<wire x1="48.7937125" y1="98.018675" x2="49.8348" y2="98.171" width="0" layer="19" extent="1-16"/>
+<wire x1="49.505915625" y1="94.061396875" x2="49.8348" y2="96.8252" width="0" layer="19" extent="1-16"/>
+<wire x1="47.9604" y1="92.201084375" x2="49.505915625" y2="94.061396875" width="0" layer="19" extent="16-16"/>
+<wire x1="43.0922625" y1="92.49528125" x2="47.9604" y2="92.201084375" width="0" layer="19" extent="16-16"/>
+<wire x1="41.746284375" y1="90.1557375" x2="43.0922625" y2="92.49528125" width="0" layer="19" extent="16-16"/>
+<wire x1="41.58505" y1="96.150109375" x2="43.0922625" y2="92.49528125" width="0" layer="19" extent="16-16"/>
+<wire x1="37.13488125" y1="89.77" x2="41.746284375" y2="90.1557375" width="0" layer="19" extent="16-16"/>
+<wire x1="36.126" y1="87.17211875" x2="37.13488125" y2="89.77" width="0" layer="19" extent="16-16"/>
+<wire x1="34.8925" y1="93.012503125" x2="37.13488125" y2="89.77" width="0" layer="19" extent="16-16"/>
+<wire x1="31.6068625" y1="85.762628125" x2="36.126" y2="87.17211875" width="0" layer="19" extent="16-16"/>
+<wire x1="30.77163125" y1="83.3281375" x2="31.6068625" y2="85.762628125" width="0" layer="19" extent="16-16"/>
+<wire x1="28.798278125" y1="88.70781875" x2="31.6068625" y2="85.762628125" width="0" layer="19" extent="16-16"/>
+<wire x1="26.60663125" y1="81.085859375" x2="30.77163125" y2="83.3281375" width="0" layer="19" extent="16-16"/>
+<wire x1="26.7808625" y1="78.29536875" x2="26.60663125" y2="81.085859375" width="0" layer="19" extent="16-16"/>
+<wire x1="23.58518125" y1="83.519721875" x2="26.60663125" y2="81.085859375" width="0" layer="19" extent="16-16"/>
+<wire x1="22.791" y1="75.641878125" x2="26.7808625" y2="78.29536875" width="0" layer="19" extent="16-16"/>
+<wire x1="23.52088125" y1="72.917" x2="22.791" y2="75.641878125" width="0" layer="19" extent="16-16"/>
+<wire x1="19.357496875" y1="77.4005" x2="22.791" y2="75.641878125" width="0" layer="19" extent="16-16"/>
+<wire x1="20.080284375" y1="69.559259375" x2="23.52088125" y2="72.917" width="0" layer="19" extent="16-16"/>
+<wire x1="21.0962625" y1="67.041715625" x2="20.080284375" y2="69.559259375" width="0" layer="19" extent="16-16"/>
+<wire x1="16.295890625" y1="70.70895" x2="20.080284375" y2="69.559259375" width="0" layer="19" extent="16-16"/>
+<wire x1="18.3438" y1="63.3741125" x2="21.0962625" y2="67.041715625" width="0" layer="19" extent="16-16"/>
+<wire x1="19.533915625" y1="60.9556" x2="18.3438" y2="63.3741125" width="0" layer="19" extent="16-16"/>
+<wire x1="14.325325" y1="63.5252875" x2="18.3438" y2="63.3741125" width="0" layer="19" extent="16-16"/>
+<wire x1="82.922140625" y1="81.24236875" x2="80.8828625" y2="85.86536875" width="0" layer="19" extent="16-16"/>
+<wire x1="85.94063125" y1="80.6861375" x2="82.922140625" y2="81.24236875" width="0" layer="19" extent="16-16"/>
+<wire x1="88.682821875" y1="83.469721875" x2="85.94063125" y2="80.6861375" width="0" layer="19" extent="16-16"/>
+<wire x1="86.842121875" y1="76.473" x2="85.94063125" y2="80.6861375" width="0" layer="19" extent="16-16"/>
+<wire x1="89.288" y1="75.33611875" x2="86.842121875" y2="76.473" width="0" layer="19" extent="16-16"/>
+<wire x1="92.98650625" y1="77.3755" x2="89.288" y2="75.33611875" width="0" layer="19" extent="16-16"/>
+<wire x1="90.181740625" y1="70.445715625" x2="89.288" y2="75.33611875" width="0" layer="19" extent="16-16"/>
+<wire x1="92.190284375" y1="68.9977375" x2="90.181740625" y2="70.445715625" width="0" layer="19" extent="16-16"/>
+<wire x1="96.0991125" y1="70.68295" x2="92.190284375" y2="68.9977375" width="0" layer="19" extent="16-16"/>
+<wire x1="91.9210875" y1="64.4346" x2="92.190284375" y2="68.9977375" width="0" layer="19" extent="16-16"/>
+<wire x1="93.9844" y1="62.584084375" x2="91.9210875" y2="64.4346" width="0" layer="19" extent="16-16"/>
+<wire x1="91.7448" y1="59.6646" x2="93.9844" y2="62.584084375" width="0" layer="19" extent="16-16"/>
+<wire x1="94.615" y1="55.816" x2="92.849" y2="58.014" width="0" layer="19" extent="16-16"/>
+<wire x1="89.4699625" y1="57.49361875" x2="91.7448" y2="59.6646" width="0" layer="19" extent="1-16"/>
+<wire x1="98.642" y1="56.159" x2="94.615" y2="55.816" width="0" layer="19" extent="16-16"/>
+<wire x1="98.018678125" y1="63.5252875" x2="93.9844" y2="62.584084375" width="0" layer="19" extent="16-16"/>
+<wire x1="92.5820875" y1="51.465396875" x2="94.615" y2="55.816" width="0" layer="19" extent="16-16"/>
+<wire x1="94.025603125" y1="49.427084375" x2="92.5820875" y2="51.465396875" width="0" layer="19" extent="16-16"/>
+<wire x1="98.018678125" y1="48.767709375" x2="94.025603125" y2="49.427084375" width="0" layer="19" extent="16-16"/>
+<wire x1="91.324740625" y1="45.32728125" x2="94.025603125" y2="49.427084375" width="0" layer="19" extent="16-16"/>
+<wire x1="92.41671875" y1="42.9877375" x2="91.324740625" y2="45.32728125" width="0" layer="19" extent="16-16"/>
+<wire x1="96.0491125" y1="41.610046875" x2="92.41671875" y2="42.9877375" width="0" layer="19" extent="16-16"/>
+<wire x1="89.153121875" y1="39.555" x2="92.41671875" y2="42.9877375" width="0" layer="19" extent="16-16"/>
+<wire x1="89.503" y1="36.90611875" x2="89.153121875" y2="39.555" width="0" layer="19" extent="16-16"/>
+<wire x1="92.98650625" y1="34.9435" x2="89.503" y2="36.90611875" width="0" layer="19" extent="16-16"/>
+<wire x1="85.589140625" y1="34.022628125" x2="89.503" y2="36.90611875" width="0" layer="19" extent="16-16"/>
+<wire x1="85.636371875" y1="31.2831375" x2="85.589140625" y2="34.022628125" width="0" layer="19" extent="16-16"/>
+<wire x1="88.733821875" y1="28.849275" x2="85.636371875" y2="31.2831375" width="0" layer="19" extent="16-16"/>
+<wire x1="81.750371875" y1="29.041859375" x2="85.636371875" y2="31.2831375" width="0" layer="19" extent="16-16"/>
+<wire x1="80.940140625" y1="26.68336875" x2="81.750371875" y2="29.041859375" width="0" layer="19" extent="16-16"/>
+<wire x1="83.469725" y1="23.636178125" x2="80.940140625" y2="26.68336875" width="0" layer="19" extent="16-16"/>
+<wire x1="76.447" y1="25.247878125" x2="80.940140625" y2="26.68336875" width="0" layer="19" extent="16-16"/>
+<wire x1="75.463121875" y1="22.777" x2="76.447" y2="25.247878125" width="0" layer="19" extent="16-16"/>
+<wire x1="77.4255" y1="19.33149375" x2="75.463121875" y2="22.777" width="0" layer="19" extent="16-16"/>
+<wire x1="70.69971875" y1="22.315259375" x2="75.463121875" y2="22.777" width="0" layer="19" extent="16-16"/>
+<wire x1="69.149740625" y1="19.950715625" x2="70.69971875" y2="22.315259375" width="0" layer="19" extent="16-16"/>
+<wire x1="70.682953125" y1="16.2698875" x2="69.149740625" y2="19.950715625" width="0" layer="19" extent="16-16"/>
+<wire x1="64.434603125" y1="19.9659125" x2="69.149740625" y2="19.950715625" width="0" layer="19" extent="16-16"/>
+<wire x1="62.5840875" y1="18.1566" x2="64.434603125" y2="19.9659125" width="0" layer="19" extent="16-16"/>
+<wire x1="63.601290625" y1="14.300321875" x2="62.5840875" y2="18.1566" width="0" layer="19" extent="16-16"/>
+<wire x1="57.963" y1="19.191" x2="62.5840875" y2="18.1566" width="0" layer="19" extent="16-16"/>
+<wire x1="55.968" y1="17.628" x2="57.963" y2="19.191" width="0" layer="19" extent="16-16"/>
+<wire x1="56.134" y1="13.677" x2="55.968" y2="17.628" width="0" layer="19" extent="16-16"/>
+<wire x1="51.7444" y1="19.4829125" x2="55.968" y2="17.628" width="0" layer="19" extent="16-16"/>
+<wire x1="49.4780875" y1="18.419396875" x2="51.7444" y2="19.4829125" width="0" layer="19" extent="16-16"/>
+<wire x1="48.8187125" y1="14.351321875" x2="49.4780875" y2="18.419396875" width="0" layer="19" extent="16-16"/>
+<wire x1="45.454284375" y1="20.918259375" x2="49.4780875" y2="18.419396875" width="0" layer="19" extent="16-16"/>
+<wire x1="43.114740625" y1="19.80028125" x2="45.454284375" y2="20.918259375" width="0" layer="19" extent="16-16"/>
+<wire x1="41.63505" y1="16.2188875" x2="43.114740625" y2="19.80028125" width="0" layer="19" extent="16-16"/>
+<wire x1="17.653" y1="56.249" x2="19.533915625" y2="60.9556" width="0" layer="19" extent="16-16"/>
+<wire x1="19.47" y1="54.356" x2="17.653" y2="56.249" width="0" layer="19" extent="16-16"/>
+<wire x1="13.652" y1="56.185" x2="17.653" y2="56.249" width="0" layer="19" extent="16-16"/>
+<wire x1="18.181603125" y1="49.5309125" x2="19.47" y2="54.356" width="0" layer="19" extent="16-16"/>
+<wire x1="20.295915625" y1="47.782396875" x2="18.181603125" y2="49.5309125" width="0" layer="19" extent="16-16"/>
+<wire x1="14.300325" y1="48.793709375" x2="18.181603125" y2="49.5309125" width="0" layer="19" extent="16-16"/>
+<wire x1="19.82371875" y1="43.118259375" x2="20.295915625" y2="47.782396875" width="0" layer="19" extent="16-16"/>
+<wire x1="22.3402625" y1="41.87328125" x2="19.82371875" y2="43.118259375" width="0" layer="19" extent="16-16"/>
+<wire x1="16.244890625" y1="41.661046875" x2="19.82371875" y2="43.118259375" width="0" layer="19" extent="16-16"/>
+<wire x1="22.853" y1="36.957878125" x2="22.3402625" y2="41.87328125" width="0" layer="19" extent="16-16"/>
+<wire x1="25.24788125" y1="36.024" x2="22.853" y2="36.957878125" width="0" layer="19" extent="16-16"/>
+<wire x1="19.382496875" y1="34.8925" x2="22.853" y2="36.957878125" width="0" layer="19" extent="16-16"/>
+<wire x1="26.454371875" y1="32.089859375" x2="25.24788125" y2="36.024" width="0" layer="19" extent="16-16"/>
+<wire x1="29.1688625" y1="30.797628125" x2="26.454371875" y2="32.089859375" width="0" layer="19" extent="16-16"/>
+<wire x1="23.63618125" y1="28.875275" x2="26.454371875" y2="32.089859375" width="0" layer="19" extent="16-16"/>
+<wire x1="31.334140625" y1="26.580628125" x2="29.1688625" y2="30.797628125" width="0" layer="19" extent="16-16"/>
+<wire x1="34.25163125" y1="26.653859375" x2="31.334140625" y2="26.580628125" width="0" layer="19" extent="16-16"/>
+<wire x1="28.849278125" y1="23.661178125" x2="31.334140625" y2="26.580628125" width="0" layer="19" extent="16-16"/>
+<wire x1="36.931121875" y1="22.765" x2="34.25163125" y2="26.653859375" width="0" layer="19" extent="16-16"/>
+<wire x1="39.605" y1="23.495878125" x2="36.931121875" y2="22.765" width="0" layer="19" extent="16-16"/>
+<wire x1="34.9695" y1="19.38249375" x2="36.931121875" y2="22.765" width="0" layer="19" extent="16-16"/>
+<wire x1="-15.074" y1="-7.9248" x2="23.63618125" y2="28.875275" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$2">
 <contactref element="D1" pad="A"/>
@@ -6436,6 +6549,43 @@ design rules under a new name.</description>
 <wire x1="94.663846875" y1="73.5452" x2="95.7956" y2="73.5452" width="0.3048" layer="16"/>
 <wire x1="95.7956" y1="73.5452" x2="96.1644" y2="73.914" width="0.3048" layer="16"/>
 <via x="96.1644" y="73.914" extent="1-16" drill="0.508"/>
+<contactref element="C37" pad="2"/>
+<wire x1="90.34788125" y1="80.31488125" x2="86.0644625" y2="83.2450625" width="0" layer="19" extent="16-16"/>
+<wire x1="80.91163125" y1="88.451859375" x2="85.9028" y2="86.614" width="0" layer="19" extent="16-16"/>
+<wire x1="74.416" y1="87.79651875" x2="79.57809375" y2="87.118321875" width="0" layer="19" extent="16-16"/>
+<wire x1="68.340284375" y1="95.035259375" x2="73.8632" y2="94.7928" width="0" layer="19" extent="16-16"/>
+<wire x1="61.933675" y1="96.0096375" x2="66.929" y2="96.44654375" width="0" layer="19" extent="16-16"/>
+<wire x1="54.9148" y1="96.8252" x2="60.706" y2="97.2373125" width="0" layer="19" extent="1-16"/>
+<wire x1="54.153" y1="96.965" x2="54.9148" y2="96.8252" width="0" layer="19" extent="1-16"/>
+<wire x1="49.831765625" y1="92.127603125" x2="54.1528" y2="94.7052" width="0" layer="19" extent="16-16"/>
+<wire x1="43.6854875" y1="90.49376875" x2="48.2854" y2="93.6498" width="0" layer="19" extent="16-16"/>
+<wire x1="34.619721875" y1="90.475278125" x2="37.806740625" y2="93.638259375" width="0" layer="19" extent="16-16"/>
+<wire x1="29.55445625" y1="86.04094375" x2="31.496" y2="90.297" width="0" layer="19" extent="16-16"/>
+<wire x1="28.22946875" y1="79.628090625" x2="31.45486875" y2="84.14053125" width="0" layer="19" extent="16-16"/>
+<wire x1="24.54748125" y1="74.441" x2="24.896078125" y2="79.628090625" width="0" layer="19" extent="16-16"/>
+<wire x1="21.90123125" y1="68.6585125" x2="22.8346" y2="74.1172" width="0" layer="19" extent="16-16"/>
+<wire x1="16.275490625" y1="61.595" x2="16.177859375" y2="67.0814" width="0" layer="19" extent="16-16"/>
+<wire x1="15.455" y1="54.508" x2="14.522090625" y2="59.8424" width="0" layer="19" extent="16-16"/>
+<wire x1="20.216396875" y1="49.8317625" x2="17.78" y2="54.5084" width="0" layer="19" extent="16-16"/>
+<wire x1="21.87623125" y1="43.685484375" x2="18.9484" y2="48.2092" width="0" layer="19" extent="16-16"/>
+<wire x1="23.876" y1="36.3728" x2="18.857740625" y2="39.025340625" width="0" layer="19" extent="16-16"/>
+<wire x1="26.584540625" y1="29.988140625" x2="22.123121875" y2="32.410121875" width="0" layer="19" extent="16-16"/>
+<wire x1="31.991571875" y1="25.285971875" x2="26.67" y2="25.9588" width="0" layer="19" extent="16-16"/>
+<wire x1="37.903" y1="24.521478125" x2="32.8168" y2="26.1112" width="0" layer="19" extent="16-16"/>
+<wire x1="43.6854875" y1="20.9067125" x2="38.4302" y2="20.70731875" width="0" layer="19" extent="16-16"/>
+<wire x1="50.673" y1="16.3516875" x2="45.6946" y2="15.74585625" width="0" layer="19" extent="16-16"/>
+<wire x1="56.134" y1="19.621" x2="50.673" y2="19.400159375" width="0" layer="19" extent="16-16"/>
+<wire x1="62.5122375" y1="20.24139375" x2="58.2168" y2="16.9926" width="0" layer="19" extent="16-16"/>
+<wire x1="68.633515625" y1="21.876228125" x2="63.754" y2="18.99963125" width="0" layer="19" extent="16-16"/>
+<wire x1="74.441" y1="24.547478125" x2="69.85" y2="21.336" width="0" layer="19" extent="16-16"/>
+<wire x1="82.9148625" y1="26.4067375" x2="79.98468125" y2="22.04711875" width="0" layer="19" extent="16-16"/>
+<wire x1="84.217840625" y1="32.6136" x2="81.118134375" y2="28.203465625" width="0" layer="19" extent="16-16"/>
+<wire x1="87.796521875" y1="37.954" x2="87.83003125" y2="32.6136" width="0" layer="19" extent="16-16"/>
+<wire x1="91.538684375" y1="43.710484375" x2="93.09808125" y2="38.8112" width="0" layer="19" extent="16-16"/>
+<wire x1="92.12760625" y1="49.8057625" x2="92.5068" y2="44.6786" width="0" layer="19" extent="16-16"/>
+<wire x1="92.364396875" y1="62.538234375" x2="93.00549375" y2="61.029153125" width="0" layer="19" extent="1-16"/>
+<wire x1="90.468771875" y1="68.6585125" x2="93.414490625" y2="63.588328125" width="0" layer="19" extent="16-16"/>
+<wire x1="-13.374" y1="-7.9248" x2="26.67" y2="25.9588" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="D2" pad="A"/>
