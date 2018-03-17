@@ -3274,9 +3274,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <smd name="34" x="4.715" y="3.25" dx="1.79" dy="0.35" layer="1" roundness="25"/>
 <smd name="35" x="4.715" y="3.75" dx="1.79" dy="0.35" layer="1" roundness="25"/>
 <smd name="36" x="4.715" y="4.25" dx="1.79" dy="0.35" layer="1" roundness="25"/>
-<smd name="SLUG1" x="0" y="-2.3" dx="5.8" dy="4" layer="1" rot="R180"/>
-<smd name="SLUG2" x="-1.6" y="2.3" dx="2.6" dy="4" layer="1" rot="R180"/>
-<smd name="SLUG3" x="1.6" y="2.3" dx="2.6" dy="4" layer="1" rot="R180"/>
+<smd name="SLUG1" x="0" y="-2.3" dx="5.8" dy="4" layer="1" roundness="25" rot="R180"/>
+<smd name="SLUG2" x="-1.6" y="2.3" dx="2.6" dy="4" layer="1" roundness="25" rot="R180"/>
+<smd name="SLUG3" x="1.6" y="2.3" dx="2.6" dy="4" layer="1" roundness="25" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -12817,6 +12817,10 @@ Source:
 <part name="GND100" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND101" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND102" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C23" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -13064,10 +13068,10 @@ Source:
 <instance part="SUPPLY56" gate="G$1" x="-33.02" y="-322.58"/>
 <instance part="SUPPLY57" gate="G$1" x="-33.02" y="-347.98"/>
 <instance part="SUPPLY58" gate="G$1" x="-68.58" y="-347.98"/>
-<instance part="M_LEFT" gate="G$1" x="-33.02" y="-147.32"/>
-<instance part="M_RIGHT" gate="G$1" x="81.28" y="-149.86"/>
-<instance part="M_BACK_RIGHT" gate="G$1" x="81.28" y="-261.62"/>
-<instance part="M_BACK_LEFT" gate="G$1" x="-33.02" y="-259.08"/>
+<instance part="M_LEFT" gate="G$1" x="-22.86" y="-147.32"/>
+<instance part="M_RIGHT" gate="G$1" x="91.44" y="-149.86"/>
+<instance part="M_BACK_RIGHT" gate="G$1" x="91.44" y="-261.62"/>
+<instance part="M_BACK_LEFT" gate="G$1" x="-22.86" y="-259.08"/>
 <instance part="GND22" gate="1" x="246.38" y="-119.38"/>
 <instance part="GND23" gate="1" x="289.56" y="-119.38"/>
 <instance part="GND24" gate="1" x="289.56" y="-180.34"/>
@@ -13187,6 +13191,10 @@ Source:
 <instance part="GND100" gate="1" x="-132.08" y="-33.02"/>
 <instance part="GND101" gate="1" x="-132.08" y="-99.06"/>
 <instance part="GND102" gate="1" x="-248.92" y="-139.7"/>
+<instance part="C20" gate="G$1" x="-38.1" y="-149.86"/>
+<instance part="C21" gate="G$1" x="76.2" y="-152.4"/>
+<instance part="C22" gate="G$1" x="76.2" y="-264.16"/>
+<instance part="C23" gate="G$1" x="-38.1" y="-261.62"/>
 </instances>
 <busses>
 </busses>
@@ -14944,9 +14952,13 @@ Source:
 <junction x="-40.64" y="-139.7"/>
 <junction x="-40.64" y="-144.78"/>
 <junction x="-40.64" y="-142.24"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="-144.78" x2="-38.1" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-144.78" x2="-27.94" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-144.78" x2="-27.94" y2="-147.32" width="0.1524" layer="91"/>
 <pinref part="M_LEFT" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="-147.32" x2="-33.02" y2="-147.32" width="0.1524" layer="91"/>
-<junction x="-40.64" y="-147.32"/>
+<wire x1="-27.94" y1="-147.32" x2="-22.86" y2="-147.32" width="0.1524" layer="91"/>
+<junction x="-38.1" y="-144.78"/>
 </segment>
 </net>
 <net name="MOTOR1_OUTB" class="0">
@@ -14971,15 +14983,19 @@ Source:
 <wire x1="-43.18" y1="-157.48" x2="-40.64" y2="-157.48" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="OUT.B-2"/>
 <wire x1="-43.18" y1="-154.94" x2="-40.64" y2="-154.94" width="0.1524" layer="91"/>
-<junction x="-40.64" y="-152.4"/>
 <junction x="-40.64" y="-154.94"/>
 <junction x="-40.64" y="-157.48"/>
 <junction x="-40.64" y="-160.02"/>
 <junction x="-40.64" y="-162.56"/>
 <junction x="-40.64" y="-165.1"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="-40.64" y1="-152.4" x2="-38.1" y2="-152.4" width="0.1524" layer="91"/>
 <pinref part="M_LEFT" gate="G$1" pin="2"/>
-<wire x1="-33.02" y1="-149.86" x2="-40.64" y2="-149.86" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="-149.86" x2="-40.64" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-149.86" x2="-27.94" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-149.86" x2="-27.94" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-152.4" x2="-38.1" y2="-152.4" width="0.1524" layer="91"/>
+<junction x="-38.1" y="-152.4"/>
+<junction x="-40.64" y="-152.4"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -15240,9 +15256,13 @@ Source:
 <junction x="73.66" y="-142.24"/>
 <junction x="73.66" y="-147.32"/>
 <junction x="73.66" y="-144.78"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="-147.32" x2="76.2" y2="-147.32" width="0.1524" layer="91"/>
 <pinref part="M_RIGHT" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="-149.86" x2="81.28" y2="-149.86" width="0.1524" layer="91"/>
-<junction x="73.66" y="-149.86"/>
+<wire x1="86.36" y1="-147.32" x2="86.36" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-149.86" x2="91.44" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-147.32" x2="76.2" y2="-147.32" width="0.1524" layer="91"/>
+<junction x="76.2" y="-147.32"/>
 </segment>
 </net>
 <net name="MOTOR2_OUTB" class="0">
@@ -15267,15 +15287,19 @@ Source:
 <wire x1="71.12" y1="-160.02" x2="73.66" y2="-160.02" width="0.1524" layer="91"/>
 <pinref part="P2" gate="G$1" pin="OUT.B-2"/>
 <wire x1="71.12" y1="-157.48" x2="73.66" y2="-157.48" width="0.1524" layer="91"/>
-<junction x="73.66" y="-154.94"/>
 <junction x="73.66" y="-157.48"/>
 <junction x="73.66" y="-160.02"/>
 <junction x="73.66" y="-162.56"/>
 <junction x="73.66" y="-165.1"/>
 <junction x="73.66" y="-167.64"/>
+<wire x1="73.66" y1="-154.94" x2="76.2" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-154.94" x2="86.36" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-154.94" x2="86.36" y2="-152.4" width="0.1524" layer="91"/>
 <pinref part="M_RIGHT" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="-152.4" x2="73.66" y2="-152.4" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-152.4" x2="73.66" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-152.4" x2="91.44" y2="-152.4" width="0.1524" layer="91"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<junction x="76.2" y="-154.94"/>
+<junction x="73.66" y="-154.94"/>
 </segment>
 </net>
 <net name="MOTOR1_CS" class="0">
@@ -15397,7 +15421,6 @@ Source:
 <net name="MOTOR3_OUTA" class="0">
 <segment>
 <pinref part="P3" gate="G$1" pin="OUT.A-1"/>
-<wire x1="-43.18" y1="-259.08" x2="-40.64" y2="-259.08" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-259.08" x2="-40.64" y2="-256.54" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-256.54" x2="-40.64" y2="-254" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="-254" x2="-40.64" y2="-251.46" width="0.1524" layer="91"/>
@@ -15421,10 +15444,14 @@ Source:
 <junction x="-40.64" y="-251.46"/>
 <junction x="-40.64" y="-256.54"/>
 <junction x="-40.64" y="-254"/>
-<pinref part="M_BACK_LEFT" gate="G$1" pin="1"/>
 <wire x1="-43.18" y1="-259.08" x2="-40.64" y2="-259.08" width="0.1524" layer="91"/>
-<junction x="-40.64" y="-259.08"/>
-<wire x1="-40.64" y1="-259.08" x2="-33.02" y2="-259.08" width="0.1524" layer="91"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="-40.64" y1="-256.54" x2="-38.1" y2="-256.54" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-256.54" x2="-27.94" y2="-256.54" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-256.54" x2="-27.94" y2="-259.08" width="0.1524" layer="91"/>
+<junction x="-38.1" y="-256.54"/>
+<pinref part="M_BACK_LEFT" gate="G$1" pin="1"/>
+<wire x1="-27.94" y1="-259.08" x2="-22.86" y2="-259.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTOR3_OUTB" class="0">
@@ -15454,10 +15481,14 @@ Source:
 <junction x="-40.64" y="-271.78"/>
 <junction x="-40.64" y="-274.32"/>
 <junction x="-40.64" y="-276.86"/>
-<pinref part="M_BACK_LEFT" gate="G$1" pin="2"/>
-<wire x1="-33.02" y1="-261.62" x2="-40.64" y2="-261.62" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="-261.62" x2="-40.64" y2="-264.16" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-261.62" x2="-27.94" y2="-264.16" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-264.16" x2="-38.1" y2="-264.16" width="0.1524" layer="91"/>
 <junction x="-40.64" y="-264.16"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<junction x="-38.1" y="-264.16"/>
+<wire x1="-38.1" y1="-264.16" x2="-40.64" y2="-264.16" width="0.1524" layer="91"/>
+<pinref part="M_BACK_LEFT" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="-261.62" x2="-22.86" y2="-261.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTOR3_CS" class="0">
@@ -15539,9 +15570,13 @@ Source:
 <junction x="73.66" y="-254"/>
 <junction x="73.66" y="-259.08"/>
 <junction x="73.66" y="-256.54"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="-259.08" x2="76.2" y2="-259.08" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="-259.08" x2="86.36" y2="-259.08" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-259.08" x2="86.36" y2="-261.62" width="0.1524" layer="91"/>
 <pinref part="M_BACK_RIGHT" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="-261.62" x2="73.66" y2="-261.62" width="0.1524" layer="91"/>
-<junction x="73.66" y="-261.62"/>
+<wire x1="86.36" y1="-261.62" x2="91.44" y2="-261.62" width="0.1524" layer="91"/>
+<junction x="76.2" y="-259.08"/>
 </segment>
 </net>
 <net name="MOTOR4_OUTB" class="0">
@@ -15571,10 +15606,14 @@ Source:
 <junction x="73.66" y="-274.32"/>
 <junction x="73.66" y="-276.86"/>
 <junction x="73.66" y="-279.4"/>
-<wire x1="73.66" y1="-266.7" x2="73.66" y2="-264.16" width="0.1524" layer="91"/>
 <pinref part="M_BACK_RIGHT" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="-264.16" x2="81.28" y2="-264.16" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-264.16" x2="86.36" y2="-264.16" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-264.16" x2="86.36" y2="-266.7" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-266.7" x2="76.2" y2="-266.7" width="0.1524" layer="91"/>
 <junction x="73.66" y="-266.7"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<junction x="76.2" y="-266.7"/>
+<wire x1="76.2" y1="-266.7" x2="86.36" y2="-266.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTOR4_ENA" class="0">

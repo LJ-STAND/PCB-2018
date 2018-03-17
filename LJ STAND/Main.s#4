@@ -17107,9 +17107,9 @@ Source:
 <label x="-180.34" y="-279.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MASTER" gate="G$1" pin="42"/>
-<wire x1="-5.08" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-7.62" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="MASTER" gate="G$1" pin="55"/>
+<wire x1="55.88" y1="-27.94" x2="58.42" y2="-27.94" width="0.1524" layer="91"/>
+<label x="58.42" y="-27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GYRO_CS1" class="0">

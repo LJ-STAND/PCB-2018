@@ -13266,9 +13266,9 @@ Source:
 <label x="165.1" y="73.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MASTER" gate="G$1" pin="13/SCK0"/>
-<wire x1="55.88" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<label x="58.42" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="MASTER" gate="G$1" pin="14/A0/PWM"/>
+<wire x1="55.88" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<label x="58.42" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS_MOTOR" class="0">
@@ -16777,6 +16777,23 @@ Source:
 <wire x1="203.2" y1="2.54" x2="200.66" y2="2.54" width="0.1524" layer="91"/>
 <junction x="203.2" y="2.54"/>
 <label x="200.66" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="48/TX6"/>
+<wire x1="266.7" y1="7.62" x2="269.24" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="7.62" x2="269.24" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="49/A23"/>
+<wire x1="269.24" y1="2.54" x2="266.7" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="50/A24"/>
+<wire x1="266.7" y1="-2.54" x2="269.24" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="-2.54" x2="269.24" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="2.54" x2="271.78" y2="2.54" width="0.1524" layer="91"/>
+<junction x="269.24" y="2.54"/>
+<label x="271.78" y="2.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_SENSOR" gate="G$1" pin="47/RX6"/>
+<wire x1="266.7" y1="12.7" x2="269.24" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="12.7" x2="269.24" y2="7.62" width="0.1524" layer="91"/>
+<junction x="269.24" y="7.62"/>
 </segment>
 </net>
 <net name="N$1" class="0">

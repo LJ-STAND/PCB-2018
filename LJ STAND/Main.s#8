@@ -13261,14 +13261,14 @@ Source:
 <label x="269.24" y="73.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SLAVE_MOTOR" gate="G$1" pin="13/SCK0"/>
-<wire x1="162.56" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
-<label x="165.1" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="MASTER" gate="G$1" pin="14/A0/PWM"/>
+<wire x1="55.88" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<label x="58.42" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MASTER" gate="G$1" pin="13/SCK0"/>
-<wire x1="55.88" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<label x="58.42" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="SLAVE_MOTOR" gate="G$1" pin="14/A0/PWM"/>
+<wire x1="162.56" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
+<label x="165.1" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS_MOTOR" class="0">
@@ -15013,11 +15013,6 @@ Source:
 <wire x1="88.9" y1="-287.02" x2="88.9" y2="-289.56" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="SLAVE_MOTOR" gate="G$1" pin="17/A3"/>
-<wire x1="162.56" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
-<label x="165.1" y="93.98" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="N$28" class="0">
 <segment>
@@ -15298,11 +15293,6 @@ Source:
 <wire x1="-25.4" y1="-172.72" x2="-25.4" y2="-175.26" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="SLAVE_MOTOR" gate="G$1" pin="14/A0/PWM"/>
-<wire x1="162.56" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-<label x="165.1" y="78.74" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="MOTOR2_CS" class="0">
 <segment>
@@ -15313,11 +15303,6 @@ Source:
 <label x="91.44" y="-175.26" size="1.778" layer="95" xref="yes"/>
 <wire x1="88.9" y1="-175.26" x2="88.9" y2="-177.8" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="SLAVE_MOTOR" gate="G$1" pin="15/A1/CS0"/>
-<wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<label x="165.1" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR2_ENA" class="0">
@@ -15479,11 +15464,6 @@ Source:
 <label x="-22.86" y="-284.48" size="1.778" layer="95" xref="yes"/>
 <wire x1="-25.4" y1="-284.48" x2="-25.4" y2="-287.02" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="SLAVE_MOTOR" gate="G$1" pin="16/A2"/>
-<wire x1="162.56" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
-<label x="165.1" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR4_INA" class="0">

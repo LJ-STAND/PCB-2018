@@ -12832,6 +12832,7 @@ Source:
 <part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="GND100" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND101" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND102" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13201,6 +13202,7 @@ Source:
 <instance part="C19" gate="G$1" x="-132.08" y="-91.44"/>
 <instance part="GND100" gate="1" x="-132.08" y="-33.02"/>
 <instance part="GND101" gate="1" x="-132.08" y="-99.06"/>
+<instance part="GND102" gate="1" x="-248.92" y="-139.7"/>
 </instances>
 <busses>
 </busses>
@@ -14251,6 +14253,12 @@ Source:
 <pinref part="C18" gate="G$1" pin="2"/>
 <pinref part="GND100" gate="1" pin="GND"/>
 <wire x1="-132.08" y1="-27.94" x2="-132.08" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SCREEN" gate="G$1" pin="GND"/>
+<wire x1="-243.84" y1="-134.62" x2="-248.92" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="-248.92" y1="-134.62" x2="-248.92" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="GND102" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -17107,9 +17115,9 @@ Source:
 <label x="-180.34" y="-279.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="MASTER" gate="G$1" pin="42"/>
-<wire x1="-5.08" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-7.62" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="MASTER" gate="G$1" pin="55"/>
+<wire x1="55.88" y1="-27.94" x2="58.42" y2="-27.94" width="0.1524" layer="91"/>
+<label x="58.42" y="-27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GYRO_CS1" class="0">
