@@ -1575,7 +1575,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-0.762" y="2.921" size="0.4064" layer="25">&gt;Name</text>
 </package>
 <package name="CPOL-RADIAL-1000UF-25V-KIT">
-<wire x1="-1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="2.032" x2="-3.175" y2="2.032" width="0.2032" layer="21"/>
 <circle x="0" y="0" radius="5.461" width="0.2032" layer="21"/>
 <pad name="-" x="-2.5" y="0" drill="0.9" diameter="1.9304" stop="no"/>
 <pad name="+" x="2.5" y="0" drill="0.9" diameter="1.9304" shape="square" stop="no"/>
@@ -1585,8 +1585,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="2.5" y="0" radius="0.45" width="0" layer="29"/>
 <rectangle x1="1.5" y1="-1" x2="3.5" y2="1" layer="30"/>
 <circle x="-2.5" y="0" radius="0.9779" width="0" layer="30"/>
-<wire x1="2.978" y1="1.497" x2="1.962" y2="1.497" width="0.2032" layer="21"/>
-<wire x1="2.47" y1="2.005" x2="2.47" y2="0.989" width="0.2032" layer="21"/>
+<wire x1="2.978" y1="2.005" x2="1.962" y2="2.005" width="0.2032" layer="21"/>
+<wire x1="2.47" y1="2.513" x2="2.47" y2="1.497" width="0.2032" layer="21"/>
 </package>
 <package name="CAP-PTH-SMALL">
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
@@ -11103,9 +11103,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="TSSP58038">
+<library name="TSSP58038" urn="urn:adsk.eagle:library:2308148">
 <packages>
-<package name="TSSP58038">
+<package name="TSSP58038" urn="urn:adsk.eagle:footprint:2308149/1" library_version="2">
 <pad name="2" x="0" y="0" drill="1.016"/>
 <pad name="1" x="2.54" y="0" drill="1.016"/>
 <pad name="3" x="-2.54" y="0" drill="1.016"/>
@@ -11120,8 +11120,15 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="-2.54" y="-2.54" size="0.762" layer="21">&gt;NAME</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="TSSP58038" urn="urn:adsk.eagle:package:2308151/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="TSSP58038"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="TSSP58038">
+<symbol name="TSSP58038" urn="urn:adsk.eagle:symbol:2308150/1" library_version="2">
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
@@ -11135,7 +11142,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TSSP58038">
+<deviceset name="TSSP58038" urn="urn:adsk.eagle:component:2308152/2" library_version="2">
 <gates>
 <gate name="G$1" symbol="TSSP58038" x="0" y="0"/>
 </gates>
@@ -11146,6 +11153,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <connect gate="G$1" pin="OUT" pad="1"/>
 <connect gate="G$1" pin="VS" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12565,9 +12575,9 @@ Source:
 </deviceset>
 </devicesets>
 </library>
-<library name="Gyro">
+<library name="Gyro" urn="urn:adsk.eagle:library:2308154">
 <packages>
-<package name="GYRO">
+<package name="GYRO" urn="urn:adsk.eagle:footprint:2308155/1" library_version="2">
 <pad name="MOSI" x="-1.27" y="-7.62" drill="1.016"/>
 <pad name="MISO" x="1.27" y="-7.62" drill="1.016"/>
 <pad name="3.3V" x="3.81" y="-7.62" drill="1.016"/>
@@ -12586,8 +12596,15 @@ Source:
 <wire x1="-12.7" y1="-10.16" x2="-15.24" y2="-7.62" width="0.127" layer="21" curve="-90"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="GYRO" urn="urn:adsk.eagle:package:2308157/2" type="model" library_version="2">
+<packageinstances>
+<packageinstance name="GYRO"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="GYRO">
+<symbol name="GYRO" urn="urn:adsk.eagle:symbol:2308156/1" library_version="2">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
@@ -12603,7 +12620,7 @@ Source:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GYRO">
+<deviceset name="GYRO" urn="urn:adsk.eagle:component:2308158/2" library_version="2">
 <gates>
 <gate name="G$1" symbol="GYRO" x="0" y="0"/>
 </gates>
@@ -12619,6 +12636,9 @@ Source:
 <connect gate="G$1" pin="MOSI" pad="MOSI"/>
 <connect gate="G$1" pin="SCLK" pad="SCLK"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2308157/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12647,7 +12667,7 @@ Source:
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D1" library="PP_Passives" library_urn="urn:adsk.eagle:library:2306169" deviceset="DIODE" device="_D2PAK(TO-263AB)" package3d_urn="urn:adsk.eagle:package:2306289/2"/>
 <part name="VREG-5" library="V78-2000-switching-regulator" library_urn="urn:adsk.eagle:library:2307073" deviceset="V78-2000" device="" package3d_urn="urn:adsk.eagle:package:2307076/2"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="1000UF-25V(PTH)" device="KIT" value="1000uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="1000UF-25V(PTH)" device="" value="CAP-09538"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="MOTOR_FUSE" library="fuse-holder-3568" library_urn="urn:adsk.eagle:library:2307080" deviceset="3568-FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:2307083/2" value="30A"/>
 <part name="LOGIC_FUSE" library="fuse-holder-3568" library_urn="urn:adsk.eagle:library:2307080" deviceset="3568-FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:2307083/2" value="2A"/>
@@ -12750,32 +12770,32 @@ Source:
 <part name="SCREEN" library="Adafruit-2.4-TFT" library_urn="urn:adsk.eagle:library:2068535" deviceset="ADAFRUIT-2.4-TFT" device="" package3d_urn="urn:adsk.eagle:package:2068538/2"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="IR0" library="TSSP58038" deviceset="TSSP58038" device=""/>
+<part name="IR0" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="IR1" library="TSSP58038" deviceset="TSSP58038" device=""/>
+<part name="IR1" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="IR2" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR3" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR4" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR5" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR6" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR7" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR8" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR9" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR10" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR11" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR12" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR13" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR14" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR15" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR16" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR17" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR18" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR19" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR20" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR21" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR22" library="TSSP58038" deviceset="TSSP58038" device=""/>
-<part name="IR23" library="TSSP58038" deviceset="TSSP58038" device=""/>
+<part name="IR2" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR3" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR4" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR5" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR6" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR7" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR8" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR9" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR10" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR11" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR12" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR13" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR14" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR15" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR16" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR17" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR18" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR19" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR20" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR21" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR22" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
+<part name="IR23" library="TSSP58038" library_urn="urn:adsk.eagle:library:2308148" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:2308151/2"/>
 <part name="C38" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C39" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C40" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -12982,7 +13002,7 @@ Source:
 <part name="LED_DEBUG6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:1981965" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:1982017/2" value="WHITE"/>
 <part name="R60" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="330"/>
 <part name="GND97" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$2" library="Gyro" deviceset="GYRO" device=""/>
+<part name="U$2" library="Gyro" library_urn="urn:adsk.eagle:library:2308154" deviceset="GYRO" device="" package3d_urn="urn:adsk.eagle:package:2308157/2"/>
 <part name="SUPPLY23" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND98" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LIGHT_GATE" library="jst-ph" library_urn="urn:adsk.eagle:library:1951258" deviceset="B5B-PH-*" device="K-S" package3d_urn="urn:adsk.eagle:package:1951342/2"/>

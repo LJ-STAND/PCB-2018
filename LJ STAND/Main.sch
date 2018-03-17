@@ -1575,7 +1575,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-0.762" y="2.921" size="0.4064" layer="25">&gt;Name</text>
 </package>
 <package name="CPOL-RADIAL-1000UF-25V-KIT">
-<wire x1="-1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="2.032" x2="-3.175" y2="2.032" width="0.2032" layer="21"/>
 <circle x="0" y="0" radius="5.461" width="0.2032" layer="21"/>
 <pad name="-" x="-2.5" y="0" drill="0.9" diameter="1.9304" stop="no"/>
 <pad name="+" x="2.5" y="0" drill="0.9" diameter="1.9304" shape="square" stop="no"/>
@@ -1585,8 +1585,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="2.5" y="0" radius="0.45" width="0" layer="29"/>
 <rectangle x1="1.5" y1="-1" x2="3.5" y2="1" layer="30"/>
 <circle x="-2.5" y="0" radius="0.9779" width="0" layer="30"/>
-<wire x1="2.978" y1="1.497" x2="1.962" y2="1.497" width="0.2032" layer="21"/>
-<wire x1="2.47" y1="2.005" x2="2.47" y2="0.989" width="0.2032" layer="21"/>
+<wire x1="2.978" y1="2.005" x2="1.962" y2="2.005" width="0.2032" layer="21"/>
+<wire x1="2.47" y1="2.513" x2="2.47" y2="1.497" width="0.2032" layer="21"/>
 </package>
 <package name="CAP-PTH-SMALL">
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
@@ -12667,7 +12667,7 @@ Source:
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D1" library="PP_Passives" library_urn="urn:adsk.eagle:library:2306169" deviceset="DIODE" device="_D2PAK(TO-263AB)" package3d_urn="urn:adsk.eagle:package:2306289/2"/>
 <part name="VREG-5" library="V78-2000-switching-regulator" library_urn="urn:adsk.eagle:library:2307073" deviceset="V78-2000" device="" package3d_urn="urn:adsk.eagle:package:2307076/2"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="1000UF-25V(PTH)" device="KIT" value="1000uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="1000UF-25V(PTH)" device="" value="1000uF"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="MOTOR_FUSE" library="fuse-holder-3568" library_urn="urn:adsk.eagle:library:2307080" deviceset="3568-FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:2307083/2" value="30A"/>
 <part name="LOGIC_FUSE" library="fuse-holder-3568" library_urn="urn:adsk.eagle:library:2307080" deviceset="3568-FUSEHOLDER" device="" package3d_urn="urn:adsk.eagle:package:2307083/2" value="2A"/>
