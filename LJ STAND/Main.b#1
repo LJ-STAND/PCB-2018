@@ -4924,8 +4924,8 @@
 <rectangle x1="145.7198" y1="67.142359375" x2="151.32811875" y2="67.152521875" layer="21"/>
 <rectangle x1="145.7198" y1="67.152521875" x2="151.32811875" y2="67.162678125" layer="21"/>
 <rectangle x1="145.7299625" y1="67.16268125" x2="151.3179625" y2="67.1728375" layer="21"/>
-<text x="53.431440625" y="61.254640625" size="3.81" layer="22" font="vector" ratio="15" rot="MR270">-</text>
-<text x="57.4649625" y="61.24448125" size="3.81" layer="22" font="vector" ratio="15" rot="MR270">+</text>
+<text x="49.880521875" y="62.4586" size="3.81" layer="22" font="vector" ratio="15" rot="MR180">-</text>
+<text x="57.510684375" y="61.48831875" size="3.81" layer="22" font="vector" ratio="15" rot="MR270">+</text>
 <text x="86.624159375" y="104.028240625" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">GND</text>
 <text x="89.214959375" y="104.048559375" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">MOSI</text>
 <text x="91.754959375" y="104.099359375" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">MISO</text>

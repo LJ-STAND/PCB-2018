@@ -766,7 +766,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <parts>
 <part name="U$1" library="phototransitor-ALS-PT19-315CL177TR8" library_urn="urn:adsk.eagle:library:1968580" deviceset="ALS" device="" package3d_urn="urn:adsk.eagle:package:1968583/2"/>
 <part name="CN1" library="jst-ph" library_urn="urn:adsk.eagle:library:1951258" deviceset="B3B-PH-*" device="K-S" package3d_urn="urn:adsk.eagle:package:1951338/1"/>
-<part name="33K" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="75K"/>
+<part name="33K" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 </parts>
 <sheets>
 <sheet>

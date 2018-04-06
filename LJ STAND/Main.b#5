@@ -7169,7 +7169,7 @@ design rules under a new name.</description>
 <element name="VREG-5" library="V78-2000-switching-regulator" library_urn="urn:adsk.eagle:library:2307073" package="V78-2000" package3d_urn="urn:adsk.eagle:package:2307076/2" value="V78-2000" x="23.699" y="60.249" smashed="yes" rot="R180"/>
 <element name="C1" library="SparkFun-Capacitors" package="CPOL-RADIAL-1000UF-25V" value="1000uF" x="51.272" y="54.033" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-09538" x="51.272" y="54.033" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="CAP-09538" x="48.1023625" y="56.632359375" size="1.016" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="47.9827" y="56.524740625" size="1.016" layer="27" font="vector" rot="R270"/>
 </element>
 <element name="MOTOR_FUSE" library="fuse-holder-3568" library_urn="urn:adsk.eagle:library:2307080" package="3568-FUSEHOLDER" package3d_urn="urn:adsk.eagle:package:2307083/2" value="30A" x="50.597" y="43.231" smashed="yes" rot="R270">
 <attribute name="NAME" x="56.566" y="43.2564" size="1.27" layer="25" font="vector" rot="R270"/>
