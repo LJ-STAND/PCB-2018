@@ -11,3 +11,9 @@ This repository contains the PCB design files for the LJ STAND 2018 robot. They 
 - Main - main processing board, housing the microcontrollers, camera, power supply, motor driver modules and IR sensors for the ball
 - MPU9250 Adapter - can replace the IMU breakout board with a single off the shelf MPU9250 breakout
 - Phototransitor Mount - mount for the phototransistor in a light-gate module
+
+---------------------------------
+
+<p align="center">
+  <img src="https://i.imgur.com/71OSmiY.png"/>
+</p>
